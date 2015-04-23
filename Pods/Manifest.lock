@@ -70,13 +70,13 @@ DEPENDENCIES:
   - ODRefreshControl (= 1.1.0)
 
 SPEC CHECKSUMS:
-  DTFoundation: 126729614911ae7dbab3dcc1c078f189943bee66
-  FlurrySDK: bed9e5598353f867508d164795a451e3ada92cb6
-  Google-Mobile-Ads-SDK: 9761186eb5dc5e1493e71dcce2b525159f763d42
-  IFATestingSupport: 4dd0e73c2da5c7d6b9acaa905225fdbe8affe24b
-  MWFeedParser: 003cbf5398e99a7f2057fbe9583054fd1b84be72
-  OCHamcrest: af1c7c5ea345de69ea6c9c2958f65f3044e5c420
-  OCMock: ecdd510b73ef397f2f97274785c1e87fd147c49f
-  ODRefreshControl: 7bc75258d9dba1f93c4e34654d1e4b5aa39529f0
+  DTFoundation: fa01e6fa12f356c5d617d0a2311927ec4688b9f4
+  FlurrySDK: 7f929b68dea38ce735979fb039229f62c0b697b5
+  Google-Mobile-Ads-SDK: 40217793219e3466f24cb884d1d44023f37a20ee
+  IFATestingSupport: 6c403fe2b2842315ba76193b8023d61050175e6a
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
+  OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
+  ODRefreshControl: 4c4c413bf70d2ea0c02a28ac0a0b3b4bf4dbfdea
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.4

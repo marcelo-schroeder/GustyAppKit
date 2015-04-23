@@ -1,7 +1,7 @@
 platform :ios, '8.0'
-workspace 'GustyLib'
-xcodeproj 'GustyLib/GustyLib.xcodeproj'
-link_with 'GustyLibTests'
+workspace 'GustyAppKit'
+xcodeproj 'GustyAppKit/GustyAppKit.xcodeproj'
+link_with 'GustyAppKitTests'
 
 # CoreUI dependencies
 pod 'ODRefreshControl', '1.1.0'
@@ -21,5 +21,5 @@ pod 'IFATestingSupport'
 #pod 'IFATestingSupport', :git => 'https://github.com/marcelo-schroeder/IFATestingSupport.git', :tag => 'v0.1.1'
 # pod 'IFATestingSupport', :git => 'https://github.com/marcelo-schroeder/IFATestingSupport.git', :branch => 'development'
 # pod 'IFATestingSupport', :path => '/Users/mschroeder/myfiles/projects/Xcode6/IFATestingSupport/IFATestingSupport_development'
-pod 'OCHamcrest'
+pod 'OCHamcrest', :inhibit_warnings => true
 pod 'OCMock'
