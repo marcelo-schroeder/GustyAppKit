@@ -1,22 +1,18 @@
 Pod::Spec.new do |s|
     s.name                  = 'GustyAppKit'
-    s.version           = '1.0.1'
-    s.summary           = 'A Cocoa Touch static library to help you develop high quality iOS apps faster.'
+    s.version           = '1.0.0'
+    s.summary           = 'A Cocoa Touch development kit that helps you develop high quality iOS apps faster.'
     s.homepage          = 'https://github.com/marcelo-schroeder/GustyAppKit'
     s.license           = 'Apache-2.0'
     s.author            = { 'Marcelo Schroeder' => 'marcelo.schroeder@infoaccent.com' }
     s.platform          = :ios, '8.0'
     s.requires_arc      = true
-    s.source            = { :git => 'https://github.com/marcelo-schroeder/GustyAppKit.git', :tag => 'v1.0.1' }
+    s.source            = { :git => 'https://github.com/marcelo-schroeder/GustyAppKit.git', :tag => 'v1.0.0' }
     s.default_subspec   = 'CoreUI'
-    s.subspec 'Foundation' do |ss|
-        ss.source_files  = 'GustyAppKit/GustyAppKit/Foundation/classes/**/*.{h,m}'
-    end
     s.subspec 'CoreUI' do |ss|
         ss.source_files  = 'GustyAppKit/GustyAppKit/CoreUI/classes/**/*.{h,m}'
         ss.resource      = 'GustyAppKit/GustyAppKit/CoreUI/resources/**/*.*'
-        ss.dependency 'GustyAppKit/Foundation'
-        ss.dependency 'ODRefreshControl', '1.1.0'
+        ss.dependency 'GustyKit'
     end
     s.subspec 'GoogleMobileAdsSupport' do |ss|
         ss.source_files  = 'GustyAppKit/GustyAppKit/GoogleMobileAdsSupport/classes/**/*.{h,m}'
