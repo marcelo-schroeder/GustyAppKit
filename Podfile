@@ -3,8 +3,8 @@ workspace 'GustyAppKit'
 xcodeproj 'GustyAppKit/GustyAppKit.xcodeproj'
 link_with 'GustyAppKitTests'
 
-# CoreUI dependencies
-pod 'ODRefreshControl', '1.1.0'
+# GustyKit
+pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode6/GustyKit/GustyKit_development'
 
 # GoogleMobileAdsSupport dependencies
 pod 'Google-Mobile-Ads-SDK', '~> 6'

@@ -1,0 +1,38 @@
+{
+  "name": "GustyKit",
+  "version": "1.0.0",
+  "summary": "A Cocoa Touch development kit that helps you develop high quality iOS frameworks faster.",
+  "homepage": "https://github.com/marcelo-schroeder/GustyKit",
+  "license": "Apache-2.0",
+  "authors": {
+    "Marcelo Schroeder": "marcelo.schroeder@infoaccent.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/marcelo-schroeder/GustyKit.git",
+    "tag": "v1.0.0"
+  },
+  "default_subspecs": "CoreUI",
+  "subspecs": [
+    {
+      "name": "Foundation",
+      "source_files": "GustyKit/GustyKit/Foundation/classes/**/*.{h,m}"
+    },
+    {
+      "name": "CoreUI",
+      "source_files": "GustyKit/GustyKit/CoreUI/classes/**/*.{h,m}",
+      "resources": "GustyKit/GustyKit/CoreUI/resources/**/*.*",
+      "dependencies": {
+        "GustyKit/Foundation": [
+
+        ],
+        "ODRefreshControl": [
+          "1.1.0"
+        ]
+      }
+    }
+  ]
+}

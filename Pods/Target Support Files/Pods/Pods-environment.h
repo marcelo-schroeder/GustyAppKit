@@ -114,6 +114,24 @@
 #define COCOAPODS_VERSION_MINOR_Google_Mobile_Ads_SDK 12
 #define COCOAPODS_VERSION_PATCH_Google_Mobile_Ads_SDK 2
 
+// GustyKit
+#define COCOAPODS_POD_AVAILABLE_GustyKit
+#define COCOAPODS_VERSION_MAJOR_GustyKit 1
+#define COCOAPODS_VERSION_MINOR_GustyKit 0
+#define COCOAPODS_VERSION_PATCH_GustyKit 0
+
+// GustyKit/CoreUI
+#define COCOAPODS_POD_AVAILABLE_GustyKit_CoreUI
+#define COCOAPODS_VERSION_MAJOR_GustyKit_CoreUI 1
+#define COCOAPODS_VERSION_MINOR_GustyKit_CoreUI 0
+#define COCOAPODS_VERSION_PATCH_GustyKit_CoreUI 0
+
+// GustyKit/Foundation
+#define COCOAPODS_POD_AVAILABLE_GustyKit_Foundation
+#define COCOAPODS_VERSION_MAJOR_GustyKit_Foundation 1
+#define COCOAPODS_VERSION_MINOR_GustyKit_Foundation 0
+#define COCOAPODS_VERSION_PATCH_GustyKit_Foundation 0
+
 // IFATestingSupport
 #define COCOAPODS_POD_AVAILABLE_IFATestingSupport
 #define COCOAPODS_VERSION_MAJOR_IFATestingSupport 1

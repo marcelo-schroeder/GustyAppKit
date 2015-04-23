@@ -19,7 +19,6 @@
 //
 
 #import "GustyAppKitCoreUI.h"
-#import "IFAMenuViewController.h"
 
 @interface IFAMenuViewController ()
 @property (nonatomic, strong) IFAContextSwitchingManager *IFA_contextSwitchingManager;
@@ -47,8 +46,8 @@
 
     [self highlightCurrentSelection];
     
-    // Dismiss the popover controller if a split view controller is used
-    [self ifa_dismissMenuPopoverController];
+//    // Dismiss the popover controller if a split view controller is used
+//    [self ifa_dismissMenuPopoverController];
     
 }
 
@@ -129,8 +128,8 @@
         [self.IFA_contextSwitchingManager didCommitContextSwitchForViewController:l_viewController];
     }
     
-    // Dismiss the popover controller if a split view controller is used
-    [self ifa_dismissMenuPopoverController];
+//    // Dismiss the popover controller if a split view controller is used
+//    [self ifa_dismissMenuPopoverController];
     
 }
 
