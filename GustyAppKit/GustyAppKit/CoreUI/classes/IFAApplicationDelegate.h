@@ -46,6 +46,6 @@
 -(UIViewController*)initialViewController;
 -(void)configureWindowRootViewController;
 
-+(IFAApplicationDelegate *)sharedInstance;  //wip: this is evil
++(IFAApplicationDelegate *)sharedInstance;  //wip: this is evil - remove and see what happens
 
 @end
