@@ -24,7 +24,6 @@
 @interface IFAApplicationDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
-@property (nonatomic) UIViewController *popoverControllerPresenter;
 @property (nonatomic, getter = isKeyboardVisible) BOOL keyboardVisible;
 @property (nonatomic) BOOL skipWindowSetup;
 @property (nonatomic) BOOL skipWindowRootViewControllerSetup;
