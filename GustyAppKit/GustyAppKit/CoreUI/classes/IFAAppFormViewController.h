@@ -15,8 +15,7 @@
 //  limitations under the License.
 //
 
-#import <Foundation/Foundation.h>
-
+#import <GustyKit/IFAFormViewController.h>
 
 @interface IFAAppFormViewController : IFAFormViewController
 @end

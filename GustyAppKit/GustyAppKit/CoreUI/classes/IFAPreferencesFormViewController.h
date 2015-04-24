@@ -1,8 +1,8 @@
 //
-//  IFAInternalWebBrowserActivity.h
+//  IFAPreferencesFormViewController.h
 //  Gusty
 //
-//  Created by Marcelo Schroeder on 15/11/12.
+//  Created by Marcelo Schroeder on 30/04/12.
 //  Copyright (c) 2012 InfoAccent Pty Limited. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,9 +18,8 @@
 //  limitations under the License.
 //
 
-#import <UIKit/UIKit.h>
-#import "IFAAbstractWebBrowserActivity.h"
+#import "IFAAppFormViewController.h"
 
-@interface IFAInternalWebBrowserActivity : IFAAbstractWebBrowserActivity
+@interface IFAPreferencesFormViewController : IFAAppFormViewController
 
 @end

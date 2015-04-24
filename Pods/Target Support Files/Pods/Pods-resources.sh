@@ -77,10 +77,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/310-RemoveButton.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/310-RemoveButton@2x.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/License.rtf"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~ipad.png"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~iphone.png"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com/internalWebBrowserActivity~ipad.png"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com/internalWebBrowserActivity~iphone.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAEntityConfig.plist"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAFormInputAccessoryContentView.xib"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAFormSectionFooterContentView.xib"
@@ -131,7 +127,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_TextViewBorder.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_TextViewBorder@2x.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/056-PlusCircle.png"
@@ -153,10 +148,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/310-RemoveButton.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/310-RemoveButton@2x.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/License.rtf"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~ipad.png"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~iphone.png"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com/internalWebBrowserActivity~ipad.png"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com/internalWebBrowserActivity~iphone.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAEntityConfig.plist"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAFormInputAccessoryContentView.xib"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAFormSectionFooterContentView.xib"
@@ -207,7 +198,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_TextViewBorder.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_TextViewBorder@2x.png"
   install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net"
-  install_resource "../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/iconshock.com"
 fi
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

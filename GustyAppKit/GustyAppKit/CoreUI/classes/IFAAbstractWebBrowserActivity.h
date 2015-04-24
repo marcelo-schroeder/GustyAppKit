@@ -1,9 +1,6 @@
 //
-//  IFAInternalWebBrowserActivity.h
-//  Gusty
-//
-//  Created by Marcelo Schroeder on 15/11/12.
-//  Copyright (c) 2012 InfoAccent Pty Limited. All rights reserved.
+// Created by Marcelo Schroeder on 28/03/2014.
+// Copyright (c) 2014 InfoAccent Pty Limited. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -18,9 +15,8 @@
 //  limitations under the License.
 //
 
-#import <UIKit/UIKit.h>
-#import "IFAAbstractWebBrowserActivity.h"
+#import <Foundation/Foundation.h>
 
-@interface IFAInternalWebBrowserActivity : IFAAbstractWebBrowserActivity
-
+@interface IFAAbstractWebBrowserActivity : UIActivity
+@property (nonatomic, strong, readonly) NSURL *url;
 @end
