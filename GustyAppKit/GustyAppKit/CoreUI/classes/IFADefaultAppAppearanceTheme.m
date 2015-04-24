@@ -28,19 +28,14 @@
 #pragma mark - Overrides
 
 - (void)setTextAppearanceForSelectedContentSizeCategoryInObject:(id)a_object {
-
     [super setTextAppearanceForSelectedContentSizeCategoryInObject:a_object];
-
-    if ([a_object isKindOfClass:[UIViewController class]]) {
-
-        if ([a_object isKindOfClass:[IFAAboutFormViewController class]]) {
-            IFAAboutFormViewController *obj = (IFAAboutFormViewController *) a_object;
-            obj.appNameLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
-            obj.copyrightNoticeLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
-        }
-
+    if ([a_object isKindOfClass:[IFAAboutFormViewController class]]) {
+        IFAAboutFormViewController *obj = (IFAAboutFormViewController *) a_object;
+        obj.appNameLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
+        obj.copyrightNoticeLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
     }
 }
+
 - (UIViewController *)newInternalWebBrowserViewControllerWithUrl:(NSURL *)a_url{
     return [self newInternalWebBrowserViewControllerWithUrl:a_url completionBlock:nil];
 }
