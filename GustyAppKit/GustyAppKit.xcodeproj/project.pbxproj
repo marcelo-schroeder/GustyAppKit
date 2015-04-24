@@ -56,6 +56,7 @@
 		F7C8063B1AE9997B0097280C /* IFASlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C8063A1AE9997B0097280C /* IFASlidingViewController.m */; };
 		F7C806421AE9998B0097280C /* IFA_ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C8063E1AE9998B0097280C /* IFA_ECSlidingViewController.m */; };
 		F7C806441AE9998B0097280C /* UIImage+IFA_ECImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C806411AE9998B0097280C /* UIImage+IFA_ECImageWithUIView.m */; };
+		F7C8064A1AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C806491AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m */; };
 		F7D4D83718EA00E600ABF401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D4D83618EA00E600ABF401 /* Foundation.framework */; };
 		F7D4D84518EA00E600ABF401 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D4D84418EA00E600ABF401 /* XCTest.framework */; };
 		F7D4D84618EA00E600ABF401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D4D83618EA00E600ABF401 /* Foundation.framework */; };
@@ -167,6 +168,8 @@
 		F7C8063F1AE9998B0097280C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7C806401AE9998B0097280C /* UIImage+IFA_ECImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IFA_ECImageWithUIView.h"; sourceTree = "<group>"; };
 		F7C806411AE9998B0097280C /* UIImage+IFA_ECImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IFA_ECImageWithUIView.m"; sourceTree = "<group>"; };
+		F7C806481AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAThirdPartyCodeCreditsViewController.h; sourceTree = "<group>"; };
+		F7C806491AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAThirdPartyCodeCreditsViewController.m; sourceTree = "<group>"; };
 		F7D4D83318EA00E600ABF401 /* libGustyAppKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGustyAppKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D4D83618EA00E600ABF401 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7D4D83A18EA00E600ABF401 /* GustyAppKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GustyAppKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -320,6 +323,8 @@
 			isa = PBXGroup;
 			children = (
 				1073862EBE4810BF4F6FB737 /* 3rd party */,
+				F7C806481AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.h */,
+				F7C806491AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m */,
 				F7C806391AE9997B0097280C /* IFASlidingViewController.h */,
 				F7C8063A1AE9997B0097280C /* IFASlidingViewController.m */,
 				F7C8061C1AE8C50B0097280C /* IFASplitViewController.h */,
@@ -719,6 +724,7 @@
 				1073890C5D466FC6E750909C /* IFAApplicationDelegate.m in Sources */,
 				10738C09541F4AA5067C54BA /* IFAUserNotificationSettingsManager.m in Sources */,
 				10738D640B795DFB92775A1E /* NSURL+IFACoreApp.m in Sources */,
+				F7C8064A1AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m in Sources */,
 				F7C806421AE9998B0097280C /* IFA_ECSlidingViewController.m in Sources */,
 				10738186E7932FF17137318A /* UIViewController+IFACoreApp.m in Sources */,
 				1073851A042989356E87C8E9 /* IFAExternalWebBrowserActivity.m in Sources */,
