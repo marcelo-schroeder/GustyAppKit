@@ -49,4 +49,14 @@
     }
 }
 
+-(void)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController completionHandler:(void (^)(BOOL success))a_completionHandler {
+    BOOL success = [[UIApplication sharedApplication] canOpenURL:self];
+    if (success) {
+        [self ifa_openWithAlertPresenterViewController:a_alertPresenterViewController];
+    }
+    if (a_completionHandler) {
+        a_completionHandler(success);
+    }
+}
+
 @end

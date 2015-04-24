@@ -32,4 +32,8 @@
 */
 - (void)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController;
 
+//wip: add documentation
+- (void)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController
+                               completionHandler:(void (^)(BOOL success))a_completionHandler;
+
 @end
