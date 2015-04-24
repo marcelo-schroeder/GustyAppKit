@@ -28,31 +28,6 @@
 
 #pragma mark - Private
 
--(void)IFA_onKeyboardNotification:(NSNotification*)a_notification{
-    
-    //    NSLog(@"m_onKeyboardNotification");
-    
-    if([a_notification.name isEqualToString:UIKeyboardDidShowNotification] || [a_notification.name isEqualToString:UIKeyboardDidHideNotification]) {
-        
-        self.keyboardVisible = [a_notification.name isEqualToString:UIKeyboardDidShowNotification];
-        
-    }else{
-        NSAssert(NO, @"Unexpected notification name: %@", a_notification.name);
-    }
-
-    if (self.keyboardVisible) {
-
-        NSDictionary *l_userInfo = [a_notification userInfo];
-        self.keyboardFrame = [l_userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
-        
-    }else{
-
-        self.keyboardFrame = CGRectZero;
-        
-    }
-    
-}
-
 - (IFAUIConfiguration *)IFA_uiConfiguration {
     return [IFAUIConfiguration sharedInstance];
 }
@@ -64,16 +39,9 @@
 #pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
-    
-    // Add observers
-    [[NSNotificationCenter defaultCenter] addObserver:self 
-                                             selector:@selector(IFA_onKeyboardNotification:)
-                                                 name:UIKeyboardDidShowNotification 
-                                               object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self 
-                                             selector:@selector(IFA_onKeyboardNotification:)
-                                                 name:UIKeyboardDidHideNotification 
-                                               object:nil];
+
+    // Observe keyboard visibility changes
+    [[IFAKeyboardVisibilityManager sharedInstance] startObservingKeyboard];
 
     // Configure the app's window
     if (!self.skipWindowSetup) {
@@ -97,60 +65,6 @@
 
     return YES;
 	
-}
-
-/*
- -(void)applicationWillResignActive:(UIApplication *)application{
- NSLog(@" ");
- //    [IFAUtils appLogWithTitle:@"Life Cycle Event" message:@"applicationWillResignActive"];
- NSLog(@"applicationWillResignActive");
- NSLog(@"applicationState: %u", application.applicationState);
- NSLog(@" ");
- }
- */
-
-/*
- -(void)applicationDidBecomeActive:(UIApplication *)application{
- NSLog(@" ");
- //    [IFAUtils appLogWithTitle:@"Life Cycle Event" message:@"applicationDidBecomeActive"];
- NSLog(@"applicationDidBecomeActive");
- NSLog(@"applicationState: %u", application.applicationState);
- NSLog(@" ");
- }
- */
-
-/*
--(void)applicationDidEnterBackground:(UIApplication *)application{
-    NSLog(@" ");
-    [IFAUtils appLogWithTitle:@"Life Cycle Event 1/3" message:@"applicationDidEnterBackground"];
-    [IFAUtils appLogWithTitle:@"Life Cycle Event 2/3" message:[NSString stringWithFormat:@"applicationState: %u", application.applicationState]];
-    [IFAUtils appLogWithTitle:@"Life Cycle Event 3/3" message:[NSString stringWithFormat:@"background time remaining: %f", [UIApplication sharedApplication].backgroundTimeRemaining]];
-    NSLog(@" ");
-}
- */
-
-/*
--(void)applicationWillEnterForeground:(UIApplication *)application{
-    NSLog(@" ");
-    [IFAUtils appLogWithTitle:@"Life Cycle Event 1/3" message:@"applicationWillEnterForeground"];
-    [IFAUtils appLogWithTitle:@"Life Cycle Event 2/3" message:[NSString stringWithFormat:@"applicationState: %u", application.applicationState]];
-    [IFAUtils appLogWithTitle:@"Life Cycle Event 3/3" message:[NSString stringWithFormat:@"background time remaining: %f", [UIApplication sharedApplication].backgroundTimeRemaining]];
-    NSLog(@" ");
-}
- */
-
--(void)applicationWillTerminate:(UIApplication *)application{
-
-//    NSLog(@" ");
-//    [IFAUtils appLogWithTitle:@"Life Cycle Event 1/3" message:@"applicationWillTerminate"];
-//    [IFAUtils appLogWithTitle:@"Life Cycle Event 2/3" message:[NSString stringWithFormat:@"applicationState: %u", application.applicationState]];
-//    [IFAUtils appLogWithTitle:@"Life Cycle Event 3/3" message:[NSString stringWithFormat:@"background time remaining: %f", [UIApplication sharedApplication].backgroundTimeRemaining]];
-//    NSLog(@" ");
-    
-    // Remove observers
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardDidShowNotification object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardDidHideNotification object:nil];
-
 }
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application{

@@ -21,13 +21,11 @@
 @protocol IFAAppearanceTheme;
 @class IFAColorScheme;
 
+//wip: add documentation
 @interface IFAApplicationDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
-@property (nonatomic, getter = isKeyboardVisible) BOOL keyboardVisible;
 @property (nonatomic) BOOL skipWindowSetup;
 @property (nonatomic) BOOL skipWindowRootViewControllerSetup;
-
-@property(nonatomic) CGRect keyboardFrame;
 
 @end
