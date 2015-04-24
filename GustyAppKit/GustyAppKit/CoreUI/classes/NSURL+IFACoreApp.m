@@ -18,7 +18,7 @@
 #import "GustyAppKitCoreUI.h"
 
 
-@implementation NSURL (IFACoreUI)
+@implementation NSURL (IFACoreApp)
 
 #pragma mark - Public
 

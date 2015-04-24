@@ -17,7 +17,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSURL (IFACoreUI)
+@interface NSURL (IFACoreApp)
 
 - (BOOL)ifa_isAppleUrlScheme;
 
