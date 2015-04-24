@@ -27,25 +27,7 @@
 @property (nonatomic, getter = isKeyboardVisible) BOOL keyboardVisible;
 @property (nonatomic) BOOL skipWindowSetup;
 @property (nonatomic) BOOL skipWindowRootViewControllerSetup;
-@property (nonatomic, readonly) BOOL useDeviceAgnosticMainStoryboard;
 
 @property(nonatomic) CGRect keyboardFrame;
-
-// to be overriden by subclasses
--(Class)appearanceThemeClass;
--(IFAColorScheme *)colorScheme;
-
--(id<IFAAppearanceTheme>)appearanceTheme;
-
--(NSString*)storyboardName;
-
-- (NSString *)storyboardFileName;
-
--(NSString*)storyboardInitialViewControllerId;
--(UIStoryboard*)storyboard;
--(UIViewController*)initialViewController;
--(void)configureWindowRootViewController;
-
-+(IFAApplicationDelegate *)sharedInstance;  //wip: this is evil - remove and see what happens
 
 @end

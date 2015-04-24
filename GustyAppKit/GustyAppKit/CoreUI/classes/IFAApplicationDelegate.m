@@ -21,10 +21,6 @@
 #import "GustyAppKitCoreUI.h"
 
 @interface IFAApplicationDelegate ()
-
-@property (nonatomic, strong) id<IFAAppearanceTheme> IFA_appearanceTheme;
-@property (nonatomic) BOOL useDeviceAgnosticMainStoryboard;
-
 @end
 
 @implementation IFAApplicationDelegate
@@ -57,79 +53,17 @@
     
 }
 
-#pragma mark - Public
-
-// to be overriden by subclasses
--(Class)appearanceThemeClass {
-    return [IFADefaultAppearanceTheme class];
+- (IFAUIConfiguration *)IFA_uiConfiguration {
+    return [IFAUIConfiguration sharedInstance];
 }
 
-// to be overriden by subclasses
--(IFAColorScheme *)colorScheme {
-    return nil;
-}
-
--(id<IFAAppearanceTheme>)appearanceTheme {
-    Class l_appearanceThemeClass = [self appearanceThemeClass];
-    if (!self.IFA_appearanceTheme || ![self.IFA_appearanceTheme isMemberOfClass:l_appearanceThemeClass]) {
-        self.IFA_appearanceTheme = (id <IFAAppearanceTheme>) [l_appearanceThemeClass new];
-    }
-    return self.IFA_appearanceTheme;
-}
-
-+(IFAApplicationDelegate *)sharedInstance {
-    id applicationDelegate = [UIApplication sharedApplication].delegate;
-    if ([applicationDelegate isKindOfClass:[IFAApplicationDelegate class]]) {
-        return (IFAApplicationDelegate *) applicationDelegate;
-    }else{
-        return nil;
-    }
-}
-
-// Note on device specific storyboards:
-// The "~" (tilde) as a device modifier works for the initial load, but it has issues when view controllers attempt to access
-//  the storyboard via self.storyboard. For some reason the device modifier is not taken into consideration in those cases
-// By loading the storyboard using the device modifier explicitly in the name avoids any problems.
--(NSString*)storyboardName {
-    return [NSString stringWithFormat:@"%@%@", [self storyboardFileName],
-                                      self.useDeviceAgnosticMainStoryboard ? @"" : [IFAUIUtils resourceNameDeviceModifier]];
-}
-
-- (NSString *)storyboardFileName {
-    return @"MainStoryboard";
-}
-
--(NSString*)storyboardInitialViewControllerId {
-    return [NSString stringWithFormat:@"%@InitialController", [IFAUIUtils isIPad]?@"ipad":@"iphone"];
-}
-
--(UIStoryboard*)storyboard {
-    return [UIStoryboard storyboardWithName:[self storyboardName] bundle:nil];
-}
-
--(UIViewController*)initialViewController {
-    UIStoryboard *l_storyboard = [self storyboard];
-    NSString *l_storyboardInitialViewControllerId = [self storyboardInitialViewControllerId];
-    UIViewController *l_initialViewController = nil;
-    if (l_storyboardInitialViewControllerId) {
-        l_initialViewController = [l_storyboard instantiateViewControllerWithIdentifier:l_storyboardInitialViewControllerId];
-    }
-    if (!l_initialViewController) {
-        l_initialViewController = [l_storyboard instantiateInitialViewController];
-    }
-    return l_initialViewController;
-}
-
--(void)configureWindowRootViewController {
-    self.window.rootViewController = [self initialViewController];
+-(void)IFA_configureWindowRootViewController {
+    self.window.rootViewController = [self.IFA_uiConfiguration initialViewController];
 }
 
 #pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
-    
-    // Save some info plist settings
-    self.useDeviceAgnosticMainStoryboard = [[IFAUtils infoPList][@"IFAUseDeviceAgnosticMainStoryboard"] boolValue];
     
     // Add observers
     [[NSNotificationCenter defaultCenter] addObserver:self 
@@ -148,7 +82,7 @@
     }
 
     // Make sure to initialise the appearance theme
-    [self appearanceTheme];
+    [self.IFA_uiConfiguration appearanceTheme];
 
     // Apply appearance using the appearance manager
     [[IFAAppearanceThemeManager sharedInstance] applyAppearanceTheme];
@@ -157,7 +91,7 @@
     if (!self.skipWindowSetup && !self.skipWindowRootViewControllerSetup) {
 
         // Configure the window's root view controller
-        [self configureWindowRootViewController];
+        [self IFA_configureWindowRootViewController];
 
     }
 
