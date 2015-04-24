@@ -15,8 +15,23 @@
 //  limitations under the License.
 //
 
-#import "UIViewController+IFACoreApp.h"
+#import "GustyAppKitCoreUI.h"
 
 
 @implementation UIViewController (IFACoreApp)
+
+#pragma mark - Public
+
+- (void)ifa_presentActivityViewControllerFromBarButtonItem:(UIBarButtonItem *)a_barButtonItem
+                                                   subject:(NSString *)a_subject
+                                                       url:(NSURL *)a_url {
+    IFASubjectActivityItem *l_subject = [[IFASubjectActivityItem alloc] initWithSubject:a_subject];
+    NSArray *l_activityItems = @[l_subject, a_url];
+    id l_externalWebBrowserActivity = [IFAExternalWebBrowserActivity new];
+    NSArray *l_applicationActivities = @[l_externalWebBrowserActivity];
+    UIActivityViewController *l_activityVC = [[UIActivityViewController alloc] initWithActivityItems:l_activityItems applicationActivities:l_applicationActivities];
+    l_activityVC.ifa_presenter = self;
+    [self ifa_presentModalSelectionViewController:l_activityVC fromBarButtonItem:a_barButtonItem];
+}
+
 @end

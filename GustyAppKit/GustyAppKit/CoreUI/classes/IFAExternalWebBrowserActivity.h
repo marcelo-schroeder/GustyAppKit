@@ -1,6 +1,6 @@
 //
-// Created by Marcelo Schroeder on 24/04/15.
-// Copyright (c) 2015 InfoAccent Pty Ltd. All rights reserved.
+// Created by Marcelo Schroeder on 28/03/2014.
+// Copyright (c) 2014 InfoAccent Pty Limited. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -17,10 +17,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UIViewController (IFACoreApp)
 
-- (void)ifa_presentActivityViewControllerFromBarButtonItem:(UIBarButtonItem *)a_barButtonItem
-                                                   subject:(NSString *)a_subject
-                                                       url:(NSURL *)a_url;
-
+@interface IFAExternalWebBrowserActivity : IFAAbstractWebBrowserActivity
 @end

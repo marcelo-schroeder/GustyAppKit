@@ -82,7 +82,7 @@
 //#import "IFAEmailManager.h"
 //#import "IFAEntityConfig.h"
 //#import "IFAEnumerationEntity.h"
-//#import "IFAExternalWebBrowserActivity.h"
+#import "IFAExternalWebBrowserActivity.h"
 //#import "IFAFetchedResultsTableViewController.h"
 //#import "IFAFormNumberFieldTableViewCell.h"
 //#import "IFAFormTableViewCell.h"
@@ -184,3 +184,4 @@
 #import "IFAUserNotificationSettingsManager.h"
 //#import "IFAHtmlDocument.h"
 #import "UIViewController+IFACoreApp.h"
+#import "IFAAppFormViewController.h"

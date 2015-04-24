@@ -15,12 +15,20 @@
 //  limitations under the License.
 //
 
-#import <Foundation/Foundation.h>
+#import "GustyAppKitCoreUI.h"
 
-@interface UIViewController (IFACoreApp)
+@interface IFAAppFormViewController ()
+-(BOOL)IFA_shouldLinkToUrlForIndexPath:(NSIndexPath*)a_indexPath;
+@end
 
-- (void)ifa_presentActivityViewControllerFromBarButtonItem:(UIBarButtonItem *)a_barButtonItem
-                                                   subject:(NSString *)a_subject
-                                                       url:(NSURL *)a_url;
+@implementation IFAAppFormViewController {
+
+}
+
+#pragma mark - Overrides
+
+- (void)openUrl:(NSURL *)a_url {
+    [a_url ifa_openWithAlertPresenterViewController:self];
+}
 
 @end

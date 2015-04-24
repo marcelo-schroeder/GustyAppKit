@@ -17,10 +17,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UIViewController (IFACoreApp)
 
-- (void)ifa_presentActivityViewControllerFromBarButtonItem:(UIBarButtonItem *)a_barButtonItem
-                                                   subject:(NSString *)a_subject
-                                                       url:(NSURL *)a_url;
-
+@interface IFAAppFormViewController : IFAFormViewController
 @end
