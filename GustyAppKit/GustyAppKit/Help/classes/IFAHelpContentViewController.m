@@ -108,7 +108,7 @@
         NSBundle *styleResourceBundle = nil;
         if (!l_htmlStyleResourceName) {
             l_htmlStyleResourceName = @"IFAHelpViewControllerWebView.css";
-            styleResourceBundle = [NSBundle bundleForClass:[IFAUIUtils class]];
+            styleResourceBundle = [NSBundle bundleForClass:[IFAHelpContentViewController class]];
         }
         _IFA_htmlDocument = [[IFAHtmlDocument alloc] initWithHtmlStyleResourceName:l_htmlStyleResourceName
                                                            htmlStyleResourceBundle:styleResourceBundle];

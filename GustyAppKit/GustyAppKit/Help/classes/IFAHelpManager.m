@@ -54,7 +54,7 @@
     
     // Configure image
     NSString *helpButtonImageName = [NSString stringWithFormat:@"IFA_Icon_Help_%@", a_selected?@"selected":@"normal"];
-    UIImage *helpButtonImage = [[IFAUIUtils class] ifa_classBundleImageNamed:helpButtonImageName];
+    UIImage *helpButtonImage = [[IFAHelpManager class] ifa_classBundleImageNamed:helpButtonImageName];
 
     // Configure button
     UIButton *helpButton = [UIButton buttonWithType:UIButtonTypeCustom];

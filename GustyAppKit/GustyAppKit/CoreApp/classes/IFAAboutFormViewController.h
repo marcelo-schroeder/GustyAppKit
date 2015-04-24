@@ -18,14 +18,14 @@
 //  limitations under the License.
 //
 
-#import "IFAAppFormViewController.h"
+#import <GustyKit/IFAFormViewController.h>
 
 /**
 * This class implements an About type of view.
 * The information shown on the About view can be configured via EntityConfig.plist.
 * TODO: add more details to the documentation.
 */
-@interface IFAAboutFormViewController : IFAAppFormViewController <IFAFormViewControllerDelegate>
+@interface IFAAboutFormViewController : IFAFormViewController <IFAFormViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIView *customView;
 @property (strong, nonatomic) IBOutlet UILabel *appNameLabel;

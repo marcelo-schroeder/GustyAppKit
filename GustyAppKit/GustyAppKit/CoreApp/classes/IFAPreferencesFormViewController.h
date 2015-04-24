@@ -1,6 +1,9 @@
 //
-// Created by Marcelo Schroeder on 24/04/15.
-// Copyright (c) 2015 InfoAccent Pty Ltd. All rights reserved.
+//  IFAPreferencesFormViewController.h
+//  Gusty
+//
+//  Created by Marcelo Schroeder on 30/04/12.
+//  Copyright (c) 2012 InfoAccent Pty Limited. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -17,5 +20,6 @@
 
 #import <GustyKit/IFAFormViewController.h>
 
-@interface IFAAppFormViewController : IFAFormViewController
+@interface IFAPreferencesFormViewController : IFAFormViewController
+
 @end

@@ -185,6 +185,5 @@
 #import "IFAUserNotificationSettingsManager.h"
 //#import "IFAHtmlDocument.h"
 #import "UIViewController+IFACoreApp.h"
-#import "IFAAppFormViewController.h"
 #import "IFAUIUtils+IFACoreApp.h"
 #import "IFADefaultAppAppearanceTheme.h"
