@@ -6,10 +6,9 @@
 //
 
 #import "IFACommonTests.h"
-#import "IFACoreUITestCase.h"
 #import "GustyAppKitCoreUI.h"
 
-@interface IFAUserNotificationSettingsManagerTests : IFACoreUITestCase
+@interface IFAUserNotificationSettingsManagerTests : XCTestCase
 @end
 
 @implementation IFAUserNotificationSettingsManagerTests{

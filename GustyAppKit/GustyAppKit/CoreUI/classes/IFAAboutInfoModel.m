@@ -1,6 +1,9 @@
 //
-// Created by Marcelo Schroeder on 24/04/15.
-// Copyright (c) 2015 InfoAccent Pty Ltd. All rights reserved.
+//  IFAAboutInfoModel.m
+//  Gusty
+//
+//  Created by Marcelo Schroeder on 20/09/12.
+//  Copyright (c) 2012 InfoAccent Pty Limited. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -17,14 +20,6 @@
 
 #import "GustyAppKitCoreUI.h"
 
-@implementation IFAAppFormViewController {
-
-}
-
-#pragma mark - Overrides
-
-- (void)openUrl:(NSURL *)a_url {
-    [a_url ifa_openWithAlertPresenterViewController:self];
-}
+@implementation IFAAboutInfoModel
 
 @end

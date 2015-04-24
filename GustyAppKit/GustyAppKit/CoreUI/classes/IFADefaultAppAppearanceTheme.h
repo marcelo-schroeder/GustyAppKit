@@ -2,6 +2,9 @@
 // Created by Marcelo Schroeder on 24/04/15.
 // Copyright (c) 2015 InfoAccent Pty Ltd. All rights reserved.
 //
+//  Created by Marcelo Schroeder on 30/08/11.
+//  Copyright 2011 InfoAccent Pty Limited. All rights reserved.
+//
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
 //  You may obtain a copy of the License at
@@ -15,16 +18,8 @@
 //  limitations under the License.
 //
 
-#import "GustyAppKitCoreUI.h"
+#import <Foundation/Foundation.h>
 
-@implementation IFAAppFormViewController {
 
-}
-
-#pragma mark - Overrides
-
-- (void)openUrl:(NSURL *)a_url {
-    [a_url ifa_openWithAlertPresenterViewController:self];
-}
-
+@interface IFADefaultAppAppearanceTheme : IFADefaultAppearanceTheme
 @end

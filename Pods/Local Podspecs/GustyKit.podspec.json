@@ -1,7 +1,7 @@
 {
   "name": "GustyKit",
   "version": "1.0.0",
-  "summary": "A Cocoa Touch development kit that helps you develop high quality iOS frameworks faster.",
+  "summary": "A Cocoa Touch development kit that helps you develop high quality iOS app extensions faster.",
   "homepage": "https://github.com/marcelo-schroeder/GustyKit",
   "license": "Apache-2.0",
   "authors": {

@@ -20,6 +20,7 @@
 
 //wip: clean up
 //wip: CoreUI	RENAME TO: CoreApp (including categories inherited from CoreUI)
+//wip: need to set it up on the build server
 
 // Apple Frameworks
 #import <CoreData/CoreData.h>
@@ -48,9 +49,9 @@
 // GustyAppKit
 //#import "GustyAppKitFoundation.h"
 
-//#import "IFAAboutFormViewController.h"
-//#import "IFAAboutInfoModel.h"
-//#import "IFAAboutViewController.h"
+#import "IFAAboutFormViewController.h"
+#import "IFAAboutInfoModel.h"
+#import "IFAAboutViewController.h"
 //#import "IFADefaultAppearanceTheme.h"
 //#import "IFAAbstractFieldEditorViewController.h"
 //#import "IFAAbstractPagingContainerViewController.h"
@@ -186,3 +187,4 @@
 #import "UIViewController+IFACoreApp.h"
 #import "IFAAppFormViewController.h"
 #import "IFAUIUtils+IFACoreApp.h"
+#import "IFADefaultAppAppearanceTheme.h"

@@ -29,6 +29,7 @@
 		107384BF5B179BCC5696785F /* IFAFlurrySupportUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 107388B5F27D3E6543C81E68 /* IFAFlurrySupportUtils.m */; };
 		1073851A042989356E87C8E9 /* IFAExternalWebBrowserActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738EDD7A5F33CF2F16AFCB /* IFAExternalWebBrowserActivity.m */; };
 		1073852C105B26865BB1CC46 /* UIButton+IFAHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738885C588D47BDFC5EAFF /* UIButton+IFAHelp.m */; };
+		1073859347BD2DC1A16AD962 /* IFADefaultAppAppearanceTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 107387C106E4F15EB15A4AE0 /* IFADefaultAppAppearanceTheme.m */; };
 		1073862083C98EE796A95569 /* UIViewController+IFAGoogleMobileAdsSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 107383B8ABDCE2409B584D58 /* UIViewController+IFAGoogleMobileAdsSupport.m */; };
 		107386D9F658EFC78B25F59B /* IFAUserNotificationSettingsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107380E324462A3239AB0ABD /* IFAUserNotificationSettingsManagerTests.m */; };
 		1073881DE070F9CABAFC0D2D /* HtmlParser_testdata4.html in Resources */ = {isa = PBXBuildFile; fileRef = 1073874B2599AF4BCFAB3F71 /* HtmlParser_testdata4.html */; };
@@ -57,6 +58,9 @@
 		F7C806421AE9998B0097280C /* IFA_ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C8063E1AE9998B0097280C /* IFA_ECSlidingViewController.m */; };
 		F7C806441AE9998B0097280C /* UIImage+IFA_ECImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C806411AE9998B0097280C /* UIImage+IFA_ECImageWithUIView.m */; };
 		F7C8064A1AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C806491AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m */; };
+		F7C806521AE9E3690097280C /* IFAAboutFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C8064C1AE9E3690097280C /* IFAAboutFormViewController.m */; };
+		F7C806531AE9E3690097280C /* IFAAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C8064E1AE9E3690097280C /* IFAAboutViewController.m */; };
+		F7C806541AE9E3690097280C /* IFAAboutInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C8064F1AE9E3690097280C /* IFAAboutInfoModel.m */; };
 		F7D4D83718EA00E600ABF401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D4D83618EA00E600ABF401 /* Foundation.framework */; };
 		F7D4D84518EA00E600ABF401 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D4D84418EA00E600ABF401 /* XCTest.framework */; };
 		F7D4D84618EA00E600ABF401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D4D83618EA00E600ABF401 /* Foundation.framework */; };
@@ -115,8 +119,10 @@
 		1073879589174712523C707A /* UIViewController+IFAFlurrySupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IFAFlurrySupport.m"; sourceTree = "<group>"; };
 		10738798E7EA78329F8991FE /* IFA_SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFA_SVModalWebViewController.m; sourceTree = "<group>"; };
 		107387B9A56C13C6683CC122 /* UIViewController+IFAHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IFAHelp.h"; sourceTree = "<group>"; };
+		107387C106E4F15EB15A4AE0 /* IFADefaultAppAppearanceTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFADefaultAppAppearanceTheme.m; sourceTree = "<group>"; };
 		1073884DDE37489559EA1269 /* IFAUserNotificationSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAUserNotificationSettingsManager.m; sourceTree = "<group>"; };
 		10738885C588D47BDFC5EAFF /* UIButton+IFAHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+IFAHelp.m"; sourceTree = "<group>"; };
+		1073889A8D129062C889F904 /* IFADefaultAppAppearanceTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFADefaultAppAppearanceTheme.h; sourceTree = "<group>"; };
 		107388B5F27D3E6543C81E68 /* IFAFlurrySupportUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAFlurrySupportUtils.m; sourceTree = "<group>"; };
 		1073892B5F3B4472095ED33E /* IFA_Icon_Help_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IFA_Icon_Help_normal@2x.png"; sourceTree = "<group>"; };
 		1073893B0ECA6E73D8920E60 /* IFA_IBActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFA_IBActionSheet.h; sourceTree = "<group>"; };
@@ -170,6 +176,13 @@
 		F7C806411AE9998B0097280C /* UIImage+IFA_ECImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IFA_ECImageWithUIView.m"; sourceTree = "<group>"; };
 		F7C806481AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAThirdPartyCodeCreditsViewController.h; sourceTree = "<group>"; };
 		F7C806491AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAThirdPartyCodeCreditsViewController.m; sourceTree = "<group>"; };
+		F7C8064B1AE9E3540097280C /* IFAAboutCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IFAAboutCustomView.xib; sourceTree = "<group>"; };
+		F7C8064C1AE9E3690097280C /* IFAAboutFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAAboutFormViewController.m; sourceTree = "<group>"; };
+		F7C8064D1AE9E3690097280C /* IFAAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAAboutViewController.h; sourceTree = "<group>"; };
+		F7C8064E1AE9E3690097280C /* IFAAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAAboutViewController.m; sourceTree = "<group>"; };
+		F7C8064F1AE9E3690097280C /* IFAAboutInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAAboutInfoModel.m; sourceTree = "<group>"; };
+		F7C806501AE9E3690097280C /* IFAAboutFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAAboutFormViewController.h; sourceTree = "<group>"; };
+		F7C806511AE9E3690097280C /* IFAAboutInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAAboutInfoModel.h; sourceTree = "<group>"; };
 		F7D4D83318EA00E600ABF401 /* libGustyAppKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGustyAppKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D4D83618EA00E600ABF401 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7D4D83A18EA00E600ABF401 /* GustyAppKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GustyAppKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -305,6 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				107387B7075E6AB701529964 /* 3rd party */,
+				F7C8064B1AE9E3540097280C /* IFAAboutCustomView.xib */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -323,6 +337,12 @@
 			isa = PBXGroup;
 			children = (
 				1073862EBE4810BF4F6FB737 /* 3rd party */,
+				F7C8064C1AE9E3690097280C /* IFAAboutFormViewController.m */,
+				F7C8064D1AE9E3690097280C /* IFAAboutViewController.h */,
+				F7C8064E1AE9E3690097280C /* IFAAboutViewController.m */,
+				F7C8064F1AE9E3690097280C /* IFAAboutInfoModel.m */,
+				F7C806501AE9E3690097280C /* IFAAboutFormViewController.h */,
+				F7C806511AE9E3690097280C /* IFAAboutInfoModel.h */,
 				F7C806481AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.h */,
 				F7C806491AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m */,
 				F7C806391AE9997B0097280C /* IFASlidingViewController.h */,
@@ -349,6 +369,8 @@
 				10738F28F1550EE3129F4FAF /* IFAAppFormViewController.h */,
 				10738F516E06EC55A0C28C21 /* IFAUIUtils+IFACoreApp.m */,
 				10738EE5396DAC670BC667C0 /* IFAUIUtils+IFACoreApp.h */,
+				107387C106E4F15EB15A4AE0 /* IFADefaultAppAppearanceTheme.m */,
+				1073889A8D129062C889F904 /* IFADefaultAppAppearanceTheme.h */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -720,16 +742,20 @@
 				107389D31768B3E7759FFE8D /* IFA_SVWebViewController.m in Sources */,
 				F7C8063B1AE9997B0097280C /* IFASlidingViewController.m in Sources */,
 				F7C806181AE8C1FE0097280C /* IFAInternalWebBrowserViewController.m in Sources */,
+				F7C806521AE9E3690097280C /* IFAAboutFormViewController.m in Sources */,
 				10738E4B2E6EFC71DCC019C6 /* IFA_IBActionSheet.m in Sources */,
 				1073890C5D466FC6E750909C /* IFAApplicationDelegate.m in Sources */,
 				10738C09541F4AA5067C54BA /* IFAUserNotificationSettingsManager.m in Sources */,
 				10738D640B795DFB92775A1E /* NSURL+IFACoreApp.m in Sources */,
+				F7C806531AE9E3690097280C /* IFAAboutViewController.m in Sources */,
+				F7C806541AE9E3690097280C /* IFAAboutInfoModel.m in Sources */,
 				F7C8064A1AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m in Sources */,
 				F7C806421AE9998B0097280C /* IFA_ECSlidingViewController.m in Sources */,
 				10738186E7932FF17137318A /* UIViewController+IFACoreApp.m in Sources */,
 				1073851A042989356E87C8E9 /* IFAExternalWebBrowserActivity.m in Sources */,
 				10738DE4D25220666F6CD48D /* IFAAppFormViewController.m in Sources */,
 				107380EC7DB918081A4CFE27 /* IFAUIUtils+IFACoreApp.m in Sources */,
+				1073859347BD2DC1A16AD962 /* IFADefaultAppAppearanceTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

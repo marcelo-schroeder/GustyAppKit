@@ -24,10 +24,7 @@
 //wip: document how to use it as framework in app extensions
 //wip: need to release the world when the framework work is finished
 
-// Foundation
-#import "GustyAppKitFoundation.h"
-
-// CoreUI
+// CoreApp
 #import "GustyAppKitCoreUI.h"
 
 // FlurrySupport
