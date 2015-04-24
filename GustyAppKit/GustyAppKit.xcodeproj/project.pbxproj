@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		1073809D93121BE27FD14729 /* IFAGoogleMobileAdsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073804D2F71DE536C2DB9F8 /* IFAGoogleMobileAdsManager.m */; };
+		107380EC7DB918081A4CFE27 /* IFAUIUtils+IFACoreApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738F516E06EC55A0C28C21 /* IFAUIUtils+IFACoreApp.m */; };
 		10738186E7932FF17137318A /* UIViewController+IFACoreApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738333EDAEA45A64915F4D /* UIViewController+IFACoreApp.m */; };
 		1073819B5968B4C40BD106EA /* IFAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073827C44EE86F9C8C88B9E /* IFAWebViewController.m */; };
 		10738424D3913A41A14FC055 /* IFA_SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738798E7EA78329F8991FE /* IFA_SVModalWebViewController.m */; };
@@ -132,8 +133,10 @@
 		10738CF5078176436AA71336 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		10738DC6867E204AED0143E7 /* IFAApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAApplicationDelegate.m; sourceTree = "<group>"; };
 		10738EDD7A5F33CF2F16AFCB /* IFAExternalWebBrowserActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAExternalWebBrowserActivity.m; sourceTree = "<group>"; };
+		10738EE5396DAC670BC667C0 /* IFAUIUtils+IFACoreApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IFAUIUtils+IFACoreApp.h"; sourceTree = "<group>"; };
 		10738F28F1550EE3129F4FAF /* IFAAppFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAAppFormViewController.h; sourceTree = "<group>"; };
 		10738F2D9D513C3666E14594 /* IFAHelpTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAHelpTarget.h; sourceTree = "<group>"; };
+		10738F516E06EC55A0C28C21 /* IFAUIUtils+IFACoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IFAUIUtils+IFACoreApp.m"; sourceTree = "<group>"; };
 		10738F9A731202F736AB8388 /* NSURL+IFACoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+IFACoreApp.m"; sourceTree = "<group>"; };
 		352117ED3BF7029F2C540646 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		80ECA84BFE535AB4430F53A7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -339,6 +342,8 @@
 				1073809B6A3A94F5A3CEC3C8 /* IFAExternalWebBrowserActivity.h */,
 				107384F7222B59BDD7D22EDB /* IFAAppFormViewController.m */,
 				10738F28F1550EE3129F4FAF /* IFAAppFormViewController.h */,
+				10738F516E06EC55A0C28C21 /* IFAUIUtils+IFACoreApp.m */,
+				10738EE5396DAC670BC667C0 /* IFAUIUtils+IFACoreApp.h */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -718,6 +723,7 @@
 				10738186E7932FF17137318A /* UIViewController+IFACoreApp.m in Sources */,
 				1073851A042989356E87C8E9 /* IFAExternalWebBrowserActivity.m in Sources */,
 				10738DE4D25220666F6CD48D /* IFAAppFormViewController.m in Sources */,
+				107380EC7DB918081A4CFE27 /* IFAUIUtils+IFACoreApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
