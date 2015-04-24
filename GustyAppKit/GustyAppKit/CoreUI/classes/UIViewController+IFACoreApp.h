@@ -20,6 +20,9 @@
 @interface UIViewController (IFACoreApp)
 
 - (void)ifa_presentActivityViewControllerFromBarButtonItem:(UIBarButtonItem *)a_barButtonItem
+                                                   webView:(UIWebView *)a_webView;
+
+- (void)ifa_presentActivityViewControllerFromBarButtonItem:(UIBarButtonItem *)a_barButtonItem
                                                    subject:(NSString *)a_subject
                                                        url:(NSURL *)a_url;
 

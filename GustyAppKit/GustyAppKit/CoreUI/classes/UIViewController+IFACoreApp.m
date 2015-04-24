@@ -23,6 +23,13 @@
 #pragma mark - Public
 
 - (void)ifa_presentActivityViewControllerFromBarButtonItem:(UIBarButtonItem *)a_barButtonItem
+                                                   webView:(UIWebView *)a_webView {
+    NSString *l_subjectString = [a_webView stringByEvaluatingJavaScriptFromString:@"document.title"];
+    NSURL *l_url = a_webView.request.URL;
+    [self ifa_presentActivityViewControllerFromBarButtonItem:a_barButtonItem subject:l_subjectString url:l_url];
+}
+
+- (void)ifa_presentActivityViewControllerFromBarButtonItem:(UIBarButtonItem *)a_barButtonItem
                                                    subject:(NSString *)a_subject
                                                        url:(NSURL *)a_url {
     IFASubjectActivityItem *l_subject = [[IFASubjectActivityItem alloc] initWithSubject:a_subject];
