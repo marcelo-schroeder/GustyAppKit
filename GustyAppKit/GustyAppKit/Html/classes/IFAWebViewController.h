@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "IFAViewController.h"
+#import <GustyKit/IFAViewController.h>
 
 @interface IFAWebViewController : IFAViewController <UIWebViewDelegate>
 

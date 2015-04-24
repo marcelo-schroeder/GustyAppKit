@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "IFAFormViewController.h"
+#import <GustyKit/IFAFormViewController.h>
 
 /**
 * This class implements an About type of view.

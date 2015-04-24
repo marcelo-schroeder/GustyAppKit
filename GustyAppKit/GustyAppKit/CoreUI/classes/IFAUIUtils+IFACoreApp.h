@@ -16,7 +16,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IFAUIUtils.h"
+#import <GustyKit/IFAUIUtils.h>
 
 @interface IFAUIUtils (IFACoreApp)
 +(void)setKeyWindowRootViewController:(UIViewController*)a_viewController;

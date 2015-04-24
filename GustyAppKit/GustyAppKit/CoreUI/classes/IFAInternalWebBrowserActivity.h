@@ -19,7 +19,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "IFAAbstractWebBrowserActivity.h"
+#import <GustyKit/IFAAbstractWebBrowserActivity.h>
 
 @interface IFAInternalWebBrowserActivity : IFAAbstractWebBrowserActivity
 

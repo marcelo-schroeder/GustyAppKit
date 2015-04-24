@@ -6,7 +6,7 @@
 //
 //  https://github.com/samvermette/IFA_SVWebViewController
 
-#import "IFAViewController.h"
+#import <GustyKit/IFAViewController.h>
 #import "IFA_SVModalWebViewController.h"
 #import "MessageUI/MessageUI.h"
 

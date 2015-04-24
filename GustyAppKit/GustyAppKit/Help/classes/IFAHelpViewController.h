@@ -16,7 +16,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IFANavigationController.h"
+#import <GustyKit/IFANavigationController.h>
 
 @interface IFAHelpViewController : IFANavigationController
 - (instancetype)initWithTargetViewController:(UIViewController *)a_targetViewController NS_DESIGNATED_INITIALIZER;

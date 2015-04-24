@@ -19,7 +19,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IFAPresenter.h"
+#import <GustyKit/IFAPresenter.h>
 
 /**
 * Manages help mode and assists with retrieving help text used throughout the app.

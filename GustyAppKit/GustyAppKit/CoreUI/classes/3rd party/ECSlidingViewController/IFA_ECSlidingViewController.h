@@ -7,7 +7,7 @@
 //
 
 #import "UIImage+IFA_ECImageWithUIView.h"
-#import "IFAViewController.h"
+#import <GustyKit/IFAViewController.h>
 
 /** Notification that gets posted when the underRight view will appear */
 extern NSString *const ECSlidingViewUnderRightWillAppear;

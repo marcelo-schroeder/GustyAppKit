@@ -41,7 +41,7 @@
 		10738DE4D25220666F6CD48D /* IFAAppFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107384F7222B59BDD7D22EDB /* IFAAppFormViewController.m */; };
 		10738E15A7A9AB4E71DD43E5 /* UIViewController+IFAFlurrySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073879589174712523C707A /* UIViewController+IFAFlurrySupport.m */; };
 		10738E4B2E6EFC71DCC019C6 /* IFA_IBActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738AE2F2C62259FBE50F30 /* IFA_IBActionSheet.m */; };
-		3C07EA814F2645A5BD5C2174 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF387BE31CA84C679F50890D /* libPods.a */; };
+		9BFB96E350393FBBA7D426CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B28A2EAE96F7FDB7DD2582 /* libPods.a */; };
 		F72E8FA8194E446C00CFB3B1 /* IFAHtmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E8FA4194E446C00CFB3B1 /* IFAHtmlParser.m */; };
 		F72E8FB0194E447A00CFB3B1 /* IFAHtmlParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E8FAB194E447A00CFB3B1 /* IFAHtmlParserTests.m */; };
 		F72E8FB1194E447A00CFB3B1 /* HtmlParser_testdata1.html in Resources */ = {isa = PBXBuildFile; fileRef = F72E8FAD194E447A00CFB3B1 /* HtmlParser_testdata1.html */; };
@@ -147,6 +147,7 @@
 		10738F9A731202F736AB8388 /* NSURL+IFACoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+IFACoreApp.m"; sourceTree = "<group>"; };
 		352117ED3BF7029F2C540646 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		80ECA84BFE535AB4430F53A7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B8B28A2EAE96F7FDB7DD2582 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72E8FA3194E446C00CFB3B1 /* IFAHtmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAHtmlParser.h; sourceTree = "<group>"; };
 		F72E8FA4194E446C00CFB3B1 /* IFAHtmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAHtmlParser.m; sourceTree = "<group>"; };
 		F72E8FAB194E447A00CFB3B1 /* IFAHtmlParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAHtmlParserTests.m; sourceTree = "<group>"; };
@@ -196,7 +197,6 @@
 		F7F1805119D35FDD00BFB8B6 /* IFAHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAHelpViewController.m; sourceTree = "<group>"; };
 		F7F1805219D35FDD00BFB8B6 /* IFAHelpContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAHelpContentViewController.h; sourceTree = "<group>"; };
 		F7F1805319D35FDD00BFB8B6 /* IFAHelpContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAHelpContentViewController.m; sourceTree = "<group>"; };
-		FF387BE31CA84C679F50890D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,7 +219,7 @@
 				F7D4D84818EA00E600ABF401 /* UIKit.framework in Frameworks */,
 				F7D4D84B18EA00E600ABF401 /* libGustyAppKit.a in Frameworks */,
 				F7D4D84618EA00E600ABF401 /* Foundation.framework in Frameworks */,
-				3C07EA814F2645A5BD5C2174 /* libPods.a in Frameworks */,
+				9BFB96E350393FBBA7D426CC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +539,7 @@
 				F7D4D83618EA00E600ABF401 /* Foundation.framework */,
 				F7D4D84418EA00E600ABF401 /* XCTest.framework */,
 				F7D4D84718EA00E600ABF401 /* UIKit.framework */,
-				FF387BE31CA84C679F50890D /* libPods.a */,
+				B8B28A2EAE96F7FDB7DD2582 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

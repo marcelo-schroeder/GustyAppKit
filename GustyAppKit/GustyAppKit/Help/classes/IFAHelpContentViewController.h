@@ -16,7 +16,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IFAViewController.h"
+#import <GustyKit/IFAViewController.h>
 
 @interface IFAHelpContentViewController : IFAViewController <UIWebViewDelegate, IFAViewControllerDelegate>
 @property(nonatomic, strong, readonly) UIBarButtonItem *closeBarButtonItem;

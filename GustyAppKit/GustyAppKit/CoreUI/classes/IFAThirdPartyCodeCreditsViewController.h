@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "IFATableViewController.h"
+#import <GustyKit/IFATableViewController.h>
 
 @interface IFAThirdPartyCodeCreditsViewController : IFATableViewController <UIAlertViewDelegate>
 

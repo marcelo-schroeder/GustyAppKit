@@ -44,7 +44,7 @@
 #import "IFA_IBActionSheet.h"
 
 // GustyKit
-#import "GustyKit.h"
+#import <GustyKit/GustyKit.h>
 
 // GustyAppKit
 //#import "GustyAppKitFoundation.h"
