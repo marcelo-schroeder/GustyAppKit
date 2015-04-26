@@ -95,7 +95,7 @@
 //#import "IFAListViewController.h"
 //#import "IFALongTextEditorViewController.h"
 //#import "IFAMapAnnotation.h"
-//#import "IFAMasterDetailViewController.h"
+#import "IFAMasterDetailViewController.h"
 //#import "IFAMenuViewController.h"
 //#import "IFAModalViewController.h"
 //#import "IFAMultipleSelectionListViewController.h"
