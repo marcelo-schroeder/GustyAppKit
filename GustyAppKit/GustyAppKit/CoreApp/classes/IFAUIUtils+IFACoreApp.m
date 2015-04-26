@@ -20,13 +20,26 @@
 
 @implementation IFAUIUtils (IFACoreApp)
 
-+(void)setKeyWindowRootViewController:(UIViewController*)a_viewController{
++ (void)setKeyWindowRootViewController:(UIViewController*)a_viewController{
 //    [self dismissSplitViewControllerPopover];
     [UIApplication sharedApplication].keyWindow.rootViewController = a_viewController;
 }
 
-+(void)setKeyWindowRootViewControllerToMainStoryboardInitialViewController {
++ (void)setKeyWindowRootViewControllerToMainStoryboardInitialViewController {
     [self setKeyWindowRootViewController:[[[IFAUIConfiguration sharedInstance] storyboard] instantiateInitialViewController]];
+}
+
++ (CGSize)statusBarSize{
+    return [self statusBarFrame].size;
+}
+
++ (CGSize)statusBarSizeForCurrentOrientation{
+    CGSize l_statusBarSize = [self statusBarSize];
+    return [self isDeviceInLandscapeOrientation] && ![IFAUtils isIOS8OrGreater] ? CGSizeMake(l_statusBarSize.height, l_statusBarSize.width) : l_statusBarSize;
+}
+
++ (CGRect)statusBarFrame{
+    return [[UIApplication sharedApplication] statusBarFrame];
 }
 
 @end
