@@ -102,15 +102,15 @@
                         otherButtonTitles:nil]; 
 
         if((self.availableActions & SVWebViewControllerAvailableActionsCopyLink) == SVWebViewControllerAvailableActionsCopyLink)
-            [pageActionSheet addButtonWithTitle:NSLocalizedStringFromTable(@"Copy link", @"GustyAppKitLocalizable", nil)];
+            [pageActionSheet addButtonWithTitle:NSLocalizedStringFromTable(@"Copy link", @"GustyKitLocalizable", nil)];
         
         if((self.availableActions & SVWebViewControllerAvailableActionsOpenInSafari) == SVWebViewControllerAvailableActionsOpenInSafari)
-            [pageActionSheet addButtonWithTitle:NSLocalizedStringFromTable(@"Open in Safari", @"GustyAppKitLocalizable", nil)];
+            [pageActionSheet addButtonWithTitle:NSLocalizedStringFromTable(@"Open in Safari", @"GustyKitLocalizable", nil)];
         
         if([MFMailComposeViewController canSendMail] && (self.availableActions & SVWebViewControllerAvailableActionsMailLink) == SVWebViewControllerAvailableActionsMailLink)
-            [pageActionSheet addButtonWithTitle:NSLocalizedStringFromTable(@"Mail link to this page", @"GustyAppKitLocalizable", nil)];
+            [pageActionSheet addButtonWithTitle:NSLocalizedStringFromTable(@"Mail link to this page", @"GustyKitLocalizable", nil)];
         
-        [pageActionSheet addButtonWithTitle:NSLocalizedStringFromTable(@"Cancel", @"GustyAppKitLocalizable", nil)];
+        [pageActionSheet addButtonWithTitle:NSLocalizedStringFromTable(@"Cancel", @"GustyKitLocalizable", nil)];
         pageActionSheet.cancelButtonIndex = [self.pageActionSheet numberOfButtons]-1;
     }
     
@@ -336,15 +336,15 @@
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
 	NSString *title = [actionSheet buttonTitleAtIndex:buttonIndex];
     
-	if([title isEqualToString:NSLocalizedStringFromTable(@"Open in Safari", @"GustyAppKitLocalizable", nil)])
+	if([title isEqualToString:NSLocalizedStringFromTable(@"Open in Safari", @"GustyKitLocalizable", nil)])
         [[UIApplication sharedApplication] openURL:self.mainWebView.request.URL];
     
-    if([title isEqualToString:NSLocalizedStringFromTable(@"Copy Link", @"GustyAppKitLocalizable", nil)]) {
+    if([title isEqualToString:NSLocalizedStringFromTable(@"Copy Link", @"GustyKitLocalizable", nil)]) {
         UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
         pasteboard.string = self.mainWebView.request.URL.absoluteString;
     }
     
-    else if([title isEqualToString:NSLocalizedStringFromTable(@"Mail Link to this Page", @"GustyAppKitLocalizable", nil)]) {
+    else if([title isEqualToString:NSLocalizedStringFromTable(@"Mail Link to this Page", @"GustyKitLocalizable", nil)]) {
         
 		MFMailComposeViewController *mailViewController = [[MFMailComposeViewController alloc] init];
         

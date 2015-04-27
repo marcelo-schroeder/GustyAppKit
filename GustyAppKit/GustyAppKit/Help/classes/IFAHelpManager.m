@@ -98,18 +98,21 @@
     if (a_value) {
         [helpTargetId appendFormat:@".values.%@", a_value];
     }
-    return [self IFA_helpDescriptionForHelpTargetId:helpTargetId];
+    NSString *help = [self IFA_helpDescriptionForHelpTargetId:helpTargetId];
+    return help;
 }
 
 - (NSString *)emptyListHelpForEntityName:(NSString *)a_entityName {
     NSString *helpTargetId = [NSString stringWithFormat:@"entities.%@.list.placeholder", a_entityName];
-    return [self IFA_helpDescriptionForHelpTargetId:helpTargetId];
+    NSString *help = [self IFA_helpDescriptionForHelpTargetId:helpTargetId];
+    return help;
 }
 
 - (NSString *)helpForViewController:(UIViewController *)a_viewController {
     if ([a_viewController conformsToProtocol:@protocol(IFAHelpTarget)]) {
         id<IFAHelpTarget> helpTarget = (id <IFAHelpTarget>) a_viewController;
-        return [self IFA_helpDescriptionForHelpTargetId:helpTarget.helpTargetId];
+        NSString *help = [self IFA_helpDescriptionForHelpTargetId:helpTarget.helpTargetId];
+        return help;
     }else{
         return nil;
     }
@@ -131,7 +134,7 @@
 #pragma mark - Private
 
 -(NSString*)IFA_helpStringForKeyPath:(NSString*)a_keyPath{
-    NSString *l_string = NSLocalizedStringFromTable(a_keyPath, @"GustyAppKitHelpLocalizable", nil);
+    NSString *l_string = NSLocalizedStringFromTable(a_keyPath, @"GustyKitHelpLocalizable", nil);
     return [l_string isEqualToString:a_keyPath] ? nil : l_string;
 }
 

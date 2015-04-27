@@ -38,11 +38,11 @@
         [[UIApplication sharedApplication] openURL:self];
     };
     if (a_alertPresenterViewController) {
-        NSString *title = [NSString stringWithFormat:NSLocalizedStringFromTable(@"You will now leave the %@ app", @"GustyAppKitLocalizable", @"You will now leave the <APP_NAME> app"), [IFAUtils appName]];
+        NSString *title = [NSString stringWithFormat:NSLocalizedStringFromTable(@"You will now leave the %@ app", @"GustyKitLocalizable", @"You will now leave the <APP_NAME> app"), [IFAUtils appName]];
         [a_alertPresenterViewController ifa_presentAlertControllerWithTitle:title
                                                                     message:nil
                                                                       style:UIAlertControllerStyleAlert
-                                                          actionButtonTitle:NSLocalizedStringFromTable(@"OK", @"GustyAppKitLocalizable", nil)
+                                                          actionButtonTitle:NSLocalizedStringFromTable(@"OK", @"GustyKitLocalizable", nil)
                                                                 actionBlock:actionBlock];
     }else{
         actionBlock();
