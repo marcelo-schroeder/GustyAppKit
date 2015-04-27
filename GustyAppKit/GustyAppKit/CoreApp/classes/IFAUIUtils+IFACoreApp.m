@@ -96,4 +96,126 @@
     return l_menuViewController;
 }
 
++ (void) showAlertWithMessage:(NSString*)aMessage title:(NSString*)aTitle{
+    [self showAlertWithMessage:aMessage
+                         title:aTitle
+                      delegate:nil
+                   buttonLabel:nil];
+}
+
++ (void) showAlertWithMessage:(NSString*)aMessage title:(NSString*)aTitle buttonLabel:(NSString*)aButtonLabel{
+    [self showAlertWithMessage:aMessage
+                         title:aTitle
+                      delegate:nil
+                   buttonLabel:aButtonLabel];
+}
+
++ (void) showAlertWithMessage:(NSString*)aMessage title:(NSString*)aTitle delegate:(id)aDelegate{
+    [self showAlertWithMessage:aMessage
+                         title:aTitle
+                      delegate:aDelegate
+                   buttonLabel:nil];
+}
+
++ (void) showAlertWithMessage:(NSString*)aMessage
+                        title:(NSString*)aTitle
+                     delegate:(id)aDelegate
+                  buttonLabel:(NSString*)aButtonLabel{
+    [self showAlertWithMessage:aMessage title:aTitle delegate:aDelegate buttonLabel:aButtonLabel tag:NSNotFound];
+}
+
++ (void) showAlertWithMessage:(NSString*)aMessage title:(NSString*)aTitle delegate:(id)aDelegate buttonLabel:(NSString*)aButtonLabel tag:(NSInteger)aTag{
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:aTitle message:aMessage
+                                                   delegate:aDelegate
+                                          cancelButtonTitle:(aButtonLabel==nil?NSLocalizedStringFromTable(@"Continue", @"GustyKitLocalizable", nil):aButtonLabel)
+                                          otherButtonTitles:nil];
+//	alert.accessibilityLabel = aTitle;
+    if (aTag!=NSNotFound) {
+        alert.tag = aTag;
+    }
+    [alert show];
+}
+
++ (void) showActionSheetWithMessage:(NSString*)aMessage
+       destructiveButtonLabelSuffix:(NSString*)aDestructiveButtonLabelSuffix
+                     viewController:(UIViewController*)aViewController
+                      barButtonItem:(UIBarButtonItem*)aBarButtonItem
+                           delegate:(id<UIActionSheetDelegate>)aDelegate{
+    [self showActionSheetWithMessage:aMessage
+        destructiveButtonLabelSuffix:aDestructiveButtonLabelSuffix
+                      viewController:aViewController
+                       barButtonItem:aBarButtonItem
+                            delegate:aDelegate
+                                 tag:0];
+}
+
++ (void) showActionSheetWithMessage:(NSString*)aMessage
+       destructiveButtonLabelSuffix:(NSString*)aDestructiveButtonLabelSuffix
+                     viewController:(UIViewController*)aViewController
+                      barButtonItem:(UIBarButtonItem*)aBarButtonItem
+                           delegate:(id<UIActionSheetDelegate>)aDelegate
+                                tag:(NSInteger)aTag{
+    [self showActionSheetWithMessage:aMessage
+             cancelButtonLabelSuffix:nil
+        destructiveButtonLabelSuffix:aDestructiveButtonLabelSuffix
+                                view:[self actionSheetShowInViewForViewController:aViewController]
+                       barButtonItem:aBarButtonItem
+                            delegate:aDelegate
+                                 tag:aTag];
+}
+
++ (void) showActionSheetWithMessage:(NSString*)aMessage
+            cancelButtonLabelSuffix:(NSString*)aCancelButtonLabelSuffix
+       destructiveButtonLabelSuffix:(NSString*)aDestructiveButtonLabelSuffix
+                               view:(UIView*)aView
+                      barButtonItem:(UIBarButtonItem*)aBarButtonItem
+                           delegate:(id<UIActionSheetDelegate>)aDelegate
+                                tag:(NSInteger)aTag{
+    UIActionSheet *actionSheet =
+            [[UIActionSheet alloc] initWithTitle:aMessage
+                                        delegate:aDelegate
+                               cancelButtonTitle:[NSLocalizedStringFromTable(@"No", @"GustyKitLocalizable", nil) stringByAppendingString:(aCancelButtonLabelSuffix?[NSString stringWithFormat:@", %@", aCancelButtonLabelSuffix]:@"")]
+                          destructiveButtonTitle:[NSLocalizedStringFromTable(@"Yes, ", @"GustyKitLocalizable", nil) stringByAppendingString:aDestructiveButtonLabelSuffix]
+                               otherButtonTitles:nil];
+    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
+//    NSLog(@"aView: %@", [aView description]);
+    if ([IFAUIUtils isIPad] && aBarButtonItem) {
+        [actionSheet showFromBarButtonItem:aBarButtonItem animated:YES];
+    }else {
+        [actionSheet showInView:aView];
+    }
+    if(aTag!=0){
+        actionSheet.tag = aTag;
+    }
+}
+
++(UIView*)actionSheetShowInViewForViewController:(UIViewController*)a_viewController{
+    UIView *l_view = nil;
+    if (!(l_view = a_viewController.tabBarController.view)) {
+        if (!(l_view = a_viewController.splitViewController.view)) {
+            l_view = a_viewController.navigationController.toolbar;
+            if (l_view.hidden || !l_view) { // Added check for hidden is it was crashing the app in some cases when the toolbar was not visible and it had been used by a view controller that had been pushed
+                l_view = a_viewController.view;
+            }
+        }
+    }
+    return l_view;
+}
+
++ (void)showServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable
+                                  alertViewDelegate:(id <UIAlertViewDelegate>)a_alertViewDelegate {
+//    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    NSString *l_title;
+    NSString *l_messageArgument;
+    if (a_networkReachable) {
+        l_title= NSLocalizedStringFromTable(@"Server error", @"GustyKitLocalizable", nil);
+        l_messageArgument = NSLocalizedStringFromTable(@" Please try again later.", @"GustyKitLocalizable", nil);
+    }else{
+        l_title= NSLocalizedStringFromTable(@"No Internet access", @"GustyKitLocalizable", nil);
+        l_messageArgument = NSLocalizedStringFromTable(@" Please try again when you are back online.", @"GustyKitLocalizable", nil);
+    }
+    NSString *l_message = [NSString stringWithFormat:NSLocalizedStringFromTable(@"It was not possible to complete the operation.%@", @"GustyKitLocalizable", nil), l_messageArgument];
+    [IFAUIUtils showAlertWithMessage:l_message title:l_title delegate:a_alertViewDelegate];
+}
+
 @end

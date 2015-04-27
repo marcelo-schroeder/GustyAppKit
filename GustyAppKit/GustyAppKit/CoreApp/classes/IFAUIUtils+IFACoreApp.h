@@ -38,5 +38,54 @@
 + (void)appLogWithTitle:(NSString *)a_title
                 message:(NSString *)a_message;
 
-+(IFAMenuViewController *)mainMenuViewController;
++ (IFAMenuViewController *)mainMenuViewController;
+
++ (void)showAlertWithMessage:(NSString *)aMessage
+                       title:(NSString *)aTitle;
+
++ (void)showAlertWithMessage:(NSString *)aMessage
+                       title:(NSString *)aTitle
+                 buttonLabel:(NSString *)aButtonLabel;
+
++ (void)showAlertWithMessage:(NSString *)aMessage
+                       title:(NSString *)aTitle
+                    delegate:(id)aDelegate;
+
++ (void)showAlertWithMessage:(NSString *)aMessage
+                       title:(NSString *)aTitle
+                    delegate:(id)aDelegate
+                 buttonLabel:(NSString *)aButtonLabel;
+
++ (void)showAlertWithMessage:(NSString *)aMessage
+                       title:(NSString *)aTitle
+                    delegate:(id)aDelegate
+                 buttonLabel:(NSString *)aButtonLabel
+                         tag:(NSInteger)aTag;
+
++ (void)showActionSheetWithMessage:(NSString *)aMessage
+      destructiveButtonLabelSuffix:(NSString *)aDestructiveButtonLabelSuffix
+                    viewController:(UIViewController *)aViewController
+                     barButtonItem:(UIBarButtonItem *)aBarButtonItem
+                          delegate:(id <UIActionSheetDelegate>)aDelegate;
+
++ (void)showActionSheetWithMessage:(NSString *)aMessage
+      destructiveButtonLabelSuffix:(NSString *)aDestructiveButtonLabelSuffix
+                    viewController:(UIViewController *)aViewController
+                     barButtonItem:(UIBarButtonItem *)aBarButtonItem
+                          delegate:(id <UIActionSheetDelegate>)aDelegate
+                               tag:(NSInteger)aTag;
+
++ (void)showActionSheetWithMessage:(NSString *)aMessage
+           cancelButtonLabelSuffix:(NSString *)aCancelButtonLabelSuffix
+      destructiveButtonLabelSuffix:(NSString *)aDestructiveButtonLabelSuffix
+                              view:(UIView *)aView
+                     barButtonItem:(UIBarButtonItem *)aBarButtonItem
+                          delegate:(id <UIActionSheetDelegate>)aDelegate
+                               tag:(NSInteger)aTag;
+
++ (UIView *)actionSheetShowInViewForViewController:(UIViewController *)a_viewController;
+
++ (void)showServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable
+                                  alertViewDelegate:(id <UIAlertViewDelegate>)a_alertViewDelegate;
+
 @end

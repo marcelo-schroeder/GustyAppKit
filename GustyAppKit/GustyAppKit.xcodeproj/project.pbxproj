@@ -29,6 +29,7 @@
 		10738424D3913A41A14FC055 /* IFA_SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738798E7EA78329F8991FE /* IFA_SVModalWebViewController.m */; };
 		107384BF5B179BCC5696785F /* IFAFlurrySupportUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 107388B5F27D3E6543C81E68 /* IFAFlurrySupportUtils.m */; };
 		1073851A042989356E87C8E9 /* IFAExternalWebBrowserActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738EDD7A5F33CF2F16AFCB /* IFAExternalWebBrowserActivity.m */; };
+		1073852BEDB033B1D1B1F738 /* IFAPhoneServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738A124D7486D4BC61C71B /* IFAPhoneServiceManager.m */; };
 		1073859347BD2DC1A16AD962 /* IFAAppDefaultAppearanceTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 107387C106E4F15EB15A4AE0 /* IFAAppDefaultAppearanceTheme.m */; };
 		107385AB01714EA48695AEB3 /* IFADynamicPagingContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107388C5BC02A4C49ECDE285 /* IFADynamicPagingContainerViewController.m */; };
 		1073863758AF701EC68AE637 /* IFAMasterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738FB148F906EB6B5C16D3 /* IFAMasterDetailViewController.m */; };
@@ -41,6 +42,7 @@
 		107389FFA4D08D816F533543 /* IFAStaticPagingContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107381324E3281C084131DDD /* IFAStaticPagingContainerViewController.m */; };
 		10738AA931A381674D3D45D6 /* IFAAppMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107388C9C300E255A88E3D1A /* IFAAppMapViewController.m */; };
 		10738C09541F4AA5067C54BA /* IFAUserNotificationSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073884DDE37489559EA1269 /* IFAUserNotificationSettingsManager.m */; };
+		10738D5AFA2BD91EC3CAC5AC /* IFAEmailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738C5D730BF98BDDDEBE0B /* IFAEmailManager.m */; };
 		10738D640B795DFB92775A1E /* NSURL+IFACoreApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738F9A731202F736AB8388 /* NSURL+IFACoreApp.m */; };
 		10738E15A7A9AB4E71DD43E5 /* UIViewController+IFAFlurrySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073879589174712523C707A /* UIViewController+IFAFlurrySupport.m */; };
 		10738E4B2E6EFC71DCC019C6 /* IFA_IBActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738AE2F2C62259FBE50F30 /* IFA_IBActionSheet.m */; };
@@ -101,6 +103,7 @@
 		107380E324462A3239AB0ABD /* IFAUserNotificationSettingsManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAUserNotificationSettingsManagerTests.m; sourceTree = "<group>"; };
 		107381324E3281C084131DDD /* IFAStaticPagingContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAStaticPagingContainerViewController.m; sourceTree = "<group>"; };
 		1073817EB21F845CA0466DD8 /* IFADynamicPagingContainerViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFADynamicPagingContainerViewControllerDataSource.h; sourceTree = "<group>"; };
+		10738215D1ED4EBCE5E093B8 /* IFAPhoneServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAPhoneServiceManager.h; sourceTree = "<group>"; };
 		1073827C44EE86F9C8C88B9E /* IFAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAWebViewController.m; sourceTree = "<group>"; };
 		107382B78556C31C379C2E8D /* IFAApplicationLog+IFACoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IFAApplicationLog+IFACoreApp.m"; sourceTree = "<group>"; };
 		10738333EDAEA45A64915F4D /* UIViewController+IFACoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IFACoreApp.m"; sourceTree = "<group>"; };
@@ -128,6 +131,7 @@
 		107388C9C300E255A88E3D1A /* IFAAppMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAAppMapViewController.m; sourceTree = "<group>"; };
 		1073893B0ECA6E73D8920E60 /* IFA_IBActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFA_IBActionSheet.h; sourceTree = "<group>"; };
 		107389EBFB2F9D2DE1031AED /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		10738A124D7486D4BC61C71B /* IFAPhoneServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAPhoneServiceManager.m; sourceTree = "<group>"; };
 		10738A6FD75C63F34DB33ABF /* IFAApplicationLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAApplicationLogViewController.m; sourceTree = "<group>"; };
 		10738A8B23BDCF2041887621 /* internalWebBrowserActivity~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "internalWebBrowserActivity~iphone.png"; sourceTree = "<group>"; };
 		10738AE2F2C62259FBE50F30 /* IFA_IBActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFA_IBActionSheet.m; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 		10738BFAF5BB58FC3AD56AFD /* IFAApplicationLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAApplicationLog.h; sourceTree = "<group>"; };
 		10738C29B17B27D2C156652F /* IFA_SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFA_SVWebViewController.h; sourceTree = "<group>"; };
 		10738C46C1B4CC6E664D45AE /* internalWebBrowserActivity~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "internalWebBrowserActivity~ipad.png"; sourceTree = "<group>"; };
+		10738C5D730BF98BDDDEBE0B /* IFAEmailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAEmailManager.m; sourceTree = "<group>"; };
 		10738C9801E5F801C10E2878 /* IFAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAWebViewController.h; sourceTree = "<group>"; };
 		10738CDC419B24B89BB35772 /* IFA_SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFA_SVModalWebViewController.h; sourceTree = "<group>"; };
 		10738CF5078176436AA71336 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -150,6 +155,7 @@
 		10738EE5396DAC670BC667C0 /* IFAUIUtils+IFACoreApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IFAUIUtils+IFACoreApp.h"; sourceTree = "<group>"; };
 		10738F516E06EC55A0C28C21 /* IFAUIUtils+IFACoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IFAUIUtils+IFACoreApp.m"; sourceTree = "<group>"; };
 		10738F9A731202F736AB8388 /* NSURL+IFACoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+IFACoreApp.m"; sourceTree = "<group>"; };
+		10738FA498B4CBDC81BE00B4 /* IFAEmailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAEmailManager.h; sourceTree = "<group>"; };
 		10738FB148F906EB6B5C16D3 /* IFAMasterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAMasterDetailViewController.m; sourceTree = "<group>"; };
 		352117ED3BF7029F2C540646 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		80ECA84BFE535AB4430F53A7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -393,6 +399,10 @@
 				107384F67D90CEDAD025BE5D /* IFAApplicationLog+IFACoreApp.h */,
 				107388C9C300E255A88E3D1A /* IFAAppMapViewController.m */,
 				10738D7FCA2AAA201E7B5DD7 /* IFAAppMapViewController.h */,
+				10738C5D730BF98BDDDEBE0B /* IFAEmailManager.m */,
+				10738FA498B4CBDC81BE00B4 /* IFAEmailManager.h */,
+				10738215D1ED4EBCE5E093B8 /* IFAPhoneServiceManager.h */,
+				10738A124D7486D4BC61C71B /* IFAPhoneServiceManager.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -730,6 +740,8 @@
 				1073874199C37257285963AB /* IFAApplicationLog+IFACoreApp.m in Sources */,
 				10738163D34A3FA84248B4D6 /* IFAApplicationLogViewController.m in Sources */,
 				10738AA931A381674D3D45D6 /* IFAAppMapViewController.m in Sources */,
+				10738D5AFA2BD91EC3CAC5AC /* IFAEmailManager.m in Sources */,
+				1073852BEDB033B1D1B1F738 /* IFAPhoneServiceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

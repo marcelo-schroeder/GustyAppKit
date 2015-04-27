@@ -49,4 +49,8 @@
     }
 }
 
+-(UIView*)ifa_viewForActionSheet {
+    return [IFAUIUtils actionSheetShowInViewForViewController:self];
+}
+
 @end

@@ -28,4 +28,6 @@
 
 - (UIViewController*)ifa_mainViewController;
 
+-(UIView*)ifa_viewForActionSheet;
+
 @end
