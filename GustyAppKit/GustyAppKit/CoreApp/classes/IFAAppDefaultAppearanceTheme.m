@@ -53,4 +53,8 @@
     }
 }
 
+- (UIColor *)defaultTintColor {
+    return [UIApplication sharedApplication].delegate.window.tintColor;
+}
+
 @end
