@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "GustyAppKitCoreUI.h"
+#import "GustyAppKitCoreApp.h"
 
 static NSArray *c_pageDataLoadingOrder = nil;
 

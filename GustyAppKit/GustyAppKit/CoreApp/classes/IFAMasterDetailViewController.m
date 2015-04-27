@@ -15,7 +15,7 @@
 //  limitations under the License.
 //
 
-#import "GustyAppKitCoreUI.h"
+#import "GustyAppKitCoreApp.h"
 
 static const int k_separatorViewWidth = 1;
 

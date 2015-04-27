@@ -1,6 +1,9 @@
 //
-// Created by Marcelo Schroeder on 28/03/2014.
-// Copyright (c) 2014 InfoAccent Pty Limited. All rights reserved.
+//  IFAApplicationLog.m
+//  Gusty
+//
+//  Created by Marcelo Schroeder on 16/06/11.
+//  Copyright (c) 2011 InfoAccent Pty Limited. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -17,19 +20,17 @@
 
 #import "GustyAppKitCoreApp.h"
 
-@implementation IFAExternalWebBrowserActivity {
 
-}
-
-#pragma mark - Overrides
-
--(NSString *)activityType{
-    return @"IFAExternalWebBrowser";
-}
-
-- (void)performActivity {
-    [self.url ifa_open];
-    [self activityDidFinish:YES];
-}
+@implementation IFAApplicationLog
+@dynamic isError;
+@dynamic longitude;
+@dynamic horizontalAccuracy;
+@dynamic errorDescription;
+@dynamic title;
+@dynamic message;
+@dynamic latitude;
+@dynamic date;
+@dynamic isLocationAware;
+@dynamic errorCode;
 
 @end

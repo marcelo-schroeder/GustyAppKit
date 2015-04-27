@@ -25,7 +25,7 @@
 //wip: need to release the world when the framework work is finished
 
 // CoreApp
-#import "GustyAppKitCoreUI.h"
+#import "GustyAppKitCoreApp.h"
 
 // FlurrySupport
 #ifdef IFA_AVAILABLE_FlurrySupport

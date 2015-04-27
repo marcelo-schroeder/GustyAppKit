@@ -3,7 +3,7 @@
 // Copyright (c) 2015 InfoAccent Pty Ltd. All rights reserved.
 //
 
-#import "GustyAppKitCoreUI.h"
+#import "GustyAppKitCoreApp.h"
 
 
 @interface IFAUserNotificationSettingsManager ()

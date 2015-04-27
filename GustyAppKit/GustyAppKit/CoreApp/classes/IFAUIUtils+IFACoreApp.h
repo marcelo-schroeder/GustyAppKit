@@ -19,9 +19,22 @@
 #import <GustyKit/IFAUIUtils.h>
 
 @interface IFAUIUtils (IFACoreApp)
-+ (void)setKeyWindowRootViewController:(UIViewController*)a_viewController;
++ (void)setKeyWindowRootViewController:(UIViewController *)a_viewController;
+
 + (void)setKeyWindowRootViewControllerToMainStoryboardInitialViewController;
+
 + (CGSize)statusBarSize;
+
 + (CGSize)statusBarSizeForCurrentOrientation;
+
 + (CGRect)statusBarFrame;
+
++ (void)appLogWithTitle:(NSString *)a_title
+                message:(NSString *)a_message
+               location:(CLLocation *)a_location
+                  error:(NSError *)a_error
+              showAlert:(BOOL)a_showAlert;
+
++ (void)appLogWithTitle:(NSString *)a_title
+                message:(NSString *)a_message;
 @end

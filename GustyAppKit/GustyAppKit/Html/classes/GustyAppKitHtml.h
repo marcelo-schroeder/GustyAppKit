@@ -22,7 +22,7 @@
 #import "NSString+HTML.h"
 
 // GustyAppKit
-#import "GustyAppKitCoreUI.h"
+#import "GustyAppKitCoreApp.h"
 
 #import "IFAHtmlParser.h"
 #import "IFAWebViewController.h"

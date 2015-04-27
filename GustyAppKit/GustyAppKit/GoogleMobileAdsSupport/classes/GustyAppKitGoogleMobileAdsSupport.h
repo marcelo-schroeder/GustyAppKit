@@ -26,7 +26,7 @@
 #import <StoreKit/StoreKit.h>
 
 // GustyAppKit
-#import "GustyAppKitCoreUI.h"
+#import "GustyAppKitCoreApp.h"
 
 #import "IFAGoogleMobileAdsManager.h"
 #import "UIViewController+IFAGoogleMobileAdsSupport.h"

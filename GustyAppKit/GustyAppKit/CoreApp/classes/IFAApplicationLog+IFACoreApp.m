@@ -1,6 +1,9 @@
 //
-// Created by Marcelo Schroeder on 28/03/2014.
-// Copyright (c) 2014 InfoAccent Pty Limited. All rights reserved.
+//  IFAApplicationLog+IFACategory.m
+//  Gusty
+//
+//  Created by Marcelo Schroeder on 6/05/11.
+//  Copyright 2011 InfoAccent Pty Limited. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -17,19 +20,15 @@
 
 #import "GustyAppKitCoreApp.h"
 
-@implementation IFAExternalWebBrowserActivity {
 
-}
+@implementation IFAApplicationLog (IFACoreApp)
 
-#pragma mark - Overrides
-
--(NSString *)activityType{
-    return @"IFAExternalWebBrowser";
-}
-
-- (void)performActivity {
-    [self.url ifa_open];
-    [self activityDidFinish:YES];
+- (NSString*)ifa_displayValue {
+    NSDateFormatter *l_dateFormatter = [[NSDateFormatter alloc] init];
+    [l_dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+    [l_dateFormatter setTimeStyle:NSDateFormatterMediumStyle];
+    NSString *l_formattedDate = [l_dateFormatter stringFromDate:self.date];
+    return [NSString stringWithFormat:@"%@: %@", l_formattedDate, self.title];
 }
 
 @end

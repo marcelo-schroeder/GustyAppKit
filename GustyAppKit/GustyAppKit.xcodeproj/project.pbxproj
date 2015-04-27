@@ -24,6 +24,7 @@
 		1073800227596C83086382AE /* IFAAbstractPagingContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738CFB2AE9503F94CD5C68 /* IFAAbstractPagingContainerViewController.m */; };
 		1073809D93121BE27FD14729 /* IFAGoogleMobileAdsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073804D2F71DE536C2DB9F8 /* IFAGoogleMobileAdsManager.m */; };
 		107380EC7DB918081A4CFE27 /* IFAUIUtils+IFACoreApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738F516E06EC55A0C28C21 /* IFAUIUtils+IFACoreApp.m */; };
+		10738163D34A3FA84248B4D6 /* IFAApplicationLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738A6FD75C63F34DB33ABF /* IFAApplicationLogViewController.m */; };
 		10738186E7932FF17137318A /* UIViewController+IFACoreApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738333EDAEA45A64915F4D /* UIViewController+IFACoreApp.m */; };
 		1073819B5968B4C40BD106EA /* IFAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1073827C44EE86F9C8C88B9E /* IFAWebViewController.m */; };
 		10738424D3913A41A14FC055 /* IFA_SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738798E7EA78329F8991FE /* IFA_SVModalWebViewController.m */; };
@@ -34,7 +35,9 @@
 		107385AB01714EA48695AEB3 /* IFADynamicPagingContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107388C5BC02A4C49ECDE285 /* IFADynamicPagingContainerViewController.m */; };
 		1073862083C98EE796A95569 /* UIViewController+IFAGoogleMobileAdsSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 107383B8ABDCE2409B584D58 /* UIViewController+IFAGoogleMobileAdsSupport.m */; };
 		1073863758AF701EC68AE637 /* IFAMasterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738FB148F906EB6B5C16D3 /* IFAMasterDetailViewController.m */; };
+		1073869E318B479D88C3429C /* IFAApplicationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738D4040E8E5C61A075FF1 /* IFAApplicationLog.m */; };
 		107386D9F658EFC78B25F59B /* IFAUserNotificationSettingsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107380E324462A3239AB0ABD /* IFAUserNotificationSettingsManagerTests.m */; };
+		1073874199C37257285963AB /* IFAApplicationLog+IFACoreApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 107382B78556C31C379C2E8D /* IFAApplicationLog+IFACoreApp.m */; };
 		1073881DE070F9CABAFC0D2D /* HtmlParser_testdata4.html in Resources */ = {isa = PBXBuildFile; fileRef = 1073874B2599AF4BCFAB3F71 /* HtmlParser_testdata4.html */; };
 		1073890C5D466FC6E750909C /* IFAApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738DC6867E204AED0143E7 /* IFAApplicationDelegate.m */; };
 		107389D31768B3E7759FFE8D /* IFA_SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738BE601B87FFDCA8AD691 /* IFA_SVWebViewController.m */; };
@@ -108,6 +111,7 @@
 		1073817EB21F845CA0466DD8 /* IFADynamicPagingContainerViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFADynamicPagingContainerViewControllerDataSource.h; sourceTree = "<group>"; };
 		1073820FF6F4F78E544C77BE /* IFAGoogleMobileAdsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAGoogleMobileAdsManager.h; sourceTree = "<group>"; };
 		1073827C44EE86F9C8C88B9E /* IFAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAWebViewController.m; sourceTree = "<group>"; };
+		107382B78556C31C379C2E8D /* IFAApplicationLog+IFACoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IFAApplicationLog+IFACoreApp.m"; sourceTree = "<group>"; };
 		10738333EDAEA45A64915F4D /* UIViewController+IFACoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IFACoreApp.m"; sourceTree = "<group>"; };
 		1073834B8A053E54A0269491 /* IFAUserNotificationSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAUserNotificationSettingsManager.h; sourceTree = "<group>"; };
 		1073835B7F7D30DF49702F3B /* UIViewController+IFAHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IFAHelp.m"; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 		107384560C88DE84661DDB98 /* IFA_Icon_Help_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IFA_Icon_Help_normal.png; sourceTree = "<group>"; };
 		107384770B292D4B012F7FAB /* UIViewController+IFAFlurrySupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IFAFlurrySupport.h"; sourceTree = "<group>"; };
 		107384D178AA2059D61AC9F0 /* IFAMasterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAMasterDetailViewController.h; sourceTree = "<group>"; };
+		107384F67D90CEDAD025BE5D /* IFAApplicationLog+IFACoreApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IFAApplicationLog+IFACoreApp.h"; sourceTree = "<group>"; };
 		107384F8C47CEB2B0326E584 /* GustyAppKitFlurrySupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GustyAppKitFlurrySupport.h; sourceTree = "<group>"; };
 		10738533DAACB490A3575300 /* IFAAbstractPagingContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAAbstractPagingContainerViewController.h; sourceTree = "<group>"; };
 		1073853DD9190FBA45CDB5E0 /* IFAFlurrySupportUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAFlurrySupportUtils.h; sourceTree = "<group>"; };
@@ -140,12 +145,14 @@
 		1073893B0ECA6E73D8920E60 /* IFA_IBActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFA_IBActionSheet.h; sourceTree = "<group>"; };
 		10738997702049B318F8E8FA /* UIButton+IFAHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+IFAHelp.h"; sourceTree = "<group>"; };
 		107389EBFB2F9D2DE1031AED /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		10738A6FD75C63F34DB33ABF /* IFAApplicationLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAApplicationLogViewController.m; sourceTree = "<group>"; };
 		10738A8B23BDCF2041887621 /* internalWebBrowserActivity~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "internalWebBrowserActivity~iphone.png"; sourceTree = "<group>"; };
 		10738A93879FAE4D301BCBC2 /* GustyAppKitGoogleMobileAdsSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GustyAppKitGoogleMobileAdsSupport.h; sourceTree = "<group>"; };
 		10738AE2F2C62259FBE50F30 /* IFA_IBActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFA_IBActionSheet.m; sourceTree = "<group>"; };
 		10738AEAEB515C41A96B3FA2 /* GustyAppKitHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GustyAppKitHtml.h; sourceTree = "<group>"; };
 		10738B36359B24DDB444D340 /* NSURL+IFACoreApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+IFACoreApp.h"; sourceTree = "<group>"; };
 		10738BE601B87FFDCA8AD691 /* IFA_SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFA_SVWebViewController.m; sourceTree = "<group>"; };
+		10738BFAF5BB58FC3AD56AFD /* IFAApplicationLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAApplicationLog.h; sourceTree = "<group>"; };
 		10738C29B17B27D2C156652F /* IFA_SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFA_SVWebViewController.h; sourceTree = "<group>"; };
 		10738C46C1B4CC6E664D45AE /* internalWebBrowserActivity~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "internalWebBrowserActivity~ipad.png"; sourceTree = "<group>"; };
 		10738C9801E5F801C10E2878 /* IFAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAWebViewController.h; sourceTree = "<group>"; };
@@ -153,8 +160,10 @@
 		10738CF2D8248BEA956DA692 /* GustyAppKitHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GustyAppKitHelp.h; sourceTree = "<group>"; };
 		10738CF5078176436AA71336 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		10738CFB2AE9503F94CD5C68 /* IFAAbstractPagingContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAAbstractPagingContainerViewController.m; sourceTree = "<group>"; };
+		10738D4040E8E5C61A075FF1 /* IFAApplicationLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAApplicationLog.m; sourceTree = "<group>"; };
 		10738D4EA54BA1D6B08CC253 /* internalWebBrowserActivity@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "internalWebBrowserActivity@2x~ipad.png"; sourceTree = "<group>"; };
 		10738DC6867E204AED0143E7 /* IFAApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAApplicationDelegate.m; sourceTree = "<group>"; };
+		10738EB608A819CD0E52DBD4 /* IFAApplicationLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAApplicationLogViewController.h; sourceTree = "<group>"; };
 		10738EDD7A5F33CF2F16AFCB /* IFAExternalWebBrowserActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAExternalWebBrowserActivity.m; sourceTree = "<group>"; };
 		10738EE5396DAC670BC667C0 /* IFAUIUtils+IFACoreApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IFAUIUtils+IFACoreApp.h"; sourceTree = "<group>"; };
 		10738F2D9D513C3666E14594 /* IFAHelpTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAHelpTarget.h; sourceTree = "<group>"; };
@@ -177,7 +186,7 @@
 		F766D33D18ECA71000B3B590 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F766D34018ECADCE00B3B590 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		F7C806111AE8C0EF0097280C /* GustyAppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GustyAppKit.h; sourceTree = "<group>"; };
-		F7C806121AE8C0EF0097280C /* GustyAppKitCoreUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GustyAppKitCoreUI.h; sourceTree = "<group>"; };
+		F7C806121AE8C0EF0097280C /* GustyAppKitCoreApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GustyAppKitCoreApp.h; sourceTree = "<group>"; };
 		F7C806131AE8C1FE0097280C /* IFAInternalWebBrowserActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAInternalWebBrowserActivity.h; sourceTree = "<group>"; };
 		F7C806141AE8C1FE0097280C /* IFAInternalWebBrowserActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAInternalWebBrowserActivity.m; sourceTree = "<group>"; };
 		F7C806151AE8C1FE0097280C /* IFAInternalWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAInternalWebBrowserViewController.h; sourceTree = "<group>"; };
@@ -390,7 +399,7 @@
 				F7C806151AE8C1FE0097280C /* IFAInternalWebBrowserViewController.h */,
 				F7C806161AE8C1FE0097280C /* IFAInternalWebBrowserViewController.m */,
 				F7C806111AE8C0EF0097280C /* GustyAppKit.h */,
-				F7C806121AE8C0EF0097280C /* GustyAppKitCoreUI.h */,
+				F7C806121AE8C0EF0097280C /* GustyAppKitCoreApp.h */,
 				10738DC6867E204AED0143E7 /* IFAApplicationDelegate.m */,
 				1073857148EBF3B517E57949 /* IFAApplicationDelegate.h */,
 				1073884DDE37489559EA1269 /* IFAUserNotificationSettingsManager.m */,
@@ -414,6 +423,12 @@
 				1073817EB21F845CA0466DD8 /* IFADynamicPagingContainerViewControllerDataSource.h */,
 				1073865A03AB6E71D1BE6F3B /* IFADynamicPagingContainerViewController.h */,
 				10738533DAACB490A3575300 /* IFAAbstractPagingContainerViewController.h */,
+				10738EB608A819CD0E52DBD4 /* IFAApplicationLogViewController.h */,
+				10738D4040E8E5C61A075FF1 /* IFAApplicationLog.m */,
+				107382B78556C31C379C2E8D /* IFAApplicationLog+IFACoreApp.m */,
+				10738BFAF5BB58FC3AD56AFD /* IFAApplicationLog.h */,
+				10738A6FD75C63F34DB33ABF /* IFAApplicationLogViewController.m */,
+				107384F67D90CEDAD025BE5D /* IFAApplicationLog+IFACoreApp.h */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -804,6 +819,9 @@
 				1073800227596C83086382AE /* IFAAbstractPagingContainerViewController.m in Sources */,
 				107385AB01714EA48695AEB3 /* IFADynamicPagingContainerViewController.m in Sources */,
 				107389FFA4D08D816F533543 /* IFAStaticPagingContainerViewController.m in Sources */,
+				1073869E318B479D88C3429C /* IFAApplicationLog.m in Sources */,
+				1073874199C37257285963AB /* IFAApplicationLog+IFACoreApp.m in Sources */,
+				10738163D34A3FA84248B4D6 /* IFAApplicationLogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

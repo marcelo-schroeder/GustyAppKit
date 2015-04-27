@@ -1,6 +1,9 @@
 //
-// Created by Marcelo Schroeder on 28/03/2014.
-// Copyright (c) 2014 InfoAccent Pty Limited. All rights reserved.
+//  IFAApplicationLog+IFACategory.h
+//  Gusty
+//
+//  Created by Marcelo Schroeder on 6/05/11.
+//  Copyright 2011 InfoAccent Pty Limited. All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -15,21 +18,6 @@
 //  limitations under the License.
 //
 
-#import "GustyAppKitCoreApp.h"
-
-@implementation IFAExternalWebBrowserActivity {
-
-}
-
-#pragma mark - Overrides
-
--(NSString *)activityType{
-    return @"IFAExternalWebBrowser";
-}
-
-- (void)performActivity {
-    [self.url ifa_open];
-    [self activityDidFinish:YES];
-}
+@interface IFAApplicationLog (IFACoreApp)
 
 @end

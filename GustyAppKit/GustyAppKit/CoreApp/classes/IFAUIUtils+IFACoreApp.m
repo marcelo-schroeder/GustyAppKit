@@ -15,7 +15,7 @@
 //  limitations under the License.
 //
 
-#import "GustyAppKitCoreUI.h"
+#import "GustyAppKitCoreApp.h"
 
 
 @implementation IFAUIUtils (IFACoreApp)
@@ -40,6 +40,49 @@
 
 + (CGRect)statusBarFrame{
     return [[UIApplication sharedApplication] statusBarFrame];
+}
+
++(void)appLogWithTitle:(NSString*)a_title
+               message:(NSString*)a_message
+              location:(CLLocation*)a_location
+                 error:(NSError*)a_error
+             showAlert:(BOOL)a_showAlert{
+//    NSLog(@"%@ - %@", a_title, a_message);
+    IFAApplicationLog *dbLogEntry = (IFAApplicationLog *) [[IFAPersistenceManager sharedInstance] instantiate:@"IFAApplicationLog"];
+    dbLogEntry.date = [NSDate date];
+    dbLogEntry.title = a_title;
+    dbLogEntry.message = a_message;
+    if (a_location) {
+        dbLogEntry.isLocationAware = @(YES);
+        dbLogEntry.latitude = @(a_location.coordinate.latitude);
+        dbLogEntry.longitude = @(a_location.coordinate.longitude);
+        dbLogEntry.horizontalAccuracy = @(a_location.horizontalAccuracy);
+    }else{
+        dbLogEntry.isLocationAware = @(NO);
+    }
+    if (a_error) {
+        dbLogEntry.isError = @(YES);
+        dbLogEntry.errorCode = @([a_error code]);
+        dbLogEntry.errorDescription = [a_error localizedDescription];
+    }else{
+        dbLogEntry.isError = @(NO);
+    }
+    [[IFAPersistenceManager sharedInstance] save];
+    if (a_showAlert) {
+        if ([UIApplication sharedApplication].applicationState==UIApplicationStateActive) {
+            [IFAUIUtils showAlertWithMessage:a_message title:a_title];
+        }else if ([UIApplication sharedApplication].applicationState==UIApplicationStateBackground) {
+            UILocalNotification *l_localNotification = [[UILocalNotification alloc] init];
+            if (l_localNotification) {
+                l_localNotification.alertBody = [NSString stringWithFormat:@"%@: %@", a_title, a_message];
+                [[UIApplication sharedApplication] presentLocalNotificationNow:l_localNotification];
+            }
+        }
+    }
+}
+
++(void)appLogWithTitle:(NSString*)a_title message:(NSString*)a_message;{
+    [self appLogWithTitle:a_title message:a_message location:nil error:nil showAlert:NO];
 }
 
 @end

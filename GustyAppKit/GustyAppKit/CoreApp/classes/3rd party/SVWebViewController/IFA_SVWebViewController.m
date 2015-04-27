@@ -6,7 +6,7 @@
 //
 //  https://github.com/samvermette/IFA_SVWebViewController
 
-#import "GustyAppKitCoreUI.h"
+#import "GustyAppKitCoreApp.h"
 
 @interface IFA_SVWebViewController ()
 
