@@ -33,6 +33,34 @@
           "1.1.0"
         ]
       }
+    },
+    {
+      "name": "Help",
+      "source_files": "GustyKit/GustyKit/Help/classes/**/*.{h,m}",
+      "resources": "GustyKit/GustyKit/Help/resources/**/*.*",
+      "xcconfig": {
+        "GCC_PREPROCESSOR_DEFINITIONS": "IFA_AVAILABLE_Help=1"
+      },
+      "dependencies": {
+        "GustyKit/CoreUI": [
+
+        ]
+      }
+    },
+    {
+      "name": "GoogleMobileAdsSupport",
+      "source_files": "GustyKit/GustyKit/GoogleMobileAdsSupport/classes/**/*.{h,m}",
+      "xcconfig": {
+        "GCC_PREPROCESSOR_DEFINITIONS": "IFA_AVAILABLE_GoogleMobileAdsSupport=1"
+      },
+      "dependencies": {
+        "GustyKit/CoreUI": [
+
+        ],
+        "Google-Mobile-Ads-SDK": [
+          "~> 6"
+        ]
+      }
     }
   ]
 }

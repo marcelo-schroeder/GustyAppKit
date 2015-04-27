@@ -6,9 +6,6 @@ link_with 'GustyAppKitTests'
 # GustyKit
 pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode6/GustyKit/GustyKit_development'
 
-# GoogleMobileAdsSupport dependencies
-pod 'Google-Mobile-Ads-SDK', '~> 6'
-
 # FlurrySupport dependencies
 pod 'FlurrySDK'
 

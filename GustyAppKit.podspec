@@ -14,12 +14,6 @@ Pod::Spec.new do |s|
         ss.resource      = 'GustyAppKit/GustyAppKit/CoreApp/resources/**/*.*'
         ss.dependency 'GustyKit'
     end
-    s.subspec 'GoogleMobileAdsSupport' do |ss|
-        ss.source_files  = 'GustyAppKit/GustyAppKit/GoogleMobileAdsSupport/classes/**/*.{h,m}'
-        ss.xcconfig      = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'IFA_AVAILABLE_GoogleMobileAdsSupport=1' }
-        ss.dependency 'GustyAppKit/CoreApp'
-        ss.dependency 'Google-Mobile-Ads-SDK', '~> 6'
-    end
     s.subspec 'FlurrySupport' do |ss|
         ss.source_files  = 'GustyAppKit/GustyAppKit/FlurrySupport/classes/**/*.{h,m}'
         ss.xcconfig      = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'IFA_AVAILABLE_FlurrySupport=1' }
@@ -33,11 +27,5 @@ Pod::Spec.new do |s|
         ss.dependency 'GustyAppKit/CoreApp'
         ss.dependency 'DTFoundation', '1.7.2'
         ss.dependency 'MWFeedParser', '1.0.1'
-    end
-    s.subspec 'Help' do |ss|
-        ss.source_files  = 'GustyAppKit/GustyAppKit/Help/classes/**/*.{h,m}'
-        ss.resource      = 'GustyAppKit/GustyAppKit/Help/resources/**/*.*'
-        ss.xcconfig      = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'IFA_AVAILABLE_Help=1' }
-        ss.dependency 'GustyAppKit/CoreApp'
     end
 end

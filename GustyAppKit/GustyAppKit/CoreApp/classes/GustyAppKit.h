@@ -32,16 +32,6 @@
 #import "GustyAppKitFlurrySupport.h"
 #endif
 
-// GoogleMobileAdsSupport
-#ifdef IFA_AVAILABLE_GoogleMobileAdsSupport
-#import "GustyAppKitGoogleMobileAdsSupport.h"
-#endif
-
-// Help
-#ifdef IFA_AVAILABLE_Help
-#import "GustyAppKitHelp.h"
-#endif
-
 // Html
 #ifdef IFA_AVAILABLE_Html
 #import "GustyAppKitHtml.h"
