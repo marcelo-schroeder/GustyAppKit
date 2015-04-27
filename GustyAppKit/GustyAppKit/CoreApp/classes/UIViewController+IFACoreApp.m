@@ -41,4 +41,12 @@
     [self ifa_presentModalSelectionViewController:l_activityVC fromBarButtonItem:a_barButtonItem];
 }
 
+- (UIViewController*)ifa_mainViewController {
+    if (((UIViewController*) (self.navigationController.viewControllers)[0]).ifa_presentedAsModal) {
+        return self.navigationController;
+    }else{
+        return [UIApplication sharedApplication].delegate.window.rootViewController;
+    }
+}
+
 @end

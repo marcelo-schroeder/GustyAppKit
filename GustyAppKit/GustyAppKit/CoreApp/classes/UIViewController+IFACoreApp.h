@@ -26,4 +26,6 @@
                                                    subject:(NSString *)a_subject
                                                        url:(NSURL *)a_url;
 
+- (UIViewController*)ifa_mainViewController;
+
 @end
