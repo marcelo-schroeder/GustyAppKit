@@ -186,5 +186,5 @@
 //#import "IFAHtmlDocument.h"
 #import "UIViewController+IFACoreApp.h"
 #import "IFAUIUtils+IFACoreApp.h"
-#import "IFADefaultAppAppearanceTheme.h"
+#import "IFAAppDefaultAppearanceTheme.h"
 #import "IFAAppMapViewController.h"

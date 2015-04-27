@@ -31,7 +31,7 @@
 		107384BF5B179BCC5696785F /* IFAFlurrySupportUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 107388B5F27D3E6543C81E68 /* IFAFlurrySupportUtils.m */; };
 		1073851A042989356E87C8E9 /* IFAExternalWebBrowserActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738EDD7A5F33CF2F16AFCB /* IFAExternalWebBrowserActivity.m */; };
 		1073852C105B26865BB1CC46 /* UIButton+IFAHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738885C588D47BDFC5EAFF /* UIButton+IFAHelp.m */; };
-		1073859347BD2DC1A16AD962 /* IFADefaultAppAppearanceTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 107387C106E4F15EB15A4AE0 /* IFADefaultAppAppearanceTheme.m */; };
+		1073859347BD2DC1A16AD962 /* IFAAppDefaultAppearanceTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 107387C106E4F15EB15A4AE0 /* IFAAppDefaultAppearanceTheme.m */; };
 		107385AB01714EA48695AEB3 /* IFADynamicPagingContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107388C5BC02A4C49ECDE285 /* IFADynamicPagingContainerViewController.m */; };
 		1073862083C98EE796A95569 /* UIViewController+IFAGoogleMobileAdsSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 107383B8ABDCE2409B584D58 /* UIViewController+IFAGoogleMobileAdsSupport.m */; };
 		1073863758AF701EC68AE637 /* IFAMasterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10738FB148F906EB6B5C16D3 /* IFAMasterDetailViewController.m */; };
@@ -136,10 +136,10 @@
 		1073879589174712523C707A /* UIViewController+IFAFlurrySupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IFAFlurrySupport.m"; sourceTree = "<group>"; };
 		10738798E7EA78329F8991FE /* IFA_SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFA_SVModalWebViewController.m; sourceTree = "<group>"; };
 		107387B9A56C13C6683CC122 /* UIViewController+IFAHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IFAHelp.h"; sourceTree = "<group>"; };
-		107387C106E4F15EB15A4AE0 /* IFADefaultAppAppearanceTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFADefaultAppAppearanceTheme.m; sourceTree = "<group>"; };
+		107387C106E4F15EB15A4AE0 /* IFAAppDefaultAppearanceTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAAppDefaultAppearanceTheme.m; sourceTree = "<group>"; };
 		1073884DDE37489559EA1269 /* IFAUserNotificationSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAUserNotificationSettingsManager.m; sourceTree = "<group>"; };
 		10738885C588D47BDFC5EAFF /* UIButton+IFAHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+IFAHelp.m"; sourceTree = "<group>"; };
-		1073889A8D129062C889F904 /* IFADefaultAppAppearanceTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFADefaultAppAppearanceTheme.h; sourceTree = "<group>"; };
+		1073889A8D129062C889F904 /* IFAAppDefaultAppearanceTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAAppDefaultAppearanceTheme.h; sourceTree = "<group>"; };
 		107388B5F27D3E6543C81E68 /* IFAFlurrySupportUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAFlurrySupportUtils.m; sourceTree = "<group>"; };
 		107388C5BC02A4C49ECDE285 /* IFADynamicPagingContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFADynamicPagingContainerViewController.m; sourceTree = "<group>"; };
 		107388C9C300E255A88E3D1A /* IFAAppMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAAppMapViewController.m; sourceTree = "<group>"; };
@@ -415,8 +415,8 @@
 				1073809B6A3A94F5A3CEC3C8 /* IFAExternalWebBrowserActivity.h */,
 				10738F516E06EC55A0C28C21 /* IFAUIUtils+IFACoreApp.m */,
 				10738EE5396DAC670BC667C0 /* IFAUIUtils+IFACoreApp.h */,
-				107387C106E4F15EB15A4AE0 /* IFADefaultAppAppearanceTheme.m */,
-				1073889A8D129062C889F904 /* IFADefaultAppAppearanceTheme.h */,
+				107387C106E4F15EB15A4AE0 /* IFAAppDefaultAppearanceTheme.m */,
+				1073889A8D129062C889F904 /* IFAAppDefaultAppearanceTheme.h */,
 				10738FB148F906EB6B5C16D3 /* IFAMasterDetailViewController.m */,
 				107384D178AA2059D61AC9F0 /* IFAMasterDetailViewController.h */,
 				107386CCD1D9BD838DF53382 /* IFAStaticPagingContainerViewController.h */,
@@ -818,7 +818,7 @@
 				10738186E7932FF17137318A /* UIViewController+IFACoreApp.m in Sources */,
 				1073851A042989356E87C8E9 /* IFAExternalWebBrowserActivity.m in Sources */,
 				107380EC7DB918081A4CFE27 /* IFAUIUtils+IFACoreApp.m in Sources */,
-				1073859347BD2DC1A16AD962 /* IFADefaultAppAppearanceTheme.m in Sources */,
+				1073859347BD2DC1A16AD962 /* IFAAppDefaultAppearanceTheme.m in Sources */,
 				F7C8065A1AE9FAFA0097280C /* IFAAbstractWebBrowserActivity.m in Sources */,
 				1073863758AF701EC68AE637 /* IFAMasterDetailViewController.m in Sources */,
 				1073800227596C83086382AE /* IFAAbstractPagingContainerViewController.m in Sources */,

@@ -21,7 +21,7 @@
 #import "GustyAppKitCoreApp.h"
 
 
-@implementation IFADefaultAppAppearanceTheme {
+@implementation IFAAppDefaultAppearanceTheme {
 
 }
 
