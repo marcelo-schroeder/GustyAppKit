@@ -16,7 +16,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IFAViewController.h"
+#import <GustyKit/IFAViewController.h>
 
 @protocol IFAMasterDetailViewControllerDataSource;
 

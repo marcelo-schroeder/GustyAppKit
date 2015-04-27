@@ -18,9 +18,9 @@
 //  limitations under the License.
 //
 
-#import "IFAViewController.h"
-#import "IFAContextSwitchTarget.h"
-#import "IFAPagingContainer.h"
+#import <GustyKit/IFAViewController.h>
+#import <GustyKit/IFAContextSwitchTarget.h>
+#import <GustyKit/IFAPagingContainer.h>
 
 @class IFATableViewController;
 
@@ -29,9 +29,6 @@
 @property (nonatomic, readonly) NSUInteger selectedPageIndex;
 @property (nonatomic) BOOL willRotate;
 @property (nonatomic) NSUInteger lastActiveInterfaceOrientation;
-
-- (void)updateContentLayout;
-- (void)updateContentLayoutWithAnimation:(BOOL)a_animated;
 
 -(CGRect)visibleRectForPage:(NSUInteger)a_pageIndex;
 -(void)scrollToPage:(NSUInteger)a_pageIndex animated:(BOOL)a_animated;

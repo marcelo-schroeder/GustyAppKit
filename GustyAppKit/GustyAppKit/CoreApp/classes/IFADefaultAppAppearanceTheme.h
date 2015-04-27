@@ -19,7 +19,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <GustyKit/IFADefaultAppearanceTheme.h>
 
 @interface IFADefaultAppAppearanceTheme : IFADefaultAppearanceTheme
 @end

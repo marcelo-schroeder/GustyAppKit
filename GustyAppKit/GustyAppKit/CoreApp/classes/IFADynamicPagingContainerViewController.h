@@ -18,8 +18,8 @@
 //  limitations under the License.
 //
 
-#import "IFAViewController.h"
-#import "IFACoreUiConstants.h"
+#import <GustyKit/IFAViewController.h>
+#import <GustyKit/IFACoreUiConstants.h>
 #import "IFAAbstractPagingContainerViewController.h"
 
 @class IFATableViewController;

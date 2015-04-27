@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "IFANavigationListViewController.h"
+#import <GustyKit/IFANavigationListViewController.h>
 
 @interface IFAApplicationLogViewController : IFANavigationListViewController {
 }

@@ -30,51 +30,6 @@
 
 #pragma mark - Public
 
--(void)updateContentLayout {
-    [self updateContentLayoutWithAnimation:NO];
-}
-
--(void)updateContentLayoutWithAnimation:(BOOL)a_animated {
-//    NSLog(@"updateContentLayout");
-    CGFloat l_statusBarHeight = [IFAUIUtils statusBarSize].height;
-    if (l_statusBarHeight==IFAIPhoneStatusBarDoubleHeight) {
-        l_statusBarHeight = IFAIPhoneStatusBarDoubleHeight / 2; // The extra height added by the double height status should not be added, for some strange reason...
-    }
-    CGFloat l_contentTopInset = l_statusBarHeight + self.navigationController.navigationBar.bounds.size.height;
-    UIToolbar *l_toolbar = self.navigationController.toolbar;
-    UIViewController *l_visibleViewController = self.navigationController.visibleViewController;
-    BOOL l_shouldShowToolbar = (l_visibleViewController.editing && l_visibleViewController.ifa_editModeToolbarItems.count) || (!l_visibleViewController.editing && l_visibleViewController.ifa_nonEditModeToolbarItems.count);
-    CGFloat l_toolbarHeight = l_shouldShowToolbar ? l_toolbar.bounds.size.height : 0;
-    CGFloat l_contentBottomInset = l_toolbarHeight + self.tabBarController.tabBar.bounds.size.height;
-//    NSLog(@"  l_contentTopInset = %f", l_contentTopInset);
-//    NSLog(@"  l_contentBottomInset = %f", l_contentBottomInset);
-    __block NSUInteger l_contentWidth = 0;
-    void (^l_uiChangesBlock)() = ^{
-        for (NSUInteger i=0; i<[self.childViewControllers count]; i++) {
-//        NSLog(@"    i = %u", i);
-            UIViewController *l_viewController = (self.childViewControllers)[i];
-            CGRect l_frame = self.view.frame;
-//        NSLog(@"      self.view.frame: %@", NSStringFromCGRect(self.view.frame));
-            l_frame.origin.x = l_frame.size.width * i;
-            l_frame.origin.y = 0;
-            l_viewController.view.frame = l_frame;
-//        NSLog(@"      l_viewController.view.frame: %@", NSStringFromCGRect(l_viewController.view.frame));
-            l_contentWidth += l_viewController.view.frame.size.width;
-            if ([l_viewController isKindOfClass:[UITableViewController class]]) {
-                UITableViewController *l_tableViewController = (UITableViewController *) l_viewController;
-                l_tableViewController.tableView.contentInset = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
-                l_tableViewController.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
-            }
-        }
-    };
-    if (a_animated) {
-        [UIView animateWithDuration:IFAAnimationDuration animations:l_uiChangesBlock];
-    }else{
-        l_uiChangesBlock();
-    }
-    self.scrollView.contentSize = CGSizeMake(l_contentWidth, self.view.frame.size.height);
-}
-
 -(CGRect)visibleRectForPage:(NSUInteger)a_pageIndex{
 
     CGRect l_rect = self.view.frame;
@@ -279,6 +234,51 @@
         }
     }
 //    NSLog(@"refreshAndReloadChildData - END");
+}
+
+-(void)updateContentLayout {
+    [self updateContentLayoutWithAnimation:NO];
+}
+
+-(void)updateContentLayoutWithAnimation:(BOOL)a_animated {
+//    NSLog(@"updateContentLayout");
+    CGFloat l_statusBarHeight = [IFAUIUtils statusBarSize].height;
+    if (l_statusBarHeight==IFAIPhoneStatusBarDoubleHeight) {
+        l_statusBarHeight = IFAIPhoneStatusBarDoubleHeight / 2; // The extra height added by the double height status should not be added, for some strange reason...
+    }
+    CGFloat l_contentTopInset = l_statusBarHeight + self.navigationController.navigationBar.bounds.size.height;
+    UIToolbar *l_toolbar = self.navigationController.toolbar;
+    UIViewController *l_visibleViewController = self.navigationController.visibleViewController;
+    BOOL l_shouldShowToolbar = (l_visibleViewController.editing && l_visibleViewController.ifa_editModeToolbarItems.count) || (!l_visibleViewController.editing && l_visibleViewController.ifa_nonEditModeToolbarItems.count);
+    CGFloat l_toolbarHeight = l_shouldShowToolbar ? l_toolbar.bounds.size.height : 0;
+    CGFloat l_contentBottomInset = l_toolbarHeight + self.tabBarController.tabBar.bounds.size.height;
+//    NSLog(@"  l_contentTopInset = %f", l_contentTopInset);
+//    NSLog(@"  l_contentBottomInset = %f", l_contentBottomInset);
+    __block NSUInteger l_contentWidth = 0;
+    void (^l_uiChangesBlock)() = ^{
+        for (NSUInteger i=0; i<[self.childViewControllers count]; i++) {
+//        NSLog(@"    i = %u", i);
+            UIViewController *l_viewController = (self.childViewControllers)[i];
+            CGRect l_frame = self.view.frame;
+//        NSLog(@"      self.view.frame: %@", NSStringFromCGRect(self.view.frame));
+            l_frame.origin.x = l_frame.size.width * i;
+            l_frame.origin.y = 0;
+            l_viewController.view.frame = l_frame;
+//        NSLog(@"      l_viewController.view.frame: %@", NSStringFromCGRect(l_viewController.view.frame));
+            l_contentWidth += l_viewController.view.frame.size.width;
+            if ([l_viewController isKindOfClass:[UITableViewController class]]) {
+                UITableViewController *l_tableViewController = (UITableViewController *) l_viewController;
+                l_tableViewController.tableView.contentInset = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
+                l_tableViewController.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
+            }
+        }
+    };
+    if (a_animated) {
+        [UIView animateWithDuration:IFAAnimationDuration animations:l_uiChangesBlock];
+    }else{
+        l_uiChangesBlock();
+    }
+    self.scrollView.contentSize = CGSizeMake(l_contentWidth, self.view.frame.size.height);
 }
 
 #pragma mark - Private

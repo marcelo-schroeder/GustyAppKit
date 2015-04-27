@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "IFACoreUiConstants.h"
+#import <GustyKit/IFACoreUiConstants.h>
 
 @protocol IFADynamicPagingContainerViewControllerDataSource <NSObject>
 
