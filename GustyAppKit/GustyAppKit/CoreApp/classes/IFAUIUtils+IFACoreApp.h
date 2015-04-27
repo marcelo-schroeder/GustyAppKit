@@ -37,4 +37,6 @@
 
 + (void)appLogWithTitle:(NSString *)a_title
                 message:(NSString *)a_message;
+
++(IFAMenuViewController *)mainMenuViewController;
 @end

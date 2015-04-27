@@ -85,4 +85,15 @@
     [self appLogWithTitle:a_title message:a_message location:nil error:nil showAlert:NO];
 }
 
++(IFAMenuViewController *)mainMenuViewController {
+    IFAMenuViewController *l_menuViewController = nil;
+    UIViewController *l_rootViewController = [[UIApplication sharedApplication].delegate.window rootViewController];
+    if ([l_rootViewController isKindOfClass:[UISplitViewController class]]) {
+        UISplitViewController *l_splitViewController = (UISplitViewController *) l_rootViewController;
+        UINavigationController *l_navigationController = (UINavigationController *) (l_splitViewController.viewControllers)[0];
+        l_menuViewController = (IFAMenuViewController *) l_navigationController.topViewController;
+    }
+    return l_menuViewController;
+}
+
 @end
