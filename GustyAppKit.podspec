@@ -16,14 +16,12 @@ Pod::Spec.new do |s|
     end
     s.subspec 'FlurrySupport' do |ss|
         ss.source_files  = 'GustyAppKit/GustyAppKit/FlurrySupport/classes/**/*.{h,m}'
-        ss.xcconfig      = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'IFA_AVAILABLE_FlurrySupport=1' }
         ss.dependency 'GustyAppKit/CoreApp'
         ss.dependency 'FlurrySDK'
     end
     s.subspec 'Html' do |ss|
         ss.source_files  = 'GustyAppKit/GustyAppKit/Html/classes/**/*.{h,m}'
         ss.resource      = 'GustyAppKit/GustyAppKit/Html/resources/**/*.*'
-        ss.xcconfig      = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'IFA_AVAILABLE_Html=1' }
         ss.dependency 'GustyAppKit/CoreApp'
         ss.dependency 'DTFoundation', '1.7.2'
         ss.dependency 'MWFeedParser', '1.0.1'

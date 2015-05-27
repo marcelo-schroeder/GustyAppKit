@@ -126,6 +126,12 @@
 #define COCOAPODS_VERSION_MINOR_GustyKit_Foundation 0
 #define COCOAPODS_VERSION_PATCH_GustyKit_Foundation 0
 
+// GustyKit/Help
+#define COCOAPODS_POD_AVAILABLE_GustyKit_Help
+#define COCOAPODS_VERSION_MAJOR_GustyKit_Help 1
+#define COCOAPODS_VERSION_MINOR_GustyKit_Help 0
+#define COCOAPODS_VERSION_PATCH_GustyKit_Help 0
+
 // IFATestingSupport
 #define COCOAPODS_POD_AVAILABLE_IFATestingSupport
 #define COCOAPODS_VERSION_MAJOR_IFATestingSupport 1
