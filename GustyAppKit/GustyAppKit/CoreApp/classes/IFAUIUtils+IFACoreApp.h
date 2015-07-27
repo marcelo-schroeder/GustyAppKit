@@ -40,22 +40,37 @@
 
 + (IFAMenuViewController *)mainMenuViewController;
 
+/**
+* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+*/
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle;
 
+/**
+* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+*/
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle
                  buttonLabel:(NSString *)aButtonLabel;
 
+/**
+* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+*/
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle
                     delegate:(id)aDelegate;
 
+/**
+* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+*/
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle
                     delegate:(id)aDelegate
                  buttonLabel:(NSString *)aButtonLabel;
 
+/**
+* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+*/
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle
                     delegate:(id)aDelegate
