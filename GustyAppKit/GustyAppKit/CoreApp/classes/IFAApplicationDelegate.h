@@ -21,7 +21,6 @@
 @protocol IFAAppearanceTheme;
 @class IFAColorScheme;
 
-//wip: add documentation
 @interface IFAApplicationDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
