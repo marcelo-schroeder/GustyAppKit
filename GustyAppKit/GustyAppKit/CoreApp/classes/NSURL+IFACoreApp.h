@@ -29,11 +29,8 @@
 /**
 * Convenience method for opening the receiver by an external app with the option to ask for user confirmation before leaving the host app.
 * @param a_alertPresenterViewController If provided, this view controller will present an alert asking the user whether it is ok to navigate to another app which will open the URL.
+* @returns YES if the URL could be opened, otherwise NO.
 */
-- (void)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController;
-
-//wip: add documentation
-- (void)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController
-                               completionHandler:(void (^)(BOOL success))a_completionHandler;
+- (BOOL)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController;
 
 @end

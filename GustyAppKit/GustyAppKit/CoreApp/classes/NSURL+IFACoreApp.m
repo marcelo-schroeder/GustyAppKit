@@ -33,30 +33,24 @@
     [self ifa_openWithAlertPresenterViewController:nil];
 }
 
--(void)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController{
-    void (^actionBlock)() = ^{
-        [[UIApplication sharedApplication] openURL:self];
-    };
-    if (a_alertPresenterViewController) {
-        NSString *title = [NSString stringWithFormat:NSLocalizedStringFromTable(@"You will now leave the %@ app", @"GustyKitLocalizable", @"You will now leave the <APP_NAME> app"), [IFAUtils appName]];
-        [a_alertPresenterViewController ifa_presentAlertControllerWithTitle:title
-                                                                    message:nil
-                                                                      style:UIAlertControllerStyleAlert
-                                                          actionButtonTitle:NSLocalizedStringFromTable(@"OK", @"GustyKitLocalizable", nil)
-                                                                actionBlock:actionBlock];
-    }else{
-        actionBlock();
-    }
-}
-
--(void)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController completionHandler:(void (^)(BOOL success))a_completionHandler {
+-(BOOL)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController{
     BOOL success = [[UIApplication sharedApplication] canOpenURL:self];
     if (success) {
-        [self ifa_openWithAlertPresenterViewController:a_alertPresenterViewController];
+        void (^actionBlock)() = ^{
+            [[UIApplication sharedApplication] openURL:self];
+        };
+        if (a_alertPresenterViewController) {
+            NSString *title = [NSString stringWithFormat:NSLocalizedStringFromTable(@"You will now leave the %@ app", @"GustyKitLocalizable", @"You will now leave the <APP_NAME> app"), [IFAUtils appName]];
+            [a_alertPresenterViewController ifa_presentAlertControllerWithTitle:title
+                                                                        message:nil
+                                                                          style:UIAlertControllerStyleAlert
+                                                              actionButtonTitle:NSLocalizedStringFromTable(@"OK", @"GustyKitLocalizable", nil)
+                                                                    actionBlock:actionBlock];
+        }else{
+            actionBlock();
+        }
     }
-    if (a_completionHandler) {
-        a_completionHandler(success);
-    }
+    return success;
 }
 
 @end
