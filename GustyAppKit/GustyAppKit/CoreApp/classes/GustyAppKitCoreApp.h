@@ -18,8 +18,6 @@
 //  limitations under the License.
 //
 
-//wip: need to set it up on the build server
-
 // Apple Frameworks
 #import <CoreData/CoreData.h>
 #import <CoreText/CoreText.h>
