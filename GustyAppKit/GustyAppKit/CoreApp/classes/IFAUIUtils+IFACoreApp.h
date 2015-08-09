@@ -42,12 +42,17 @@
 
 /**
 * Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+* @param aMessage Alert's message.
+* @param aTitle Alert's title.
 */
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle;
 
 /**
 * Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+* @param aMessage Alert's message.
+* @param aTitle Alert's title.
+* @param aButtonLabel Button's label.
 */
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle
@@ -55,6 +60,9 @@
 
 /**
 * Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+* @param aMessage Alert's message.
+* @param aTitle Alert's title.
+* @param aDelegate Alert's delegate implementing UIAlertViewDelegate.
 */
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle
@@ -62,6 +70,10 @@
 
 /**
 * Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+* @param aMessage Alert's message.
+* @param aTitle Alert's title.
+* @param aDelegate Alert's delegate implementing UIAlertViewDelegate.
+* @param aButtonLabel Button's label.
 */
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle
@@ -70,6 +82,11 @@
 
 /**
 * Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in GustyKit instead.
+* @param aMessage Alert's message.
+* @param aTitle Alert's title.
+* @param aDelegate Alert's delegate implementing UIAlertViewDelegate.
+* @param aButtonLabel Button's label.
+* @param aTag Tag for the alert view.
 */
 + (void)showAlertWithMessage:(NSString *)aMessage
                        title:(NSString *)aTitle
