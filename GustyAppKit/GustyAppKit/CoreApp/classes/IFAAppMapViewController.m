@@ -48,7 +48,8 @@
 -(void)IFA_onLocationAuthorizationStatusChange:(NSNotification*)a_notification {
     // Respond to authorisation changes requested by this view controller
     if ([UIApplication sharedApplication].applicationState==UIApplicationStateActive) {
-        [self locateUserWithCompletionBlock:nil];
+        [self locateUserDueToUserRequest:NO
+                         completionBlock:nil];
     }
 }
 
