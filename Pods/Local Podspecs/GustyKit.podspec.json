@@ -23,24 +23,22 @@
     },
     {
       "name": "CoreUI",
-      "source_files": "GustyKit/GustyKit/CoreUI/classes/**/*.{h,m}",
-      "resources": "GustyKit/GustyKit/CoreUI/resources/**/*.*",
+      "source_files": [
+        "GustyKit/GustyKit/CoreUI/classes/**/*.{h,m}",
+        "GustyKit/GustyKit/Help/classes/**/*.{h,m}"
+      ],
+      "resources": [
+        "GustyKit/GustyKit/CoreUI/resources/**/*.*",
+        "GustyKit/GustyKit/Help/resources/**/*.*"
+      ],
       "dependencies": {
         "GustyKit/Foundation": [
-
-        ],
-        "GustyKit/Help": [
 
         ],
         "ODRefreshControl": [
           "1.1.0"
         ]
       }
-    },
-    {
-      "name": "Help",
-      "source_files": "GustyKit/GustyKit/Help/classes/**/*.{h,m}",
-      "resources": "GustyKit/GustyKit/Help/resources/**/*.*"
     }
   ]
 }

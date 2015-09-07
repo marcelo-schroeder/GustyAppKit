@@ -4,7 +4,8 @@ xcodeproj 'GustyAppKit/GustyAppKit.xcodeproj'
 link_with 'GustyAppKitTests'
 
 # GustyKit
-pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode6/GustyKit/GustyKit_development'
+#pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode6/GustyKit/GustyKit_development'
+pod 'GustyKit', :git => 'https://github.com/marcelo-schroeder/GustyKit.git', :branch => 'dev_NextVersion'
 
 # FlurrySupport dependencies
 pod 'FlurrySDK'
