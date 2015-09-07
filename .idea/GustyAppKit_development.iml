@@ -466,38 +466,37 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ODRefreshControl/ODRefreshControl/ODRefreshControl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ODRefreshControl/ODRefreshControl/ODRefreshControl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DTFoundation/Pods-DTFoundation-Private.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DTFoundation/Pods-DTFoundation-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DTFoundation/Pods-DTFoundation-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DTFoundation/Pods-DTFoundation.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyKit/Pods-GustyKit-Private.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyKit/Pods-GustyKit-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyKit/Pods-GustyKit-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyKit/Pods-GustyKit.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IFATestingSupport/Pods-IFATestingSupport-Private.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IFATestingSupport/Pods-IFATestingSupport-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IFATestingSupport/Pods-IFATestingSupport-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-IFATestingSupport/Pods-IFATestingSupport.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-MWFeedParser/Pods-MWFeedParser-Private.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-MWFeedParser/Pods-MWFeedParser-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-MWFeedParser/Pods-MWFeedParser-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-MWFeedParser/Pods-MWFeedParser.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-OCHamcrest/Pods-OCHamcrest-Private.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-OCHamcrest/Pods-OCHamcrest-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-OCHamcrest/Pods-OCHamcrest-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-OCHamcrest/Pods-OCHamcrest.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-OCMock/Pods-OCMock-Private.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-OCMock/Pods-OCMock-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-OCMock/Pods-OCMock-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-OCMock/Pods-OCMock.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-ODRefreshControl/Pods-ODRefreshControl-Private.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-ODRefreshControl/Pods-ODRefreshControl-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-ODRefreshControl/Pods-ODRefreshControl-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-ODRefreshControl/Pods-ODRefreshControl.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DTFoundation/DTFoundation-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DTFoundation/DTFoundation-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DTFoundation/DTFoundation-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DTFoundation/DTFoundation.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GustyKit/GustyKit-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GustyKit/GustyKit-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GustyKit/GustyKit-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GustyKit/GustyKit.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IFATestingSupport/IFATestingSupport-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IFATestingSupport/IFATestingSupport-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IFATestingSupport/IFATestingSupport-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IFATestingSupport/IFATestingSupport.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCHamcrest/OCHamcrest-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCHamcrest/OCHamcrest-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCHamcrest/OCHamcrest-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCHamcrest/OCHamcrest.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ODRefreshControl/ODRefreshControl-Private.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ODRefreshControl/ODRefreshControl-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ODRefreshControl/ODRefreshControl-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ODRefreshControl/ODRefreshControl.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-environment.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" isTestSource="false" />
@@ -517,6 +516,8 @@
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAbstractSelectionListViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAActionSheet.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAActionSheet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAnalyticsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAnalyticsManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAppearanceTheme.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAppearanceThemeManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAppearanceThemeManager.m" isTestSource="false" />
@@ -543,6 +544,8 @@
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAContextSwitchingManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACoreUiConstants.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACoreUiConstants.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACrashReportingUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACrashReportingUtils.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACurrentLocationManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACurrentLocationManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACustomLayoutSupport.h" isTestSource="false" />
@@ -945,7 +948,6 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
-          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
           <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
         </CLASSES>
         <SOURCES>
@@ -1029,7 +1031,6 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
-          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
           <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
         </SOURCES>
       </library>
