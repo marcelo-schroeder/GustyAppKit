@@ -6,6 +6,8 @@ GustyAppKit has a dependency on the foundation provided by [GustyKit](https://gi
 
 This framework has been used in a few projects for my clients.
 
+The latest API documentation can be found [here](http://cocoadocs.org/docsets/GustyAppKit).
+
 Additional documentation and sample code are coming soon.
 
 ## Features ##
@@ -100,10 +102,6 @@ GustyAppKit can be installed via Cocoapods.
 ## How to use GustyAppKit ##
 
 More documentation is coming soon...
-
-### HUD ###
-
-The best thing at this stage is to check out the [GustyAppKit's HUD demo app](https://github.com/marcelo-schroeder/GustyAppKitDemoApp-HUD) and inspect its source code to see how the various features are used.  
 
 ## Latest API Documentation ##
 
