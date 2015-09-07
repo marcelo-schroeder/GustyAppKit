@@ -1,18 +1,20 @@
-<img src="http://marcelo-schroeder.github.io/GustyLib-logo.png" alt="GustyLib logo" width="300" height="auto">
+<img src="http://marcelo-schroeder.github.io/GustyAppKit-logo.png" alt="GustyAppKit logo" width="300" height="auto">
 
-A Cocoa Touch static library to help you develop high quality iOS apps faster. GustyLib 1.0.0 or greater supports iOS 8 or greater.
+A Cocoa Touch framework to help you develop high quality iOS apps faster. GustyAppKit requires iOS 8 or greater.
 
-This library has been used in a few projects for my clients.
+GustyAppKit has a dependency on the foundation provided by [GustyKit](https://github.com/marcelo-schroeder/GustyKit). If you need foundation functionality that is safe to use by app extensions, then use GustyKit. GustyAppKit provides extra functionality on top of GustyKit that only apps can use (e.g. access to UIApplication).
+
+This framework has been used in a few projects for my clients.
 
 Additional documentation and sample code are coming soon.
 
 ## Features ##
 
-GustyLib is broad in terms of the features it offers, but it is also flexible. You can benefit just from the features you are interest in without being distracted by the others you don't want to use.
+GustyAppKit is broad in terms of the features it offers, but it is also flexible. You can benefit just from the features you are interest in without being distracted by the others you don't want to use.
 
 ### Core Data ###
 
-GustyLib makes it easy to implement the UI on top of Core Data persistence with the following main features:
+GustyAppKit makes it easy to implement the UI on top of Core Data persistence with the following main features:
 
 * CRUD support
   * Configurable via plist (no code required, but it is supported)
@@ -91,18 +93,18 @@ Features:
 * Smart grid collection views
 * HTML parsing and manipulation utility classes
 
-## How to install GustyLib ##
+## How to install GustyAppKit ##
 
-GustyLib can be installed via Cocoapods.
+GustyAppKit can be installed via Cocoapods.
 
-## How to use GustyLib ##
+## How to use GustyAppKit ##
 
 More documentation is coming soon...
 
 ### HUD ###
 
-The best thing at this stage is to check out the [GustyLib's HUD demo app](https://github.com/marcelo-schroeder/GustyLibDemoApp-HUD) and inspect its source code to see how the various features are used.  
+The best thing at this stage is to check out the [GustyAppKit's HUD demo app](https://github.com/marcelo-schroeder/GustyAppKitDemoApp-HUD) and inspect its source code to see how the various features are used.  
 
 ## Latest API Documentation ##
 
-http://cocoadocs.org/docsets/GustyLib
+http://cocoadocs.org/docsets/GustyAppKit
