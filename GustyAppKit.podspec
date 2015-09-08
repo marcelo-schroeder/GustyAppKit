@@ -14,11 +14,6 @@ Pod::Spec.new do |s|
         ss.resource      = 'GustyAppKit/GustyAppKit/CoreApp/resources/**/*.*'
         ss.dependency 'GustyKit'
     end
-    s.subspec 'FlurrySupport' do |ss|
-        ss.source_files  = 'GustyAppKit/GustyAppKit/FlurrySupport/classes/**/*.{h,m}'
-        ss.dependency 'GustyAppKit/CoreApp'
-        ss.dependency 'FlurrySDK'
-    end
     s.subspec 'Html' do |ss|
         ss.source_files  = 'GustyAppKit/GustyAppKit/Html/classes/**/*.{h,m}'
         ss.dependency 'GustyAppKit/CoreApp'

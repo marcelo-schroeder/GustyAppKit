@@ -39,9 +39,6 @@ PODS:
     - DTFoundation/Core
   - DTFoundation/UIKit_BlocksAdditions (1.7.2):
     - DTFoundation/Core
-  - FlurrySDK (5.4.0):
-    - FlurrySDK/FlurrySDK (= 5.4.0)
-  - FlurrySDK/FlurrySDK (5.4.0)
   - GustyKit (1.0.0):
     - GustyKit/CoreUI (= 1.0.0)
   - GustyKit/CoreUI (1.0.0):
@@ -66,7 +63,6 @@ PODS:
 
 DEPENDENCIES:
   - DTFoundation (= 1.7.2)
-  - FlurrySDK
   - GustyKit
   - IFATestingSupport
   - MWFeedParser (= 1.0.1)
@@ -75,7 +71,6 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   DTFoundation: fa01e6fa12f356c5d617d0a2311927ec4688b9f4
-  FlurrySDK: 7f929b68dea38ce735979fb039229f62c0b697b5
   GustyKit: 563f5afb8ed64e066a7696389f099ec0bc4a689b
   IFATestingSupport: 6c403fe2b2842315ba76193b8023d61050175e6a
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247

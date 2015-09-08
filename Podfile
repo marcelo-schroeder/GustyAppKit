@@ -8,9 +8,6 @@ pod 'GustyKit'
 #pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode6/GustyKit/GustyKit_development'
 # pod 'GustyKit', :git => 'https://github.com/marcelo-schroeder/GustyKit.git', :branch => 'dev_NextVersion'
 
-# FlurrySupport dependencies
-pod 'FlurrySDK'
-
 # Html dependencies
 pod 'DTFoundation', '1.7.2'
 pod 'MWFeedParser', '1.0.1'
