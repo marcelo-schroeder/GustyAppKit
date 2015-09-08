@@ -640,7 +640,7 @@
                             <outlet property="delegate" destination="IQE-J7-nCp" id="Mq2-yh-aSh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="GustyLib HUD Demo" id="wjD-fA-9ec"/>
+                    <navigationItem key="navigationItem" title="GustyAppKit HUD Demo" id="wjD-fA-9ec"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fiQ-Rp-fIZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
