@@ -101,7 +101,13 @@ GustyAppKit can be installed via Cocoapods.
 
 ## How to use GustyAppKit ##
 
-More documentation is coming soon...
+Refer to the DemoApp workspace for the demo app exploring GustyAppKit's features. Only HUD functionality is currently explored by the demo app. More to come soon...
+
+The easiest way to just try the demo app is by running the following from the command line (Cocapods must be installed):
+
+```
+pod try GustyAppKit
+```
 
 ## Latest API Documentation ##
 
