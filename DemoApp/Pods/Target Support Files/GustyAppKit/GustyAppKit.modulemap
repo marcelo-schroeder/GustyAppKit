@@ -1,0 +1,6 @@
+framework module GustyAppKit {
+  umbrella header "GustyAppKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

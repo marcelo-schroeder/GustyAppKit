@@ -1,0 +1,1 @@
+../../../GustyKit/GustyKit/GustyKit/Help/classes/IFAHelpViewController.h

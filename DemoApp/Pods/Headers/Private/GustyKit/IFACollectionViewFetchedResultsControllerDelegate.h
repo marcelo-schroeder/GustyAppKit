@@ -1,0 +1,1 @@
+../../../GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewFetchedResultsControllerDelegate.h
