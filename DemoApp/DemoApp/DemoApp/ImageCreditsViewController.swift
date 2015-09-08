@@ -1,6 +1,6 @@
 //
 //  ImageCreditsViewController.swift
-//  GustyLibDemoApp-HUD
+//  DemoApp
 //
 //  Created by Marcelo Schroeder on 28/01/2015.
 //  Copyright (c) 2015 InfoAccent Pty Ltd. All rights reserved.

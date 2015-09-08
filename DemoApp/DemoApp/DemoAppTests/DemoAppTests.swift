@@ -1,6 +1,6 @@
 //
 //  GustyLibDemoApp_HUDTests.swift
-//  GustyLibDemoApp-HUDTests
+//  DemoAppTests
 //
 //  Created by Marcelo Schroeder on 19/01/2015.
 //  Copyright (c) 2015 InfoAccent Pty Ltd. All rights reserved.

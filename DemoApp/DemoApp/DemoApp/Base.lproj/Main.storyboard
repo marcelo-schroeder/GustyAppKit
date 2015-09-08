@@ -6,7 +6,7 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--GustyLib HUD Demo-->
+        <!--Demo App-->
         <scene sceneID="58X-Cf-vCA">
             <objects>
                 <tableViewController id="IQE-J7-nCp" customClass="MenuViewController" customModule="GustyLibDemoApp_HUD" customModuleProvider="target" sceneMemberID="viewController">

@@ -16,7 +16,6 @@
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/MenuViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/MultipleHudsViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/TableViewCell.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoAppTests/GustyLibDemoApp_HUDTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoAppTests/Info.plist" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/DemoApp.xcworkspace" />
