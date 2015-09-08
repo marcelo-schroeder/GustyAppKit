@@ -421,6 +421,8 @@
 
 - (void)updateConstraints {
 
+//    NSLog(@"updateConstraints");
+
     UIView *contentView = self.contentView;
     UIView *chromeView = self.chromeView;
     UIActivityIndicatorView *activityIndicatorView = self.activityIndicatorView;
@@ -481,6 +483,7 @@
                                                                                viewName,
                                                                                paddingConstraintsVisualFormatRelation,
                                                                                paddingConstraintsVisualFormatConstant];
+//                NSLog(@"  constraintsVisualFormat = %@", constraintsVisualFormat);
                 [self.IFA_contentHorizontalLayoutConstraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:constraintsVisualFormat
                                                                                                                          options:(NSLayoutFormatOptions) 0
                                                                                                                          metrics:nil
@@ -515,6 +518,7 @@
         }
         NSString *stringToAppendToVisualFormat = [NSString stringWithFormat:@"-(%@)-|", paddingConstraintsVisualFormatConstant];
         [contentVerticalLayoutConstraintsVisualFormat appendString:stringToAppendToVisualFormat];
+//        NSLog(@"contentVerticalLayoutConstraintsVisualFormat = %@", contentVerticalLayoutConstraintsVisualFormat);
         [self.IFA_contentVerticalLayoutConstraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:contentVerticalLayoutConstraintsVisualFormat
                                                                                                                options:(NSLayoutFormatOptions) 0
                                                                                                                metrics:nil
@@ -552,8 +556,9 @@
     CGFloat chromeViewMaxWidth = referenceScreenWidth - horizontalMargin;
 
     // Set preferred max layout width for labels - had to add this for iOS 9 compatibility (with iOS 8 build)
-    textLabel.preferredMaxLayoutWidth = chromeViewMaxWidth;
-    detailTextLabel.preferredMaxLayoutWidth = chromeViewMaxWidth;
+    CGFloat labelPreferredMaxLayoutWidth = chromeViewMaxWidth - 2 * self.chromeHorizontalPadding;
+    textLabel.preferredMaxLayoutWidth = labelPreferredMaxLayoutWidth;
+    detailTextLabel.preferredMaxLayoutWidth = labelPreferredMaxLayoutWidth;
 
     NSLayoutConstraint *chromeViewMaxWidthConstraint = [NSLayoutConstraint constraintWithItem:chromeView
                                                                                    attribute:NSLayoutAttributeWidth

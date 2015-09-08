@@ -79,11 +79,6 @@
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity~ipad.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity~iphone.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp/resources/IFAAboutCustomView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/FlurrySupport/classes/GustyAppKitFlurrySupport.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/FlurrySupport/classes/IFAFlurrySupportUtils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/FlurrySupport/classes/IFAFlurrySupportUtils.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/FlurrySupport/classes/UIViewController+IFAFlurrySupport.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/FlurrySupport/classes/UIViewController+IFAFlurrySupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/GustyAppKit-Prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/GustyAppKitHtml.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/IFAHtmlParser.h" isTestSource="false" />
@@ -106,7 +101,6 @@
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit" />
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit.xcodeproj" />
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp" />
-    <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/FlurrySupport" />
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/GustyAppKit-Prefix.pch" />
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html" />
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKitTests" />
@@ -233,8 +227,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIView+DTFoundation.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIWebView+DTFoundation.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIWebView+DTFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/FlurrySDK/Flurry/Flurry.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/FlurrySDK/Flurry/libFlurry_5.4.0.a" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPGrowingTextView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPGrowingTextView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPTextViewInternal.h" isTestSource="false" />
@@ -945,6 +937,8 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
         </CLASSES>
         <SOURCES>
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
@@ -1027,6 +1021,8 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
         </SOURCES>
       </library>
     </orderEntry>

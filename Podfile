@@ -5,7 +5,7 @@ link_with 'GustyAppKitTests'
 
 # GustyKit
 pod 'GustyKit'
-#pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode6/GustyKit/GustyKit_development'
+# pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode6/GustyKit/GustyKit_development'
 # pod 'GustyKit', :git => 'https://github.com/marcelo-schroeder/GustyKit.git', :branch => 'dev_NextVersion'
 
 # Html dependencies
