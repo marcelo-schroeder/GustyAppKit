@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ikw-ug-Tef">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--GustyLib HUD Demo-->
+        <scene sceneID="58X-Cf-vCA">
+            <objects>
+                <tableViewController id="IQE-J7-nCp" customClass="MenuViewController" customModule="GustyLibDemoApp_HUD" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="8Ep-yA-972">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Text" id="kBv-9U-vyW">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="VeK-nU-nR9" style="IBUITableViewCellStyleDefault" id="aFa-yh-vcs" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aFa-yh-vcs" id="Ucd-h2-43Y">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Text label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VeK-nU-nR9">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="6If-pe-gmE" style="IBUITableViewCellStyleDefault" id="Gg8-sn-axP" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gg8-sn-axP" id="apY-b2-z7J">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail text label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6If-pe-gmE">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Visual Indicator" id="ygL-hn-N52">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="gEo-Hk-pIH" style="IBUITableViewCellStyleDefault" id="OVB-8f-as3" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OVB-8f-as3" id="QKV-6l-qgr">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Indeterminate progress" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gEo-Hk-pIH">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="EIE-bS-h0H" style="IBUITableViewCellStyleDefault" id="WLE-0V-LdD" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WLE-0V-LdD" id="mRv-1Z-8KY">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Determinate progress" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EIE-bS-h0H">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="KFK-hk-kov" style="IBUITableViewCellStyleDefault" id="I1Y-K7-Ojh" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I1Y-K7-Ojh" id="shG-fY-8cj">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Success" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KFK-hk-kov">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="joh-Au-7K3" style="IBUITableViewCellStyleDefault" id="fbG-fc-vFe" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fbG-fc-vFe" id="LFs-OV-XqP">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Error" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="joh-Au-7K3">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="7ID-uA-h7y" style="IBUITableViewCellStyleDefault" id="dR6-iH-ZvE" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dR6-iH-ZvE" id="eUR-cW-sM6">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Custom view" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7ID-uA-h7y">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Modality" id="CPq-FA-QNY">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="cEl-Rt-EuU" style="IBUITableViewCellStyleDefault" id="zLR-Dd-4F4" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zLR-Dd-4F4" id="rTq-39-iYJ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Modal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cEl-Rt-EuU">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="6Eh-0Y-X45" style="IBUITableViewCellStyleDefault" id="qUp-Uc-hn6" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qUp-Uc-hn6" id="BJN-z2-axE">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Non-modal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6Eh-0Y-X45">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="User Interaction" id="ZPc-kp-sDl">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="6Pb-6O-Ead" style="IBUITableViewCellStyleDefault" id="d55-Gn-Rmd" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d55-Gn-Rmd" id="xAy-9a-w6V">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chrome tap with auto dismissal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6Pb-6O-Ead">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="o8J-S3-8SQ" style="IBUITableViewCellStyleDefault" id="Npm-Fj-MSr" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Npm-Fj-MSr" id="Q69-0g-apY">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chrome tap with action" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o8J-S3-8SQ">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="ELp-o1-XoF" style="IBUITableViewCellStyleDefault" id="V7f-YM-4Ls" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V7f-YM-4Ls" id="edB-Wt-rAM">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Overlay tap with auto dismissal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ELp-o1-XoF">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="QMl-qJ-Buz" style="IBUITableViewCellStyleDefault" id="aQX-mM-pfd" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aQX-mM-pfd" id="t8J-2J-sSs">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Overlay tap with action" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QMl-qJ-Buz">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Layout" id="Yzd-jZ-MIi">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Khl-4K-Fnw" style="IBUITableViewCellStyleDefault" id="8IG-qI-KDt" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8IG-qI-KDt" id="USY-IG-aBO">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Compressed layout fitting size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Khl-4K-Fnw">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="omF-o8-78B" style="IBUITableViewCellStyleDefault" id="dLG-ZZ-7Gf" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dLG-ZZ-7Gf" id="dxL-zo-5Rj">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Expanded layout fitting size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="omF-o8-78B">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="pQv-He-FDr" style="IBUITableViewCellStyleDefault" id="ogT-XL-9Wu" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ogT-XL-9Wu" id="RWw-xa-PbO">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Padding" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pQv-He-FDr">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="cpx-o1-Q3b" style="IBUITableViewCellStyleDefault" id="BWa-2J-cf8" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BWa-2J-cf8" id="8yK-bH-aAJ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Inter-item spacing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cpx-o1-Q3b">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Dynamic Layout Changes" id="zdg-MM-w5T">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="dm9-fm-7hn" style="IBUITableViewCellStyleDefault" id="eHb-mv-6RM" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eHb-mv-6RM" id="DAp-zf-Syh">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Non-animated layout changes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dm9-fm-7hn">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="dO6-Ku-nAs" style="IBUITableViewCellStyleDefault" id="L2Y-YG-LaD" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L2Y-YG-LaD" id="rP8-S7-NX0">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Animated layout changes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dO6-Ku-nAs">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Font" id="lqJ-5a-fsQ">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="k4q-oP-BSf" style="IBUITableViewCellStyleDefault" id="41e-BL-LRh" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="41e-BL-LRh" id="IsW-Pn-KCQ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Text style customisation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k4q-oP-BSf">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="gSt-L0-tQp" style="IBUITableViewCellStyleDefault" id="hbk-PU-aNG" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hbk-PU-aNG" id="IZM-sx-1K5">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Font customisation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gSt-L0-tQp">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Colours" id="mct-eu-gf8">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="MKy-Q6-DkM" style="IBUITableViewCellStyleDefault" id="F2f-Rc-4tm" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F2f-Rc-4tm" id="oPf-LS-MNf">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Modal - custom colours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MKy-Q6-DkM">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="khT-Au-YQe" style="IBUITableViewCellStyleDefault" id="bhh-zG-E2V" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bhh-zG-E2V" id="RXy-vf-ZcS">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Non-modal - custom colours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="khT-Au-YQe">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Style" id="aIf-2n-Y1f">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Btv-Sm-AGZ" style="IBUITableViewCellStyleDefault" id="7tw-oy-ZO9" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7tw-oy-ZO9" id="xGx-sY-AwT">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Plain" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Btv-Sm-AGZ">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9ic-2d-gE8" style="IBUITableViewCellStyleDefault" id="oAd-8O-HJt" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oAd-8O-HJt" id="aEP-iD-WXL">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Blur - dark" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9ic-2d-gE8">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="OYI-Ie-weB" kind="show" id="k2N-T5-Twj"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="B4D-ps-l5m" style="IBUITableViewCellStyleDefault" id="rUI-eR-NUx" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rUI-eR-NUx" id="FNp-YP-Dtz">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Blur - light" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B4D-ps-l5m">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="OYI-Ie-weB" kind="show" id="CWA-Qt-87j"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="viC-WD-9TL" style="IBUITableViewCellStyleDefault" id="y4S-WN-eN8" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y4S-WN-eN8" id="d0f-yR-TiF">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Blur and vibrancy - dark" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="viC-WD-9TL">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="OYI-Ie-weB" kind="show" id="zbT-kn-QQZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="DI0-67-d5a" style="IBUITableViewCellStyleDefault" id="cSP-Sr-5WA" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cSP-Sr-5WA" id="E6t-Kr-CT6">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Blur and vibrancy - light" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DI0-67-d5a">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="OYI-Ie-weB" kind="show" id="GOd-GH-X4m"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="View Controller Containment" id="QS6-G7-uCv">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="F7j-pe-FDD" style="IBUITableViewCellStyleDefault" id="tZM-bi-PbX" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tZM-bi-PbX" id="lVA-Xq-hsI">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Dedicated window" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F7j-pe-FDD">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="WNn-Gf-Oby" style="IBUITableViewCellStyleDefault" id="cae-Yq-YQ4" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cae-Yq-YQ4" id="tSB-9n-dWn">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Parent view controller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WNn-Gf-Oby">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="zcI-R6-WY0" kind="show" id="yZG-D9-YBa"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Hz4-oV-Fkk" style="IBUITableViewCellStyleDefault" id="NCQ-Ee-L0l" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NCQ-Ee-L0l" id="IVm-dZ-cAh">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Parent view controller's subview" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hz4-oV-Fkk">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="zcI-R6-WY0" kind="show" id="UAE-Ma-ae2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="2Ml-Xs-GcH" style="IBUITableViewCellStyleDefault" id="gCW-ew-wZD" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gCW-ew-wZD" id="c19-QL-P47">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Multiple HUD's with storyboard" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2Ml-Xs-GcH">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="wcB-Vi-PZI" kind="show" id="Xnl-Ol-VGz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Content subview order" id="Zpt-9C-kME">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="TAE-yI-c4g" style="IBUITableViewCellStyleDefault" id="mhh-OF-yBi" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mhh-OF-yBi" id="3Wa-yv-tI7">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Default order" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TAE-yI-c4g">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Jc2-e7-q6t" style="IBUITableViewCellStyleDefault" id="Gb5-LB-bzS" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gb5-LB-bzS" id="x6R-MT-qgG">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Customised order" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jc2-e7-q6t">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Animation" id="mCX-Hg-96j">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="1Pi-tx-wct" style="IBUITableViewCellStyleDefault" id="TgT-hD-gvl" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TgT-hD-gvl" id="kwU-Q7-5B3">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="With animation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Pi-tx-wct">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="7QW-yM-hw3" style="IBUITableViewCellStyleDefault" id="EaA-Ef-DUs" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EaA-Ef-DUs" id="0Qq-h2-CU6">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Without animation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7QW-yM-hw3">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="J8U-9z-Pbl" style="IBUITableViewCellStyleDefault" id="BhS-34-L1p" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BhS-34-L1p" id="S56-vg-trD">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Customised animation duration" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J8U-9z-Pbl">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Completion Blocks" id="sRr-7V-I8C">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="A1W-UB-i93" style="IBUITableViewCellStyleDefault" id="cLV-KL-aZK" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cLV-KL-aZK" id="O3i-7q-ryf">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Presentation completion block" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A1W-UB-i93">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="cyx-kN-kVM" style="IBUITableViewCellStyleDefault" id="zcR-Ig-LwW" customClass="TableViewCell" customModule="GustyLibDemoApp_HUD" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zcR-Ig-LwW" id="ssw-q4-IaH">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Dismissal completion block" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cyx-kN-kVM">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="IQE-J7-nCp" id="fKR-Dd-3Dr"/>
+                            <outlet property="delegate" destination="IQE-J7-nCp" id="Mq2-yh-aSh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="GustyLib HUD Demo" id="wjD-fA-9ec"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fiQ-Rp-fIZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="647" y="473"/>
+        </scene>
+        <!--Blur And Vibrancy Style View Controller-->
+        <scene sceneID="be9-Zs-aYf">
+            <objects>
+                <viewController id="OYI-Ie-weB" customClass="BlurAndVibrancyStyleViewController" customModule="GustyLibDemoApp_HUD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HFb-nw-hBI"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Bb-mo-IFy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5RZ-I5-yMi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windsurf" translatesAutoresizingMaskIntoConstraints="NO" id="sdh-Gk-W4z" userLabel="Image View">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PGv-Yo-CK8">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="tBQ-1w-OrS" kind="embed" id="gug-Ng-sLA"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2Bb-mo-IFy" firstAttribute="top" secondItem="sdh-Gk-W4z" secondAttribute="bottom" id="2hw-1K-C69"/>
+                            <constraint firstItem="2Bb-mo-IFy" firstAttribute="top" secondItem="PGv-Yo-CK8" secondAttribute="bottom" id="2rG-Se-6At"/>
+                            <constraint firstItem="sdh-Gk-W4z" firstAttribute="leading" secondItem="5RZ-I5-yMi" secondAttribute="leading" id="DLJ-AN-PA1"/>
+                            <constraint firstItem="sdh-Gk-W4z" firstAttribute="bottom" secondItem="5RZ-I5-yMi" secondAttribute="bottomMargin" id="TZJ-2q-wje"/>
+                            <constraint firstItem="sdh-Gk-W4z" firstAttribute="top" secondItem="HFb-nw-hBI" secondAttribute="bottom" id="WWF-pM-lUp"/>
+                            <constraint firstAttribute="trailing" secondItem="sdh-Gk-W4z" secondAttribute="trailing" id="eGm-9q-Qrm"/>
+                            <constraint firstAttribute="trailing" secondItem="PGv-Yo-CK8" secondAttribute="trailing" id="iTg-CF-PYm"/>
+                            <constraint firstItem="PGv-Yo-CK8" firstAttribute="leading" secondItem="5RZ-I5-yMi" secondAttribute="leading" id="pMF-a8-XcV"/>
+                            <constraint firstItem="PGv-Yo-CK8" firstAttribute="top" secondItem="HFb-nw-hBI" secondAttribute="bottom" id="t5k-88-KZU"/>
+                            <constraint firstItem="sdh-Gk-W4z" firstAttribute="top" secondItem="5RZ-I5-yMi" secondAttribute="topMargin" id="tsF-K0-Cjl"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="WWF-pM-lUp"/>
+                                <exclude reference="2hw-1K-C69"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="ogV-Om-Tj7">
+                        <barButtonItem key="rightBarButtonItem" title="Credits" id="qZc-mq-Dvd">
+                            <connections>
+                                <segue destination="FaV-3G-TKV" kind="show" id="LMy-Ge-PEt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="sdh-Gk-W4z" id="WDy-Al-3on"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nIm-PY-Fa3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1698" y="-413"/>
+        </scene>
+        <!--Containment View Controller-->
+        <scene sceneID="Lei-PM-VUm">
+            <objects>
+                <viewController id="zcI-R6-WY0" customClass="ContainmentViewController" customModule="GustyLibDemoApp_HUD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J0o-wE-n6D"/>
+                        <viewControllerLayoutGuide type="bottom" id="NfB-bW-91E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fRB-sI-PuJ">
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7u-yH-x00">
+                                <rect key="frame" x="30" y="94" width="540" height="476"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="X5r-CR-NHa" kind="embed" id="wWX-0I-Ljg"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NfB-bW-91E" firstAttribute="top" secondItem="e7u-yH-x00" secondAttribute="bottom" constant="30" id="3Qr-ua-kJh"/>
+                            <constraint firstAttribute="centerX" secondItem="e7u-yH-x00" secondAttribute="centerX" id="8Az-qJ-WUZ"/>
+                            <constraint firstItem="e7u-yH-x00" firstAttribute="width" secondItem="fRB-sI-PuJ" secondAttribute="width" multiplier="0.75" id="9wt-eG-WV2"/>
+                            <constraint firstAttribute="trailing" secondItem="e7u-yH-x00" secondAttribute="trailing" constant="30" id="A6d-de-eXs"/>
+                            <constraint firstItem="e7u-yH-x00" firstAttribute="top" secondItem="J0o-wE-n6D" secondAttribute="bottom" constant="30" id="Ce4-gh-0i8"/>
+                            <constraint firstAttribute="centerY" secondItem="e7u-yH-x00" secondAttribute="centerY" id="QWN-7S-mN2"/>
+                            <constraint firstItem="e7u-yH-x00" firstAttribute="leading" secondItem="fRB-sI-PuJ" secondAttribute="leading" constant="30" id="jSX-lC-8Yn"/>
+                            <constraint firstItem="e7u-yH-x00" firstAttribute="height" secondItem="fRB-sI-PuJ" secondAttribute="height" multiplier="0.75" id="kPt-9H-znC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8Az-qJ-WUZ"/>
+                                <exclude reference="9wt-eG-WV2"/>
+                                <exclude reference="QWN-7S-mN2"/>
+                                <exclude reference="kPt-9H-znC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3tQ-eo-tMe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1698" y="1344"/>
+        </scene>
+        <!--Multiple HUD's-->
+        <scene sceneID="PUz-Ez-0Lp">
+            <objects>
+                <viewController title="Multiple HUD's" id="wcB-Vi-PZI" customClass="MultipleHudsViewController" customModule="GustyLibDemoApp_HUD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WKd-fb-eDY"/>
+                        <viewControllerLayoutGuide type="bottom" id="DGD-9g-GBG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="r1e-Ej-hwq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hde-gR-8hp">
+                                <rect key="frame" x="0.0" y="64" width="600" height="179"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="229" id="5jz-Ef-HYx"/>
+                                    <constraint firstAttribute="width" constant="229" id="it5-1w-xu6"/>
+                                    <constraint firstAttribute="height" id="pSr-BF-c23"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5jz-Ef-HYx"/>
+                                        <exclude reference="it5-1w-xu6"/>
+                                        <exclude reference="pSr-BF-c23"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="tBQ-1w-OrS" kind="embed" identifier="HUD 1" id="v0w-Ah-JLT"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDC-zG-EbD">
+                                <rect key="frame" x="0.0" y="421" width="600" height="179"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="LS2-3Q-zej"/>
+                                    <constraint firstAttribute="height" constant="229" id="bAo-lX-mfk"/>
+                                    <constraint firstAttribute="width" constant="229" id="qMc-H8-5oZ"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LS2-3Q-zej"/>
+                                        <exclude reference="bAo-lX-mfk"/>
+                                        <exclude reference="qMc-H8-5oZ"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="tBQ-1w-OrS" kind="embed" identifier="HUD 3" id="BtB-gU-b1u"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AJ6-uY-C8r">
+                                <rect key="frame" x="0.0" y="243" width="600" height="179"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="229" id="ZH1-jL-oGp"/>
+                                    <constraint firstAttribute="height" id="ZaW-gK-6Je"/>
+                                    <constraint firstAttribute="width" constant="229" id="gK8-J5-VaQ"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ZH1-jL-oGp"/>
+                                        <exclude reference="ZaW-gK-6Je"/>
+                                        <exclude reference="gK8-J5-VaQ"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="tBQ-1w-OrS" kind="embed" identifier="HUD 2" id="vya-gc-cXS"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AJ6-uY-C8r" firstAttribute="top" secondItem="Hde-gR-8hp" secondAttribute="bottom" id="1Cw-d0-zHm"/>
+                            <constraint firstItem="AJ6-uY-C8r" firstAttribute="leading" secondItem="r1e-Ej-hwq" secondAttribute="leading" id="3DM-wE-PJQ"/>
+                            <constraint firstItem="Hde-gR-8hp" firstAttribute="leading" secondItem="r1e-Ej-hwq" secondAttribute="leadingMargin" constant="49" id="50Y-97-FFS"/>
+                            <constraint firstItem="AJ6-uY-C8r" firstAttribute="top" secondItem="Hde-gR-8hp" secondAttribute="bottom" id="5jc-zN-kxI"/>
+                            <constraint firstItem="Hde-gR-8hp" firstAttribute="top" secondItem="WKd-fb-eDY" secondAttribute="bottom" constant="18" id="BKM-2Z-52P"/>
+                            <constraint firstItem="Hde-gR-8hp" firstAttribute="top" secondItem="WKd-fb-eDY" secondAttribute="bottom" id="GHa-4f-sh1"/>
+                            <constraint firstItem="AJ6-uY-C8r" firstAttribute="height" secondItem="FDC-zG-EbD" secondAttribute="height" id="HA7-Pv-3Bw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hde-gR-8hp" secondAttribute="trailing" constant="18" id="OVO-y2-uHR"/>
+                            <constraint firstAttribute="trailing" secondItem="FDC-zG-EbD" secondAttribute="trailing" id="Vws-0O-072"/>
+                            <constraint firstItem="Hde-gR-8hp" firstAttribute="leading" secondItem="r1e-Ej-hwq" secondAttribute="leading" id="cMk-CV-oPJ"/>
+                            <constraint firstItem="DGD-9g-GBG" firstAttribute="top" secondItem="FDC-zG-EbD" secondAttribute="bottom" id="f2k-0i-6PN"/>
+                            <constraint firstItem="Hde-gR-8hp" firstAttribute="leading" secondItem="r1e-Ej-hwq" secondAttribute="leadingMargin" constant="18" id="h7V-qw-htf"/>
+                            <constraint firstItem="AJ6-uY-C8r" firstAttribute="height" secondItem="FDC-zG-EbD" secondAttribute="height" id="iwI-dk-DQG"/>
+                            <constraint firstAttribute="trailing" secondItem="Hde-gR-8hp" secondAttribute="trailing" id="kMC-f0-Wov"/>
+                            <constraint firstAttribute="trailing" secondItem="AJ6-uY-C8r" secondAttribute="trailing" id="nRC-gE-saK"/>
+                            <constraint firstItem="FDC-zG-EbD" firstAttribute="top" secondItem="AJ6-uY-C8r" secondAttribute="bottom" id="qq0-h1-TnS"/>
+                            <constraint firstItem="AJ6-uY-C8r" firstAttribute="height" secondItem="Hde-gR-8hp" secondAttribute="height" constant="-1" id="ugA-6z-j1e"/>
+                            <constraint firstItem="AJ6-uY-C8r" firstAttribute="height" secondItem="Hde-gR-8hp" secondAttribute="height" id="xqS-n8-Zkg"/>
+                            <constraint firstItem="FDC-zG-EbD" firstAttribute="leading" secondItem="r1e-Ej-hwq" secondAttribute="leading" id="zek-GT-QPt"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="50Y-97-FFS"/>
+                                <exclude reference="BKM-2Z-52P"/>
+                                <exclude reference="OVO-y2-uHR"/>
+                                <exclude reference="h7V-qw-htf"/>
+                                <exclude reference="5jc-zN-kxI"/>
+                                <exclude reference="iwI-dk-DQG"/>
+                                <exclude reference="ugA-6z-j1e"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHh-oY-909" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1698" y="473"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vl6-5n-tIG">
+            <objects>
+                <navigationController id="ikw-ug-Tef" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5bJ-Qx-zX2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IQE-J7-nCp" kind="relationship" relationship="rootViewController" id="5iT-BE-zyG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hvn-Mc-tRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-285" y="473"/>
+        </scene>
+        <!--Image Credits View Controller-->
+        <scene sceneID="sJ5-VW-9qe">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="FaV-3G-TKV" customClass="ImageCreditsViewController" customModule="GustyLibDemoApp_HUD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pEb-Pd-ces"/>
+                        <viewControllerLayoutGuide type="bottom" id="bcs-2Q-b5w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3cq-wF-D0w">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Text View" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4cQ-q4-5OA">
+                                <rect key="frame" x="10" y="74" width="580" height="516"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4cQ-q4-5OA" secondAttribute="trailing" constant="10" id="Fux-dj-y3e"/>
+                            <constraint firstAttribute="centerX" secondItem="4cQ-q4-5OA" secondAttribute="centerX" id="JT9-9D-d00"/>
+                            <constraint firstItem="bcs-2Q-b5w" firstAttribute="top" secondItem="4cQ-q4-5OA" secondAttribute="bottom" constant="10" id="M6y-XH-baE"/>
+                            <constraint firstItem="4cQ-q4-5OA" firstAttribute="leading" secondItem="3cq-wF-D0w" secondAttribute="leading" constant="10" id="OBU-Nu-D8k"/>
+                            <constraint firstAttribute="centerY" secondItem="4cQ-q4-5OA" secondAttribute="centerY" id="tUu-91-meu"/>
+                            <constraint firstItem="4cQ-q4-5OA" firstAttribute="top" secondItem="pEb-Pd-ces" secondAttribute="bottom" constant="10" id="ygL-lV-3aD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="JT9-9D-d00"/>
+                                <exclude reference="tUu-91-meu"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="4cQ-q4-5OA" id="dWZ-2r-Ok2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ufb-TJ-OG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2630" y="-413"/>
+        </scene>
+        <!--Hud View Controller-->
+        <scene sceneID="GeG-yj-aZJ">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="tBQ-1w-OrS" customClass="IFAHudViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pZG-bA-9qb"/>
+                        <viewControllerLayoutGuide type="bottom" id="oYF-QU-QSe"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="hJS-I7-Kvt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="179"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wSd-xf-mpT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2630" y="262"/>
+        </scene>
+        <!--Containment Child View Controller-->
+        <scene sceneID="llr-af-jwn">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="X5r-CR-NHa" customClass="ContainmentChildViewController" customModule="GustyLibDemoApp_HUD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XUB-RS-zNL"/>
+                        <viewControllerLayoutGuide type="bottom" id="WLN-zh-gH6"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lDL-e4-qRh">
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="476"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hf8-6C-sdO">
+                                <rect key="frame" x="54" y="306" width="432" height="143"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="hf8-6C-sdO" secondAttribute="centerY" multiplier="0.63" id="Gtv-uL-Kpo"/>
+                            <constraint firstItem="hf8-6C-sdO" firstAttribute="width" secondItem="lDL-e4-qRh" secondAttribute="width" multiplier="0.8" id="Xmd-b9-Bgo"/>
+                            <constraint firstItem="hf8-6C-sdO" firstAttribute="height" secondItem="lDL-e4-qRh" secondAttribute="height" multiplier="0.3" id="lL0-u1-A3t"/>
+                            <constraint firstAttribute="centerX" secondItem="hf8-6C-sdO" secondAttribute="centerX" id="ouJ-5E-KTh"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="hudContainerView" destination="hf8-6C-sdO" id="DYk-Wh-Q6m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z28-MO-bIO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2480" y="1344"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="windsurf" width="2056" height="2570"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="UAE-Ma-ae2"/>
+        <segue reference="GOd-GH-X4m"/>
+        <segue reference="v0w-Ah-JLT"/>
+    </inferredMetricsTieBreakers>
+</document>
