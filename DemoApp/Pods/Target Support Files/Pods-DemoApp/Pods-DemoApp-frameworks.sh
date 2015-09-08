@@ -52,12 +52,12 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Pods-GustyLibDemoApp-HUD/GustyAppKit.framework'
-  install_framework 'Pods-GustyLibDemoApp-HUD/GustyKit.framework'
-  install_framework 'Pods-GustyLibDemoApp-HUD/ODRefreshControl.framework'
+  install_framework 'Pods-DemoApp/GustyAppKit.framework'
+  install_framework 'Pods-DemoApp/GustyKit.framework'
+  install_framework 'Pods-DemoApp/ODRefreshControl.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Pods-GustyLibDemoApp-HUD/GustyAppKit.framework'
-  install_framework 'Pods-GustyLibDemoApp-HUD/GustyKit.framework'
-  install_framework 'Pods-GustyLibDemoApp-HUD/ODRefreshControl.framework'
+  install_framework 'Pods-DemoApp/GustyAppKit.framework'
+  install_framework 'Pods-DemoApp/GustyKit.framework'
+  install_framework 'Pods-DemoApp/ODRefreshControl.framework'
 fi

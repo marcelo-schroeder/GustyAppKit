@@ -2,7 +2,40 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/.idea" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD.xcworkspace" />
+    <content url="file://$MODULE_DIR$/DemoApp">
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/Base.lproj/LaunchScreen.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/BlurAndVibrancyStyleViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/ContainmentChildViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/ContainmentViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/DemoApp-Bridging-Header.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/ImageCreditsViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/Images.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/MenuViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/MultipleHudsViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/TableViewCell.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoAppTests/GustyLibDemoApp_HUDTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoAppTests/Info.plist" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/DemoApp.xcworkspace" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp.xcodeproj" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/AppDelegate.swift" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/Base.lproj/LaunchScreen.xib" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/Base.lproj/Main.storyboard" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/BlurAndVibrancyStyleViewController.swift" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/ContainmentChildViewController.swift" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/ContainmentViewController.swift" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/DemoApp-Bridging-Header.h" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/ImageCreditsViewController.swift" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/Images.xcassets" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/Info.plist" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/MenuViewController.swift" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/MultipleHudsViewController.swift" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/TableViewCell.swift" />
+    <content url="file://$MODULE_DIR$/DemoApp/DemoAppTests" />
     <content url="file://$MODULE_DIR$/Podfile">
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
     </content>
@@ -462,16 +495,16 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ODRefreshControl/ODRefreshControl-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ODRefreshControl/ODRefreshControl.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ODRefreshControl/ODRefreshControl.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Pods-GustyLibDemoApp-HUD-acknowledgements.markdown" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Pods-GustyLibDemoApp-HUD-acknowledgements.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Pods-GustyLibDemoApp-HUD-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Pods-GustyLibDemoApp-HUD-frameworks.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Pods-GustyLibDemoApp-HUD-resources.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Pods-GustyLibDemoApp-HUD-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Pods-GustyLibDemoApp-HUD.debug.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Pods-GustyLibDemoApp-HUD.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-GustyLibDemoApp-HUD/Pods-GustyLibDemoApp-HUD.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.release.xcconfig" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
