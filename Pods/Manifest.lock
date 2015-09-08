@@ -67,26 +67,16 @@ PODS:
 DEPENDENCIES:
   - DTFoundation (= 1.7.2)
   - FlurrySDK
-  - GustyKit (from `https://github.com/marcelo-schroeder/GustyKit.git`, branch `dev_NextVersion`)
+  - GustyKit
   - IFATestingSupport
   - MWFeedParser (= 1.0.1)
   - OCHamcrest
   - OCMock
 
-EXTERNAL SOURCES:
-  GustyKit:
-    :branch: dev_NextVersion
-    :git: https://github.com/marcelo-schroeder/GustyKit.git
-
-CHECKOUT OPTIONS:
-  GustyKit:
-    :commit: feddce5552dc7df3bcfbc7138b81eb5cbd4600a5
-    :git: https://github.com/marcelo-schroeder/GustyKit.git
-
 SPEC CHECKSUMS:
   DTFoundation: fa01e6fa12f356c5d617d0a2311927ec4688b9f4
   FlurrySDK: 7f929b68dea38ce735979fb039229f62c0b697b5
-  GustyKit: 0ba6b5d291ef6be57a127a2536a16d4cf2551c62
+  GustyKit: 563f5afb8ed64e066a7696389f099ec0bc4a689b
   IFATestingSupport: 6c403fe2b2842315ba76193b8023d61050175e6a
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
   OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
