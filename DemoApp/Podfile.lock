@@ -1,7 +1,7 @@
 PODS:
-  - GustyAppKit (1.0.1):
-    - GustyAppKit/CoreApp (= 1.0.1)
-  - GustyAppKit/CoreApp (1.0.1):
+  - GustyAppKit (1.0.3):
+    - GustyAppKit/CoreApp (= 1.0.3)
+  - GustyAppKit/CoreApp (1.0.3):
     - GustyKit
   - GustyKit (1.0.1):
     - GustyKit/CoreUI (= 1.0.1)
@@ -15,7 +15,7 @@ DEPENDENCIES:
   - GustyAppKit
 
 SPEC CHECKSUMS:
-  GustyAppKit: 2792b9db345ec1ad81861bdee69361636720b589
+  GustyAppKit: 4b69c44100bf2abd6bf97960a766ecc17058ade9
   GustyKit: 840834f44e6d7d123d2aa7aa59b6951df0fe14d2
   ODRefreshControl: 4c4c413bf70d2ea0c02a28ac0a0b3b4bf4dbfdea
 

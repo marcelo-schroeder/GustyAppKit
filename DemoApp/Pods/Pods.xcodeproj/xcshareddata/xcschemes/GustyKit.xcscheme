@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E037CE080C192EAD25A2639279A1FA12"
+               BlueprintIdentifier = "6BB1892F8627B54B4EE0F9EC2BCACED7"
                BuildableName = "GustyKit.framework"
                BlueprintName = "GustyKit"
                ReferencedContainer = "container:Pods.xcodeproj">
