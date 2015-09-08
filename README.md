@@ -10,6 +10,12 @@ The latest API documentation can be found [here](http://cocoadocs.org/docsets/Gu
 
 Additional documentation and sample code are coming soon.
 
+## Preview Video ##
+
+Make sure to check the demo app [video](https://www.youtube.com/embed/RAEn9zqvI14) out!
+
+At this stage, only the HUD functionality is shown in the video. More to come soon...
+
 ## Features ##
 
 GustyAppKit is broad in terms of the features it offers, but it is also flexible. You can benefit just from the features you are interest in without being distracted by the others you don't want to use.
