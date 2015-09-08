@@ -42,14 +42,14 @@
 		F76588A91A7709E800E95B69 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F7876BC71A79A87700AD5972 /* ContainmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainmentViewController.swift; sourceTree = "<group>"; };
 		F7876BC91A79A8F700AD5972 /* ContainmentChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainmentChildViewController.swift; sourceTree = "<group>"; };
-		F79450011A6CBAB300E059A3 /* GustyLibDemoApp-HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GustyLibDemoApp-HUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79450011A6CBAB300E059A3 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79450051A6CBAB300E059A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F79450061A6CBAB300E059A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F79450081A6CBAB300E059A3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		F794500B1A6CBAB300E059A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F794500D1A6CBAB300E059A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F79450101A6CBAB300E059A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F79450161A6CBAB300E059A3 /* GustyLibDemoApp-HUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GustyLibDemoApp-HUDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79450161A6CBAB300E059A3 /* DemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F794501B1A6CBAB300E059A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F794501C1A6CBAB300E059A3 /* GustyLibDemoApp_HUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GustyLibDemoApp_HUDTests.swift; sourceTree = "<group>"; };
 		F7C5F09F1A6CC86600F108F4 /* GustyLibDemoApp-HUD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GustyLibDemoApp-HUD-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -96,8 +96,8 @@
 		F79450021A6CBAB300E059A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F79450011A6CBAB300E059A3 /* GustyLibDemoApp-HUD.app */,
-				F79450161A6CBAB300E059A3 /* GustyLibDemoApp-HUDTests.xctest */,
+				F79450011A6CBAB300E059A3 /* DemoApp.app */,
+				F79450161A6CBAB300E059A3 /* DemoAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F79450001A6CBAB300E059A3 /* GustyLibDemoApp-HUD */ = {
+		F79450001A6CBAB300E059A3 /* DemoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F79450201A6CBAB300E059A3 /* Build configuration list for PBXNativeTarget "GustyLibDemoApp-HUD" */;
+			buildConfigurationList = F79450201A6CBAB300E059A3 /* Build configuration list for PBXNativeTarget "DemoApp" */;
 			buildPhases = (
 				E0AB4F296845AD8BC8497430 /* Check Pods Manifest.lock */,
 				F7944FFD1A6CBAB300E059A3 /* Sources */,
@@ -174,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = "GustyLibDemoApp-HUD";
+			name = DemoApp;
 			productName = "GustyLibDemoApp-HUD";
-			productReference = F79450011A6CBAB300E059A3 /* GustyLibDemoApp-HUD.app */;
+			productReference = F79450011A6CBAB300E059A3 /* DemoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F79450151A6CBAB300E059A3 /* GustyLibDemoApp-HUDTests */ = {
+		F79450151A6CBAB300E059A3 /* DemoAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F79450231A6CBAB300E059A3 /* Build configuration list for PBXNativeTarget "GustyLibDemoApp-HUDTests" */;
+			buildConfigurationList = F79450231A6CBAB300E059A3 /* Build configuration list for PBXNativeTarget "DemoAppTests" */;
 			buildPhases = (
 				F79450121A6CBAB300E059A3 /* Sources */,
 				F79450131A6CBAB300E059A3 /* Frameworks */,
@@ -192,9 +192,9 @@
 			dependencies = (
 				F79450181A6CBAB300E059A3 /* PBXTargetDependency */,
 			);
-			name = "GustyLibDemoApp-HUDTests";
+			name = DemoAppTests;
 			productName = "GustyLibDemoApp-HUDTests";
-			productReference = F79450161A6CBAB300E059A3 /* GustyLibDemoApp-HUDTests.xctest */;
+			productReference = F79450161A6CBAB300E059A3 /* DemoAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7944FFC1A6CBAB300E059A3 /* Build configuration list for PBXProject "GustyLibDemoApp-HUD" */;
+			buildConfigurationList = F7944FFC1A6CBAB300E059A3 /* Build configuration list for PBXProject "DemoApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F79450001A6CBAB300E059A3 /* GustyLibDemoApp-HUD */,
-				F79450151A6CBAB300E059A3 /* GustyLibDemoApp-HUDTests */,
+				F79450001A6CBAB300E059A3 /* DemoApp */,
+				F79450151A6CBAB300E059A3 /* DemoAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -331,7 +331,7 @@
 /* Begin PBXTargetDependency section */
 		F79450181A6CBAB300E059A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F79450001A6CBAB300E059A3 /* GustyLibDemoApp-HUD */;
+			target = F79450001A6CBAB300E059A3 /* DemoApp */;
 			targetProxy = F79450171A6CBAB300E059A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,7 +441,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "GustyLibDemoApp-HUD/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DemoApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "GustyLibDemoApp-HUD/GustyLibDemoApp-HUD-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -455,7 +455,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "GustyLibDemoApp-HUD/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DemoApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "GustyLibDemoApp-HUD/GustyLibDemoApp-HUD-Bridging-Header.h";
 			};
 			name = Release;
@@ -474,7 +474,7 @@
 				);
 				INFOPLIST_FILE = "GustyLibDemoApp-HUDTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DemoAppTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GustyLibDemoApp-HUD.app/GustyLibDemoApp-HUD";
 			};
 			name = Debug;
@@ -489,7 +489,7 @@
 				);
 				INFOPLIST_FILE = "GustyLibDemoApp-HUDTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DemoAppTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GustyLibDemoApp-HUD.app/GustyLibDemoApp-HUD";
 			};
 			name = Release;
@@ -497,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7944FFC1A6CBAB300E059A3 /* Build configuration list for PBXProject "GustyLibDemoApp-HUD" */ = {
+		F7944FFC1A6CBAB300E059A3 /* Build configuration list for PBXProject "DemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F794501E1A6CBAB300E059A3 /* Debug */,
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F79450201A6CBAB300E059A3 /* Build configuration list for PBXNativeTarget "GustyLibDemoApp-HUD" */ = {
+		F79450201A6CBAB300E059A3 /* Build configuration list for PBXNativeTarget "DemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F79450211A6CBAB300E059A3 /* Debug */,
@@ -515,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F79450231A6CBAB300E059A3 /* Build configuration list for PBXNativeTarget "GustyLibDemoApp-HUDTests" */ = {
+		F79450231A6CBAB300E059A3 /* Build configuration list for PBXNativeTarget "DemoAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F79450241A6CBAB300E059A3 /* Debug */,

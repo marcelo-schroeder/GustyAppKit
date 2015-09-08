@@ -20,12 +20,12 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5CEAE27CBE727C8AEC5348710583F21F5830AEC2</key>
-		<string>../../../../GustyLib/GustyLib_development</string>
+		<string>../../../GustyAppKit_development</string>
 		<key>E672FEDDA038E98CF1847FC93937A713D7BF8282</key>
-		<string>../../../../GustyLibDemoApp-HUD</string>
+		<string>../../../../../../../../../../GustyLibDemoApp-HUD</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/marcelo-schroeder/GustyAppKit.git</string>
+	<string>https://github.com/marcelo-schroeder/GustyLib.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

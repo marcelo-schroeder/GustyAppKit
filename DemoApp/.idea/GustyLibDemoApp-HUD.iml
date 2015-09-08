@@ -2,40 +2,7 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/.idea" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD">
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/AppDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/Base.lproj/LaunchScreen.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/Base.lproj/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/BlurAndVibrancyStyleViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/ContainmentChildViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/ContainmentViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD-Bridging-Header.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/ImageCreditsViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/Images.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/MenuViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/MultipleHudsViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/TableViewCell.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUDTests/GustyLibDemoApp_HUDTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUDTests/Info.plist" isTestSource="false" />
-    </content>
     <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD.xcworkspace" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD.xcodeproj" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/AppDelegate.swift" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/Base.lproj/LaunchScreen.xib" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/Base.lproj/Main.storyboard" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/BlurAndVibrancyStyleViewController.swift" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/ContainmentChildViewController.swift" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/ContainmentViewController.swift" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD-Bridging-Header.h" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/ImageCreditsViewController.swift" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/Images.xcassets" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/Info.plist" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/MenuViewController.swift" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/MultipleHudsViewController.swift" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUD/TableViewCell.swift" />
-    <content url="file://$MODULE_DIR$/GustyLibDemoApp-HUD/GustyLibDemoApp-HUDTests" />
     <content url="file://$MODULE_DIR$/Podfile">
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
     </content>
@@ -591,6 +558,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
         </CLASSES>
         <SOURCES>
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
@@ -673,6 +641,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
         </SOURCES>
       </library>
     </orderEntry>
