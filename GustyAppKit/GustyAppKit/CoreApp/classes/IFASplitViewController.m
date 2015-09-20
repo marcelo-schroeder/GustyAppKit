@@ -58,7 +58,7 @@
     return [self ifa_shouldAutorotateToInterfaceOrientation:toInterfaceOrientation];
 }
 
--(NSUInteger)supportedInterfaceOrientations{
+-(UIInterfaceOrientationMask)supportedInterfaceOrientations{
     return [self ifa_supportedInterfaceOrientations];
 }
 
