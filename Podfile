@@ -5,7 +5,7 @@ link_with 'GustyAppKitTests'
 
 # GustyKit
 #pod 'GustyKit'
-pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode6/GustyKit/GustyKit_development'
+pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development'
 # pod 'GustyKit', :git => 'https://github.com/marcelo-schroeder/GustyKit.git', :branch => 'dev_NextVersion'
 
 # Html dependencies
@@ -16,6 +16,6 @@ pod 'MWFeedParser', '1.0.1'
 pod 'IFATestingSupport'
 #pod 'IFATestingSupport', :git => 'https://github.com/marcelo-schroeder/IFATestingSupport.git', :tag => 'v0.1.1'
 # pod 'IFATestingSupport', :git => 'https://github.com/marcelo-schroeder/IFATestingSupport.git', :branch => 'development'
-# pod 'IFATestingSupport', :path => '/Users/mschroeder/myfiles/projects/Xcode6/IFATestingSupport/IFATestingSupport_development'
+# pod 'IFATestingSupport', :path => '/Users/mschroeder/myfiles/projects/Xcode/IFATestingSupport/IFATestingSupport_development'
 pod 'OCHamcrest', :inhibit_warnings => true
 pod 'OCMock'
