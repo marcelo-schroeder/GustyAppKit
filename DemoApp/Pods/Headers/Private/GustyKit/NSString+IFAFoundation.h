@@ -1,1 +1,1 @@
-../../../GustyKit/GustyKit/GustyKit/Foundation/classes/NSString+IFAFoundation.h
+../../../../../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSString+IFAFoundation.h

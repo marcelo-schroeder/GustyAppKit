@@ -1,1 +1,1 @@
-../../../GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/GustyAppKitCoreApp.h
+../../../../../GustyAppKit/GustyAppKit/CoreApp/classes/GustyAppKitCoreApp.h

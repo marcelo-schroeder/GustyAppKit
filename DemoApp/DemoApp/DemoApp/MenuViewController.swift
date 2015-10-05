@@ -95,7 +95,7 @@ class MenuViewController: UITableViewController {
         
         super.prepareForSegue(segue, sender: sender)
         
-        let selectedRowIndexPath = self.tableView.indexPathForSelectedRow()!
+        let selectedRowIndexPath = self.tableView.indexPathForSelectedRow!
 
         if (segue.destinationViewController is BlurAndVibrancyStyleViewController) {
             

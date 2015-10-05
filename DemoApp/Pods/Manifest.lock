@@ -12,7 +12,14 @@ PODS:
   - ODRefreshControl (1.1.0)
 
 DEPENDENCIES:
-  - GustyAppKit
+  - GustyAppKit (from `/Users/mschroeder/myfiles/projects/Xcode/GustyAppKit/GustyAppKit_development`)
+  - GustyKit (from `/Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development`)
+
+EXTERNAL SOURCES:
+  GustyAppKit:
+    :path: /Users/mschroeder/myfiles/projects/Xcode/GustyAppKit/GustyAppKit_development
+  GustyKit:
+    :path: /Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development
 
 SPEC CHECKSUMS:
   GustyAppKit: 4b69c44100bf2abd6bf97960a766ecc17058ade9
