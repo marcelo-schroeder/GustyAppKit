@@ -1,1 +1,1 @@
-../../../../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/IFAHelpTarget.h
+../../../GustyKit/GustyKit/GustyKit/Help/classes/IFAHelpTarget.h

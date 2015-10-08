@@ -6,10 +6,11 @@ use_frameworks!
 
 target :'DemoApp' do
 
-   pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development'
-  # pod 'GustyKit', :git => 'https://github.com/marcelo-schroeder/GustyKit.git', :branch => 'dev_NextVersion'
+   # pod 'GustyKit', :path => '/Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development'
+  pod 'GustyKit', :git => 'https://github.com/marcelo-schroeder/GustyKit.git', :branch => 'dev_NextVersion'
 
 #  pod 'GustyAppKit'
-   pod 'GustyAppKit', :path => '/Users/mschroeder/myfiles/projects/Xcode/GustyAppKit/GustyAppKit_development'
+#    pod 'GustyAppKit', :path => '/Users/mschroeder/myfiles/projects/Xcode/GustyAppKit/GustyAppKit_development'
+   pod 'GustyAppKit', :git => 'https://github.com/marcelo-schroeder/GustyAppKit.git', :branch => 'dev_NextVersion'
 
 end

@@ -1,1 +1,1 @@
-../../../../../GustyAppKit/GustyAppKit/CoreApp/classes/IFASplitViewController.h
+../../../GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFASplitViewController.h

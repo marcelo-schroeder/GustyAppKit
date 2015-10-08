@@ -1,1 +1,1 @@
-../../../../../GustyAppKit/GustyAppKit/CoreApp/classes/IFAUserNotificationSettingsManager.h
+../../../GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAUserNotificationSettingsManager.h

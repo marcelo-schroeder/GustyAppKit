@@ -1,1 +1,1 @@
-../../../../../GustyAppKit/GustyAppKit/CoreApp/classes/IFAEmailManager.h
+../../../GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAEmailManager.h

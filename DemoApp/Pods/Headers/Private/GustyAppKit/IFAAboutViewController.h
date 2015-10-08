@@ -1,1 +1,1 @@
-../../../../../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutViewController.h
+../../../GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutViewController.h

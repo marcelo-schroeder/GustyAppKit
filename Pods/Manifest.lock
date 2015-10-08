@@ -63,7 +63,7 @@ PODS:
 
 DEPENDENCIES:
   - DTFoundation (= 1.7.2)
-  - GustyKit (from `/Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development`)
+  - GustyKit (from `https://github.com/marcelo-schroeder/GustyKit.git`, branch `dev_NextVersion`)
   - IFATestingSupport
   - MWFeedParser (= 1.0.1)
   - OCHamcrest
@@ -71,7 +71,13 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   GustyKit:
-    :path: /Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development
+    :branch: dev_NextVersion
+    :git: https://github.com/marcelo-schroeder/GustyKit.git
+
+CHECKOUT OPTIONS:
+  GustyKit:
+    :commit: f4b5f06e86273972a43bdfeceeb90cb094541dd6
+    :git: https://github.com/marcelo-schroeder/GustyKit.git
 
 SPEC CHECKSUMS:
   DTFoundation: fa01e6fa12f356c5d617d0a2311927ec4688b9f4

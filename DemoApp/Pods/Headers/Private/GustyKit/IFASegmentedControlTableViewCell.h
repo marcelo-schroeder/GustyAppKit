@@ -1,1 +1,1 @@
-../../../../../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControlTableViewCell.h
+../../../GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControlTableViewCell.h

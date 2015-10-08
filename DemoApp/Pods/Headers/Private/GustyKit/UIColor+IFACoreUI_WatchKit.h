@@ -1,1 +1,1 @@
-../../../../../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI_WatchKit.h
+../../../GustyKit/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI_WatchKit.h

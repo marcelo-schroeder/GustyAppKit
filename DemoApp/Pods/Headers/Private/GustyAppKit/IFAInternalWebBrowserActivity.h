@@ -1,1 +1,1 @@
-../../../../../GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserActivity.h
+../../../GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserActivity.h
