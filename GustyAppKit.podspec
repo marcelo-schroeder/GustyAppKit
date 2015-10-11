@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
     s.name                  = 'GustyAppKit'
-    s.version           = '1.0.3'
+    s.version           = '1.0.4'
     s.summary           = 'A Cocoa Touch framework to help you develop high quality iOS apps faster.'
     s.homepage          = 'https://github.com/marcelo-schroeder/GustyAppKit'
     s.license           = 'Apache-2.0'
     s.author            = { 'Marcelo Schroeder' => 'marcelo.schroeder@infoaccent.com' }
     s.platform          = :ios, '8.0'
     s.requires_arc      = true
-    s.source            = { :git => 'https://github.com/marcelo-schroeder/GustyAppKit.git', :tag => 'v1.0.3' }
+    s.source            = { :git => 'https://github.com/marcelo-schroeder/GustyAppKit.git', :tag => 'v1.0.4' }
     s.default_subspec   = 'CoreApp'
     s.subspec 'CoreApp' do |ss|
         ss.source_files  = 'GustyAppKit/GustyAppKit/CoreApp/classes/**/*.{h,m}'
