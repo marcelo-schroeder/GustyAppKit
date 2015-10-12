@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		107387C712DB081348241728 /* BlurAndVibrancyStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10738EDB1D5FD501BBDAFFC1 /* BlurAndVibrancyStyleViewController.swift */; };
-		7413ED82AD8BA930393B7A6B /* Pods_DemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D937153A37E9CB74078526 /* Pods_DemoApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7413ED82AD8BA930393B7A6B /* Pods_DemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D937153A37E9CB74078526 /* Pods_DemoApp.framework */; };
 		F7206CA61A78954E00294C58 /* ImageCreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7206CA51A78954E00294C58 /* ImageCreditsViewController.swift */; };
 		F732C9E81A71C0AF00F20C44 /* MultipleHudsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732C9E71A71C0AF00F20C44 /* MultipleHudsViewController.swift */; };
 		F76588AA1A7709E800E95B69 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76588A91A7709E800E95B69 /* TableViewCell.swift */; };

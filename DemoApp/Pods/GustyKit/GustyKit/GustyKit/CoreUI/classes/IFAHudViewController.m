@@ -154,7 +154,7 @@
         parentViewController = a_parentViewController;
     }
     else {
-        [self.IFA_window makeKeyAndVisible];
+        self.IFA_window.hidden = NO;
         parentViewController = self.IFA_window.rootViewController;
     }
     UIView *parentView = a_parentView ? : parentViewController.view;
@@ -184,7 +184,7 @@
         if (a_completion) {
             a_completion(a_finished);
         }
-        [weakSelf.IFA_window resignKeyWindow];
+        self.IFA_window.hidden = YES;
         weakSelf.IFA_window = nil;
     };
     [self ifa_removeFromParentViewControllerWithAnimationDuration:a_animated && self.dismissalAnimationDuration ? self.dismissalAnimationDuration : 0

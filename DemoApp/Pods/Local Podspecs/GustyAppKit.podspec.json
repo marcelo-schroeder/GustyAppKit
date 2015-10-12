@@ -1,6 +1,6 @@
 {
   "name": "GustyAppKit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "summary": "A Cocoa Touch framework to help you develop high quality iOS apps faster.",
   "homepage": "https://github.com/marcelo-schroeder/GustyAppKit",
   "license": "Apache-2.0",
@@ -13,7 +13,7 @@
   "requires_arc": true,
   "source": {
     "git": "https://github.com/marcelo-schroeder/GustyAppKit.git",
-    "tag": "v1.0.3"
+    "tag": "v1.0.4"
   },
   "default_subspecs": "CoreApp",
   "subspecs": [

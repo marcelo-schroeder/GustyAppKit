@@ -1,14 +1,14 @@
 PODS:
-  - GustyAppKit (1.0.3):
-    - GustyAppKit/CoreApp (= 1.0.3)
-  - GustyAppKit/CoreApp (1.0.3):
+  - GustyAppKit (1.0.4):
+    - GustyAppKit/CoreApp (= 1.0.4)
+  - GustyAppKit/CoreApp (1.0.4):
     - GustyKit
-  - GustyKit (1.0.1):
-    - GustyKit/CoreUI (= 1.0.1)
-  - GustyKit/CoreUI (1.0.1):
+  - GustyKit (1.0.2):
+    - GustyKit/CoreUI (= 1.0.2)
+  - GustyKit/CoreUI (1.0.2):
     - GustyKit/Foundation
     - ODRefreshControl (= 1.1.0)
-  - GustyKit/Foundation (1.0.1)
+  - GustyKit/Foundation (1.0.2)
   - ODRefreshControl (1.1.0)
 
 DEPENDENCIES:
@@ -26,15 +26,15 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   GustyAppKit:
-    :commit: 9efd66ea01a44aa544de6a9dd325cac29dcb115f
+    :commit: 301321009c65baa7498b493bd3aeb96887fecb26
     :git: https://github.com/marcelo-schroeder/GustyAppKit.git
   GustyKit:
-    :commit: f4b5f06e86273972a43bdfeceeb90cb094541dd6
+    :commit: 486aaeb37dbe860d21ba5cbf0b8bb9e2fd0ea8ee
     :git: https://github.com/marcelo-schroeder/GustyKit.git
 
 SPEC CHECKSUMS:
-  GustyAppKit: 4b69c44100bf2abd6bf97960a766ecc17058ade9
-  GustyKit: 840834f44e6d7d123d2aa7aa59b6951df0fe14d2
+  GustyAppKit: 770a6cf9b9434ce41c9744a4d1982ed8384e8f1b
+  GustyKit: 4efd95a8fa722a5418d647b0f2ad15f43a78e3a6
   ODRefreshControl: 4c4c413bf70d2ea0c02a28ac0a0b3b4bf4dbfdea
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0
