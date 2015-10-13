@@ -26,10 +26,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   GustyAppKit:
-    :commit: 301321009c65baa7498b493bd3aeb96887fecb26
+    :commit: d012d96f2f22ff6fc59d0c67b04b36488750ad67
     :git: https://github.com/marcelo-schroeder/GustyAppKit.git
   GustyKit:
-    :commit: 486aaeb37dbe860d21ba5cbf0b8bb9e2fd0ea8ee
+    :commit: 94fe249916d9c4faa71c1f0bbffa1f33dc7c5116
     :git: https://github.com/marcelo-schroeder/GustyKit.git
 
 SPEC CHECKSUMS:

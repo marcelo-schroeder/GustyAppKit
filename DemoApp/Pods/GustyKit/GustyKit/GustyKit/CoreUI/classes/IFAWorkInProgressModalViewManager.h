@@ -79,11 +79,14 @@
 * If nil, a_parentViewController's view is used as the parent view.
 *
 * @param a_animated Indicates whether the presentation transition will be animated or not.
+*
+* @param a_completion Block to execute after the presentation transition completes.
 */
 - (void)showViewWithMessage:(NSString *)a_message
        parentViewController:(UIViewController *)a_parentViewController
                  parentView:(UIView *)a_parentView
-                   animated:(BOOL)a_animated;
+                   animated:(BOOL)a_animated
+                 completion:(void (^)(BOOL a_finished))a_completion;
 
 /**
 * Dismisses the HUD view.
@@ -94,7 +97,10 @@
 * Dismisses the HUD view.
 *
 * @param a_animated Indicates whether the dismissal transition will be animated or not.
+*
+* @param a_completion Block to execute after the dismissal transition completes.
 */
-- (void)hideViewAnimated:(BOOL)a_animated;
+- (void)hideViewAnimated:(BOOL)a_animated
+              completion:(void (^)(BOOL a_finished))a_completion;
 
 @end

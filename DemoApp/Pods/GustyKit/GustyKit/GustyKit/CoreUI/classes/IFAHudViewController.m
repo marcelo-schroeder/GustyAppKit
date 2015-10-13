@@ -176,6 +176,7 @@
                                    animationDuration:a_animated && self.presentationAnimationDuration ? self.presentationAnimationDuration : 0
                                     animationOptions:UIViewAnimationOptionAllowUserInteraction
                                           completion:completion];
+    [parentViewController setNeedsStatusBarAppearanceUpdate];
 }
 
 - (void)dismissHudViewControllerWithAnimated:(BOOL)a_animated completion:(void (^)(BOOL a_finished))a_completion {
@@ -199,6 +200,7 @@
     self.modal = YES;
     self.presentationAnimationDuration = 0.3;
     self.dismissalAnimationDuration = 1;
+    self.preferredStatusBarStyle = UIStatusBarStyleDefault;
 }
 
 - (void)viewDidLoad {
@@ -268,7 +270,7 @@
     if (!_IFA_window) {
         _IFA_window = [[UIWindow alloc] initWithFrame:[IFAUIUtils screenBounds]];
         _IFA_window.backgroundColor = [UIColor clearColor];
-        UIViewController *rootViewController = [UIViewController new];
+        UIViewController *rootViewController = [IFAHudWrapperViewController new];
         _IFA_window.rootViewController = rootViewController;
     }
     return _IFA_window;

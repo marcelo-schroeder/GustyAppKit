@@ -47,6 +47,7 @@
 #import "IFAHtmlDocument.h"
 #import "IFAHudView.h"
 #import "IFAHudViewController.h"
+#import "IFAHudWrapperViewController.h"
 #import "IFAKeyboardVisibilityManager.h"
 #import "IFALazyTableDataLoadingViewController.h"
 #import "IFAListViewController.h"

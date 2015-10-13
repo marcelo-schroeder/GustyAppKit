@@ -53,18 +53,22 @@
 }
 
 - (void)showViewWithMessage:(NSString *)a_message {
-    [self showViewWithMessage:a_message parentViewController:nil
-                   parentView:nil animated:YES];
+    [self showViewWithMessage:a_message
+         parentViewController:nil
+                   parentView:nil
+                     animated:YES
+                   completion:nil];
 }
 
 - (void)hideView {
-    [self hideViewAnimated:YES];
+    [self hideViewAnimated:YES completion:nil];
 }
 
 - (void)showViewWithMessage:(NSString *)a_message
        parentViewController:(UIViewController *)a_parentViewController
                  parentView:(UIView *)a_parentView
-                   animated:(BOOL)a_animated {
+                   animated:(BOOL)a_animated
+                 completion:(void (^)(BOOL a_finished))a_completion {
     self.hasBeenCancelled = NO;
     self.hudViewController.text = a_message;
     if (self.cancellationCompletionBlock) {
@@ -83,12 +87,13 @@
     [self.hudViewController presentHudViewControllerWithParentViewController:a_parentViewController
                                                                   parentView:a_parentView
                                                                     animated:a_animated
-                                                                  completion:nil];
+                                                                  completion:a_completion];
 }
 
-- (void)hideViewAnimated:(BOOL)a_animated {
+- (void)hideViewAnimated:(BOOL)a_animated
+              completion:(void (^)(BOOL a_finished))a_completion {
     [self.hudViewController dismissHudViewControllerWithAnimated:a_animated
-                                                      completion:nil];
+                                                      completion:a_completion];
 }
 
 - (IFAHudViewController *)hudViewController {

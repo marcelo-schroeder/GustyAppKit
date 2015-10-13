@@ -121,6 +121,13 @@
 @property(nonatomic) NSTimeInterval dismissalAnimationDuration;
 
 /**
+ * The preferred status bar style for the HUD view controller.
+ * Only relevant when "View controller-based status bar appearance" is enabled.
+ * The default value is UIStatusBarStyleDefault.
+ */
+@property (nonatomic) UIStatusBarStyle preferredStatusBarStyle;
+
+/**
 * Presents the HUD view controller.
 *
 * @param a_parentViewController Parent view controller to which the receiver will be added as a child view controller.
