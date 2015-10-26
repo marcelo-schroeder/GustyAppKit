@@ -1,1 +1,1 @@
-../../../GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutInfoModel.h
+../../../../../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutInfoModel.h

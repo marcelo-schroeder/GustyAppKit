@@ -1,1 +1,1 @@
-../../../GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLogViewController.h
+../../../../../GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLogViewController.h

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/.idea" />
-    <content url="file://$MODULE_DIR$/DemoApp">
+    <content url="file://$MODULE_DIR$/..">
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/Base.lproj/LaunchScreen.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/Base.lproj/Main.storyboard" isTestSource="false" />
@@ -18,462 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoApp/TableViewCell.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoAppTests/DemoAppTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DemoApp/DemoAppTests/Info.plist" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/DemoApp.xcworkspace" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp.xcodeproj" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/AppDelegate.swift" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/Base.lproj/LaunchScreen.xib" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/Base.lproj/Main.storyboard" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/BlurAndVibrancyStyleViewController.swift" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/ContainmentChildViewController.swift" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/ContainmentViewController.swift" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/DemoApp-Bridging-Header.h" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/ImageCreditsViewController.swift" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/Images.xcassets" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/Info.plist" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/MenuViewController.swift" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/MultipleHudsViewController.swift" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoApp/TableViewCell.swift" />
-    <content url="file://$MODULE_DIR$/DemoApp/DemoAppTests" />
-    <content url="file://$MODULE_DIR$/Podfile">
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/Pods">
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/IFA_ECSlidingViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/IFA_ECSlidingViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/UIImage+IFA_ECImageWithUIView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/UIImage+IFA_ECImageWithUIView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/IBActionSheet/IFA_IBActionSheet.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/IBActionSheet/IFA_IBActionSheet.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/SVWebViewController/IFA_SVModalWebViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/SVWebViewController/IFA_SVModalWebViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/SVWebViewController/IFA_SVWebViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/SVWebViewController/IFA_SVWebViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/GustyAppKit.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/GustyAppKitCoreApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutFormViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutFormViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutInfoModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutInfoModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAbstractPagingContainerViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAbstractPagingContainerViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAbstractWebBrowserActivity.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAbstractWebBrowserActivity.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAppDefaultAppearanceTheme.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAppDefaultAppearanceTheme.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAppMapViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAAppMapViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLog+IFACoreApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLog+IFACoreApp.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLog.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLog.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLogViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLogViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFADynamicPagingContainerViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFADynamicPagingContainerViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFADynamicPagingContainerViewControllerDataSource.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAEmailManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAEmailManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAExternalWebBrowserActivity.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAExternalWebBrowserActivity.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserActivity.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserActivity.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAMasterDetailViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAMasterDetailViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAPhoneServiceManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAPhoneServiceManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAPreferencesFormViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAPreferencesFormViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFASlidingViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFASlidingViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFASplitViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFASplitViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAStaticPagingContainerViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAStaticPagingContainerViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAThirdPartyCodeCreditsViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAThirdPartyCodeCreditsViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAUIUtils+IFACoreApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAUIUtils+IFACoreApp.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAUserNotificationSettingsManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/IFAUserNotificationSettingsManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/NSURL+IFACoreApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/NSURL+IFACoreApp.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/UIViewController+IFACoreApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/classes/UIViewController+IFACoreApp.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/SVWebViewController/SVWebViewController.bundle" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~ipad.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~iphone.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity~ipad.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity~iphone.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyAppKit/GustyAppKit/GustyAppKit/CoreApp/resources/IFAAboutCustomView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPGrowingTextView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPGrowingTextView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPTextViewInternal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPTextViewInternal.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/3rd party/KNSemiModal/UIViewController+IFA_KNSemiModal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/3rd party/KNSemiModal/UIViewController+IFA_KNSemiModal.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/GustyKit.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/GustyKitCoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAbstractFieldEditorViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAbstractFieldEditorViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAbstractSelectionListViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAbstractSelectionListViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAActionSheet.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAActionSheet.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAnalyticsManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAnalyticsManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAppearanceTheme.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAppearanceThemeManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAppearanceThemeManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAsynchronousWorkManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAAsynchronousWorkManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFABlurredFadingOverlayPresentationController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFABlurredFadingOverlayPresentationController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFABlurredFadingOverlayViewControllerTransitioningDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFABlurredFadingOverlayViewControllerTransitioningDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACircleView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACircleView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewFetchedResultsControllerDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewFetchedResultsControllerDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewFlowLayout.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewFlowLayout.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAColorScheme.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAColorScheme.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAContextSwitchTarget.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAContextSwitchingManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAContextSwitchingManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACoreUiConstants.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACoreUiConstants.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACrashReportingUtils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACrashReportingUtils.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACurrentLocationManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACurrentLocationManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACustomLayoutSupport.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFACustomLayoutSupport.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADatePickerViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADatePickerViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADefaultAppearanceTheme.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADefaultAppearanceTheme.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADimmedFadingOverlayPresentationController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADimmedFadingOverlayPresentationController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADimmedFadingOverlayViewControllerTransitioningDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADimmedFadingOverlayViewControllerTransitioningDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADirectionsManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFADirectionsManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAEntityConfig.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAEntityConfig.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAEnumerationEntity.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAEnumerationEntity.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFadingOverlayPresentationController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFadingOverlayPresentationController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFadingOverlayViewControllerTransitioningDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFadingOverlayViewControllerTransitioningDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFetchedResultsTableViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFetchedResultsTableViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormInputAccessoryView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormInputAccessoryView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormNumberFieldTableViewCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormNumberFieldTableViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormSectionHeaderFooterView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormSectionHeaderFooterView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormTableViewCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormTableViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormTableViewCellContentView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormTableViewCellContentView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormTextFieldTableViewCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormTextFieldTableViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAFormViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAGridViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAGridViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAHtmlDocument.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAHtmlDocument.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAHudView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAHudView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAHudViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAHudViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAHudWrapperViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAHudWrapperViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAKeyboardVisibilityManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAKeyboardVisibilityManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFALazyTableDataLoadingViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFALazyTableDataLoadingViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAListViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAListViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFALocationManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFALocationManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFALongTextEditorViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFALongTextEditorViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMapAnnotation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMapAnnotation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMapSettingsViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMapSettingsViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMapViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMapViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMenuViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMenuViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAModalViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAModalViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMultipleSelectionListViewCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMultipleSelectionListViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMultipleSelectionListViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAMultipleSelectionListViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFANavigationController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFANavigationController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFANavigationItemTitleView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFANavigationItemTitleView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFANavigationListViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFANavigationListViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAOperation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAOperation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPageViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPageViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPagingContainer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPagingStateManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPagingStateManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPassthroughView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPassthroughView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPersistenceChangeDetector.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPersistenceChangeDetector.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPersistenceManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPersistenceManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPersistentEntityChangeObserver.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPersistentEntityChangeObserver.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPickerViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPickerViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPinAnnotationView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPinAnnotationView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPreferencesManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPreferencesManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAPresenter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControl.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControlTableViewCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControlTableViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASelectionManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASelectionManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASemaphoreManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASemaphoreManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionListViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionListViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionListViewControllerHeaderView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionListViewControllerHeaderView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASlidingFrostedGlassViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASlidingFrostedGlassViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASubjectActivityItem.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASubjectActivityItem.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASwitchTableViewCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASwitchTableViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASystemEntity.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFASystemEntity.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATabBarController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATabBarController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableCellSelectedBackgroundView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableCellSelectedBackgroundView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableSectionHeaderView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableSectionHeaderView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableViewCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableViewHeaderFooterView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATableViewHeaderFooterView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATextViewContainer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATextViewContainer.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATextViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFATextViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAUIConfiguration.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAUIConfiguration.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAUIGlobal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAUIGlobal.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAUIUtils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAUIUtils.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerAnimatedTransitioning.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerAnimatedTransitioning.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerFadeTransitioning.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerFadeTransitioning.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerTransitioningDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerTransitioningDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAWorkInProgressModalViewManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/IFAWorkInProgressModalViewManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSAttributedString+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSAttributedString+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSIndexPath+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSIndexPath+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSManagedObject+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSManagedObject+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSManagedObjectContext+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSManagedObjectContext+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSMutableArray+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSMutableArray+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSObject+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/NSObject+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIAlertController+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIAlertController+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIBarButtonItem+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIBarButtonItem+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIButton+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIButton+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UICollectionView+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UICollectionView+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI_WatchKit.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI_WatchKit.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIImage+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIImage+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIPopoverController+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIPopoverController+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIScrollView+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIScrollView+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIStoryboard+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIStoryboard+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UITableView+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UITableView+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UITableViewCell+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UITableViewCell+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UITableViewController+IFADynamicCellHeight.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UITableViewController+IFADynamicCellHeight.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIView+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIView+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIViewController+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIViewController+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIWebView+IFACoreUI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/classes/UIWebView+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/056-PlusCircle.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/056-PlusCircle@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/191-ArrowHead-left.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/191-ArrowHead-left@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/191-ArrowHead-right.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/191-ArrowHead-right@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/248-QuestionCircleAlt.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/248-QuestionCircleAlt@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/248-QuestionCircleAlt_black.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/248-QuestionCircleAlt_black@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/271-ThreeColumn.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/271-ThreeColumn@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/277-MultiplyCircle-black.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/277-MultiplyCircle-black@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/277-MultiplyCircle-white.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/277-MultiplyCircle-white@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/310-RemoveButton.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/310-RemoveButton@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/License.rtf" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFAEntityConfig.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFAFormInputAccessoryContentView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFAFormSectionFooterContentView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFAFormSectionHeaderView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFAFormTableViewCellContentView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFAHtmlTemplate.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFAMapSettingsViewController.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFAMultipleSelectionListViewCell.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFASingleSelectionListViewControllerHeaderView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/IFATableSectionHeaderView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineHorizontalBottom.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineHorizontalBottom@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineHorizontalTop.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineHorizontalTop@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineVerticalLeft.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineVerticalLeft@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineVerticalRight.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineVerticalRight@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_ICon_Delete.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_ICon_Delete@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Add.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_AddToSelection.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_AddToSelection@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Close.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Close@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_DisclosureIndicatorDown.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_DisclosureIndicatorDown@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_DisclosureIndicatorRight.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_DisclosureIndicatorRight@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudError.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudError@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudError@3x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudSuccess.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudSuccess@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudSuccess@3x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Info.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Info@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_List.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_List@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Next.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Next@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Previous.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Previous@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_RemoveFromSelection.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_RemoveFromSelection@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_UserLocation.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_UserLocation@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_TextViewBorder.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/CoreUI/resources/images/IFA_TextViewBorder@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/GustyKitFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAAssertionUtils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAAssertionUtils.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFADateRange.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFADateRange.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFADispatchQueueManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFADispatchQueueManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFADynamicCache.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFADynamicCache.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAFoundationConstants.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAFoundationConstants.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAPurgeableObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAPurgeableObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAUtils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAUtils.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAZeroingWeakReferenceContainer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/IFAZeroingWeakReferenceContainer.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSCalendar+IFAFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSCalendar+IFAFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSData+IFAFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSData+IFAFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSDate+IFAFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSDate+IFAFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSDictionary+IFAFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSDictionary+IFAFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSFileManager+IFAFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSFileManager+IFAFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSNumberFormatter+IFAFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSNumberFormatter+IFAFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSObject+IFAFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSObject+IFAFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSString+IFAFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Foundation/classes/NSString+IFAFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/IFAHelpContentViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/IFAHelpContentViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/IFAHelpManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/IFAHelpManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/IFAHelpTarget.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/IFAHelpViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/IFAHelpViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/UIButton+IFAHelp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/UIButton+IFAHelp.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/UIViewController+IFAHelp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/classes/UIViewController+IFAHelp.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/resources/IFAHelpViewControllerWebView.css" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/resources/IFA_Icon_Help_normal.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/resources/IFA_Icon_Help_normal@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/resources/IFA_Icon_Help_selected.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/GustyKit/GustyKit/GustyKit/Help/resources/IFA_Icon_Help_selected@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ODRefreshControl/ODRefreshControl/ODRefreshControl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ODRefreshControl/ODRefreshControl/ODRefreshControl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GustyAppKit/GustyAppKit-dummy.m" isTestSource="false" />
@@ -504,6 +48,442 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/IFA_ECSlidingViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/IFA_ECSlidingViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/UIImage+IFA_ECImageWithUIView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/UIImage+IFA_ECImageWithUIView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/IBActionSheet/IFA_IBActionSheet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/IBActionSheet/IFA_IBActionSheet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/SVWebViewController/IFA_SVModalWebViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/SVWebViewController/IFA_SVModalWebViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/SVWebViewController/IFA_SVWebViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/SVWebViewController/IFA_SVWebViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/GustyAppKit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/GustyAppKitCoreApp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutFormViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutFormViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutInfoModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutInfoModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAboutViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAbstractPagingContainerViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAbstractPagingContainerViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAbstractWebBrowserActivity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAbstractWebBrowserActivity.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAppDefaultAppearanceTheme.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAppDefaultAppearanceTheme.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLog+IFACoreApp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLog+IFACoreApp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLog.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLogViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAApplicationLogViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAppMapViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAAppMapViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFADynamicPagingContainerViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFADynamicPagingContainerViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFADynamicPagingContainerViewControllerDataSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAEmailManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAEmailManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAExternalWebBrowserActivity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAExternalWebBrowserActivity.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserActivity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserActivity.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAInternalWebBrowserViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAMasterDetailViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAMasterDetailViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAPhoneServiceManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAPhoneServiceManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAPreferencesFormViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAPreferencesFormViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFASlidingViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFASlidingViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFASplitViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFASplitViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAStaticPagingContainerViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAStaticPagingContainerViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAThirdPartyCodeCreditsViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAThirdPartyCodeCreditsViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAUIUtils+IFACoreApp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAUIUtils+IFACoreApp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAUserNotificationSettingsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/IFAUserNotificationSettingsManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/NSURL+IFACoreApp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/NSURL+IFACoreApp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/UIViewController+IFACoreApp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/classes/UIViewController+IFACoreApp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~ipad.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~iphone.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity~ipad.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/iconshock.com/internalWebBrowserActivity~iphone.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/SVWebViewController/SVWebViewController.bundle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../GustyAppKit/GustyAppKit/CoreApp/resources/IFAAboutCustomView.xib" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development">
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPGrowingTextView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPGrowingTextView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPTextViewInternal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/3rd party/HPGrowingTextView/IFA_HPTextViewInternal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/3rd party/KNSemiModal/UIViewController+IFA_KNSemiModal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/3rd party/KNSemiModal/UIViewController+IFA_KNSemiModal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/GustyKit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/GustyKitCoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAbstractFieldEditorViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAbstractFieldEditorViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAbstractSelectionListViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAbstractSelectionListViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAActionSheet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAActionSheet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAnalyticsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAnalyticsManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAppearanceTheme.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAppearanceThemeManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAppearanceThemeManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAsynchronousWorkManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAAsynchronousWorkManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFABlurredFadingOverlayPresentationController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFABlurredFadingOverlayPresentationController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFABlurredFadingOverlayViewControllerTransitioningDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFABlurredFadingOverlayViewControllerTransitioningDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACircleView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACircleView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewFetchedResultsControllerDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewFetchedResultsControllerDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewFlowLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACollectionViewFlowLayout.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAColorScheme.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAColorScheme.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAContextSwitchingManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAContextSwitchingManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAContextSwitchTarget.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACoreUiConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACoreUiConstants.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACrashReportingUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACrashReportingUtils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACurrentLocationManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACurrentLocationManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACustomLayoutSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFACustomLayoutSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADatePickerViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADatePickerViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADefaultAppearanceTheme.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADefaultAppearanceTheme.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADimmedFadingOverlayPresentationController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADimmedFadingOverlayPresentationController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADimmedFadingOverlayViewControllerTransitioningDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADimmedFadingOverlayViewControllerTransitioningDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADirectionsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFADirectionsManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAEntityConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAEntityConfig.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAEnumerationEntity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAEnumerationEntity.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFadingOverlayPresentationController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFadingOverlayPresentationController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFadingOverlayViewControllerTransitioningDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFadingOverlayViewControllerTransitioningDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFetchedResultsTableViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFetchedResultsTableViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormInputAccessoryView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormInputAccessoryView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormNumberFieldTableViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormNumberFieldTableViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormSectionHeaderFooterView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormSectionHeaderFooterView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormTableViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormTableViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormTableViewCellContentView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormTableViewCellContentView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormTextFieldTableViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormTextFieldTableViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAFormViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAGridViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAGridViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAHtmlDocument.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAHtmlDocument.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAHudView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAHudView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAHudViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAHudViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAHudWrapperViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAHudWrapperViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAKeyboardVisibilityManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAKeyboardVisibilityManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFALazyTableDataLoadingViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFALazyTableDataLoadingViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAListViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAListViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFALocationManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFALocationManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFALongTextEditorViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFALongTextEditorViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMapAnnotation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMapAnnotation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMapSettingsViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMapSettingsViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMapViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMapViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMenuViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMenuViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAModalViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAModalViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMultipleSelectionListViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMultipleSelectionListViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMultipleSelectionListViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAMultipleSelectionListViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFANavigationController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFANavigationController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFANavigationItemTitleView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFANavigationItemTitleView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFANavigationListViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFANavigationListViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAOperation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAOperation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPageViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPageViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPagingContainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPagingStateManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPagingStateManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPassthroughView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPassthroughView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPersistenceChangeDetector.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPersistenceChangeDetector.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPersistenceManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPersistenceManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPersistentEntityChangeObserver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPersistentEntityChangeObserver.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPickerViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPickerViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPinAnnotationView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPinAnnotationView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPreferencesManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPreferencesManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAPresenter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControlTableViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASegmentedControlTableViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASelectionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASelectionManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASemaphoreManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASemaphoreManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionListViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionListViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionListViewControllerHeaderView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionListViewControllerHeaderView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASingleSelectionManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASlidingFrostedGlassViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASlidingFrostedGlassViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASubjectActivityItem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASubjectActivityItem.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASwitchTableViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASwitchTableViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASystemEntity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFASystemEntity.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATabBarController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATabBarController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableCellSelectedBackgroundView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableCellSelectedBackgroundView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableSectionHeaderView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableSectionHeaderView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableViewHeaderFooterView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATableViewHeaderFooterView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATextViewContainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATextViewContainer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATextViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFATextViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAUIConfiguration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAUIConfiguration.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAUIGlobal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAUIGlobal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAUIUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAUIUtils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerAnimatedTransitioning.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerAnimatedTransitioning.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerFadeTransitioning.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerFadeTransitioning.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerTransitioningDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAViewControllerTransitioningDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAWorkInProgressModalViewManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/IFAWorkInProgressModalViewManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSAttributedString+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSAttributedString+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSIndexPath+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSIndexPath+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSManagedObject+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSManagedObject+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSManagedObjectContext+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSManagedObjectContext+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSMutableArray+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSMutableArray+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSObject+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/NSObject+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIAlertController+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIAlertController+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIBarButtonItem+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIBarButtonItem+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIButton+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIButton+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UICollectionView+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UICollectionView+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI_WatchKit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIColor+IFACoreUI_WatchKit.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIImage+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIImage+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIPopoverController+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIPopoverController+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIScrollView+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIScrollView+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIStoryboard+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIStoryboard+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UITableView+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UITableView+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UITableViewCell+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UITableViewCell+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UITableViewController+IFADynamicCellHeight.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UITableViewController+IFADynamicCellHeight.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIView+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIView+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIViewController+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIViewController+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIWebView+IFACoreUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/classes/UIWebView+IFACoreUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/056-PlusCircle.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/056-PlusCircle@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/191-ArrowHead-left.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/191-ArrowHead-left@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/191-ArrowHead-right.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/191-ArrowHead-right@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/248-QuestionCircleAlt.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/248-QuestionCircleAlt@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/248-QuestionCircleAlt_black.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/248-QuestionCircleAlt_black@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/271-ThreeColumn.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/271-ThreeColumn@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/277-MultiplyCircle-black.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/277-MultiplyCircle-black@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/277-MultiplyCircle-white.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/277-MultiplyCircle-white@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/310-RemoveButton.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/310-RemoveButton@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/3rd party/billybarker.net/License.rtf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAEntityConfig.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAFormInputAccessoryContentView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAFormSectionFooterContentView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAFormSectionHeaderView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAFormTableViewCellContentView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAHtmlTemplate.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAMapSettingsViewController.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFAMultipleSelectionListViewCell.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFASingleSelectionListViewControllerHeaderView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/IFATableSectionHeaderView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineHorizontalBottom.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineHorizontalBottom@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineHorizontalTop.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineHorizontalTop@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineVerticalLeft.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineVerticalLeft@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineVerticalRight.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_1PixelLineVerticalRight@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Add.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_AddToSelection.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_AddToSelection@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Close.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Close@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_ICon_Delete.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_ICon_Delete@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_DisclosureIndicatorDown.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_DisclosureIndicatorDown@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_DisclosureIndicatorRight.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_DisclosureIndicatorRight@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudError.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudError@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudError@3x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudSuccess.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudSuccess@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_HudSuccess@3x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Info.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Info@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_List.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_List@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Next.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Next@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Previous.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_Previous@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_RemoveFromSelection.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_RemoveFromSelection@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_UserLocation.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_Icon_UserLocation@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_TextViewBorder.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/CoreUI/resources/images/IFA_TextViewBorder@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/GustyKitFoundation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAAssertionUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAAssertionUtils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFADateRange.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFADateRange.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFADispatchQueueManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFADispatchQueueManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFADynamicCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFADynamicCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAFoundationConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAFoundationConstants.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAPurgeableObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAPurgeableObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAUtils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAZeroingWeakReferenceContainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/IFAZeroingWeakReferenceContainer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSCalendar+IFAFoundation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSCalendar+IFAFoundation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSData+IFAFoundation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSData+IFAFoundation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSDate+IFAFoundation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSDate+IFAFoundation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSDictionary+IFAFoundation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSDictionary+IFAFoundation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSFileManager+IFAFoundation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSFileManager+IFAFoundation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSNumberFormatter+IFAFoundation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSNumberFormatter+IFAFoundation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSObject+IFAFoundation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSObject+IFAFoundation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSString+IFAFoundation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Foundation/classes/NSString+IFAFoundation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/IFAHelpContentViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/IFAHelpContentViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/IFAHelpManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/IFAHelpManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/IFAHelpTarget.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/IFAHelpViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/IFAHelpViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/UIButton+IFAHelp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/UIButton+IFAHelp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/UIViewController+IFAHelp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/classes/UIViewController+IFAHelp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/resources/IFA_Icon_Help_normal.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/resources/IFA_Icon_Help_normal@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/resources/IFA_Icon_Help_selected.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/resources/IFA_Icon_Help_selected@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/resources/IFAHelpViewControllerWebView.css" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -511,18 +491,18 @@
       <library name="Header Search Paths">
         <CLASSES>
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
@@ -535,8 +515,8 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
@@ -546,13 +526,14 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
@@ -592,7 +573,6 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/include" />
@@ -602,18 +582,18 @@
         </CLASSES>
         <SOURCES>
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
@@ -626,8 +606,8 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
@@ -637,13 +617,14 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
@@ -683,7 +664,6 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
-          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/include" />

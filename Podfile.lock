@@ -39,12 +39,12 @@ PODS:
     - DTFoundation/Core
   - DTFoundation/UIKit_BlocksAdditions (1.7.2):
     - DTFoundation/Core
-  - GustyKit (1.0.1):
-    - GustyKit/CoreUI (= 1.0.1)
-  - GustyKit/CoreUI (1.0.1):
+  - GustyKit (1.0.2):
+    - GustyKit/CoreUI (= 1.0.2)
+  - GustyKit/CoreUI (1.0.2):
     - GustyKit/Foundation
     - ODRefreshControl (= 1.1.0)
-  - GustyKit/Foundation (1.0.1)
+  - GustyKit/Foundation (1.0.2)
   - IFATestingSupport (1.0.1):
     - OCHamcrest (~> 4)
     - OCMock (~> 3)
@@ -63,7 +63,7 @@ PODS:
 
 DEPENDENCIES:
   - DTFoundation (= 1.7.2)
-  - GustyKit (from `https://github.com/marcelo-schroeder/GustyKit.git`, branch `dev_NextVersion`)
+  - GustyKit (from `/Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development`)
   - IFATestingSupport
   - MWFeedParser (= 1.0.1)
   - OCHamcrest
@@ -71,21 +71,15 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   GustyKit:
-    :branch: dev_NextVersion
-    :git: https://github.com/marcelo-schroeder/GustyKit.git
-
-CHECKOUT OPTIONS:
-  GustyKit:
-    :commit: f4b5f06e86273972a43bdfeceeb90cb094541dd6
-    :git: https://github.com/marcelo-schroeder/GustyKit.git
+    :path: /Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development
 
 SPEC CHECKSUMS:
   DTFoundation: fa01e6fa12f356c5d617d0a2311927ec4688b9f4
-  GustyKit: 840834f44e6d7d123d2aa7aa59b6951df0fe14d2
+  GustyKit: 4efd95a8fa722a5418d647b0f2ad15f43a78e3a6
   IFATestingSupport: 6c403fe2b2842315ba76193b8023d61050175e6a
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
   OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
   ODRefreshControl: 4c4c413bf70d2ea0c02a28ac0a0b3b4bf4dbfdea
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

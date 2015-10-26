@@ -12,25 +12,14 @@ PODS:
   - ODRefreshControl (1.1.0)
 
 DEPENDENCIES:
-  - GustyAppKit (from `https://github.com/marcelo-schroeder/GustyAppKit.git`, branch
-    `dev_NextVersion`)
-  - GustyKit (from `https://github.com/marcelo-schroeder/GustyKit.git`, branch `dev_NextVersion`)
+  - GustyAppKit (from `/Users/mschroeder/myfiles/projects/Xcode/GustyAppKit/GustyAppKit_development`)
+  - GustyKit (from `/Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development`)
 
 EXTERNAL SOURCES:
   GustyAppKit:
-    :branch: dev_NextVersion
-    :git: https://github.com/marcelo-schroeder/GustyAppKit.git
+    :path: /Users/mschroeder/myfiles/projects/Xcode/GustyAppKit/GustyAppKit_development
   GustyKit:
-    :branch: dev_NextVersion
-    :git: https://github.com/marcelo-schroeder/GustyKit.git
-
-CHECKOUT OPTIONS:
-  GustyAppKit:
-    :commit: d012d96f2f22ff6fc59d0c67b04b36488750ad67
-    :git: https://github.com/marcelo-schroeder/GustyAppKit.git
-  GustyKit:
-    :commit: 94fe249916d9c4faa71c1f0bbffa1f33dc7c5116
-    :git: https://github.com/marcelo-schroeder/GustyKit.git
+    :path: /Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development
 
 SPEC CHECKSUMS:
   GustyAppKit: 770a6cf9b9434ce41c9744a4d1982ed8384e8f1b
