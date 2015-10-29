@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
     s.subspec 'CoreApp' do |ss|
         ss.source_files  = 'GustyAppKit/GustyAppKit/CoreApp/classes/**/*.{h,m}'
         ss.resource      = 'GustyAppKit/GustyAppKit/CoreApp/resources/**/*.*'
-        ss.dependency 'GustyKit'
     end
     s.subspec 'Html' do |ss|
         ss.source_files  = 'GustyAppKit/GustyAppKit/Html/classes/**/*.{h,m}'
