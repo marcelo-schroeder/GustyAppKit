@@ -22,7 +22,7 @@
 
 
 #import "IFA_IBActionSheet.h"
-#import "IFAUIUtils.h"
+@import GustyKit;
 
 #pragma mark - IBActionSheet
 

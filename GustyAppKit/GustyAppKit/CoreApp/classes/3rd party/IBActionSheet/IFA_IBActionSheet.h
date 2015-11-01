@@ -20,6 +20,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
+@import Foundation;
+
 #define UIControlStateAll UIControlStateNormal & UIControlStateSelected & UIControlStateHighlighted
 #define SYSTEM_VERSION_LESS_THAN(version) ([[[UIDevice currentDevice] systemVersion] compare:version options:NSNumericSearch] == NSOrderedAscending)
 
@@ -103,7 +105,7 @@ otherButtonTitlesArray:(NSArray *)otherTitlesArray iPadWidth:(CGFloat)iPadWidth;
 - (void)setButtonHighlightBackgroundColor:(UIColor *)color forButtonAtIndex:(NSInteger)index;
 
 @property UIView *transparentView;
-@property NSMutableArray *buttons;
+@property NSMutableArray<IBActionSheetButton *> *buttons;
 @property (nonatomic) NSString *title;
 @property IBActionSheetTitleView *titleView;
 @property (weak) id <IBActionSheetDelegate> delegate;

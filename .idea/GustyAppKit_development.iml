@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libxml2.tbd">
+      <sourceFolder url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libxml2.tbd" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/.idea" />
+    <content url="file://$MODULE_DIR$/Cartfile">
+      <sourceFolder url="file://$MODULE_DIR$/Cartfile" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/GustyAppKit">
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/IFA_ECSlidingViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp/classes/3rd party/ECSlidingViewController/IFA_ECSlidingViewController.m" isTestSource="false" />
@@ -80,6 +86,11 @@
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/SVWebViewController/SVWebViewController.bundle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp/resources/IFAAboutCustomView.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/GustyAppKit-Prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/DTFoundation/IFA_DTHTMLParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/DTFoundation/IFA_DTHTMLParser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/DTFoundation/IFA_DTWeakSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/DTFoundation/LICENSE" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/DTFoundation/readme.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/MWFeedParser/IFA_GTMNSString+HTML.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/MWFeedParser/IFA_GTMNSString+HTML.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/MWFeedParser/LICENSE.txt" isTestSource="false" />
@@ -91,6 +102,7 @@
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/IFAHtmlParser.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/IFAWebViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/IFAWebViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKitTests/Core/classes/IFAUserNotificationSettingsManagerTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKitTests/en.lproj/InfoPlist.strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKitTests/GustyAppKitTests-Info.plist" isTestSource="false" />
@@ -109,6 +121,7 @@
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp" />
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/GustyAppKit-Prefix.pch" />
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html" />
+    <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Info.plist" />
     <content url="file://$MODULE_DIR$/GustyAppKit/GustyAppKitTests" />
     <content url="file://$MODULE_DIR$/LICENSE">
       <sourceFolder url="file://$MODULE_DIR$/LICENSE" isTestSource="false" />
@@ -117,122 +130,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/Pods">
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTASN1/DTASN1BitString.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTASN1/DTASN1BitString.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTASN1/DTASN1Parser.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTASN1/DTASN1Parser.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTASN1/DTASN1Serialization.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTASN1/DTASN1Serialization.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTAsyncFileDeleter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTAsyncFileDeleter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTAWS/NSURL+DTAWS.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTAWS/NSURL+DTAWS.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTBase64Coding.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTBase64Coding.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTBlockFunctions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTBlockFunctions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTCoreGraphicsUtils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTCoreGraphicsUtils.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTExtendedFileAttributes.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTExtendedFileAttributes.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTFolderMonitor.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTFolderMonitor.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTFoundationConstants.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTFoundationConstants.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTHTMLParser/DTHTMLParser.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTHTMLParser/DTHTMLParser.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTLog.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTLog.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTReachability/DTReachability.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTReachability/DTReachability.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTSQLite/DTSQLiteDatabase.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTSQLite/DTSQLiteDatabase.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTSQLite/DTSQLiteFunctions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTSQLite/DTSQLiteFunctions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTUTI/NSString+DTUTI.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTUTI/NSString+DTUTI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTVersion.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTVersion.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTWeakSupport.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTZipArchive/DTZipArchive.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTZipArchive/DTZipArchive.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTZipArchive/DTZipArchiveGZip.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTZipArchive/DTZipArchiveGZip.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTZipArchive/DTZipArchiveNode.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTZipArchive/DTZipArchiveNode.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTZipArchive/DTZipArchivePKZip.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/DTZipArchive/DTZipArchivePKZip.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/Externals/minizip/crypt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/Externals/minizip/ioapi.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/Externals/minizip/ioapi.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/Externals/minizip/mztools.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/Externals/minizip/mztools.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/Externals/minizip/unzip.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/Externals/minizip/unzip.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/Externals/minizip/zip.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/Externals/minizip/zip.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/BlocksAdditions/DTActionSheet.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/BlocksAdditions/DTActionSheet.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/BlocksAdditions/DTAlertView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/BlocksAdditions/DTAlertView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/BlocksAdditions/UIView+DTActionHandlers.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/BlocksAdditions/UIView+DTActionHandlers.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTActivityTitleView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTActivityTitleView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTAnimatedGIF/DTAnimatedGIF.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTAnimatedGIF/DTAnimatedGIF.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTCustomColoredAccessory.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTCustomColoredAccessory.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTPieProgressIndicator.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTPieProgressIndicator.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTProgressHUD/DTProgressHUD.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTProgressHUD/DTProgressHUD.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTProgressHUD/DTProgressHUDWindow.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTProgressHUD/DTProgressHUDWindow.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSidePanel/DTSidePanelController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSidePanel/DTSidePanelController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSidePanel/DTSidePanelControllerSegue.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSidePanel/DTSidePanelControllerSegue.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSidePanel/DTSidePanelPanGestureRecognizer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSidePanel/DTSidePanelPanGestureRecognizer.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSidePanel/UIViewController+DTSidePanelController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSidePanel/UIViewController+DTSidePanelController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSmartPagingScrollView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTSmartPagingScrollView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTTiledLayerWithoutFade.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/DTTiledLayerWithoutFade.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/NSURL+DTAppLinks.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/NSURL+DTAppLinks.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIApplication+DTNetworkActivity.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIApplication+DTNetworkActivity.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIImage+DTFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIImage+DTFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIView+DTFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIView+DTFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIWebView+DTFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/iOS/UIWebView+DTFoundation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSArray+DTError.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSArray+DTError.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSData+DTCrypto.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSData+DTCrypto.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSDictionary+DTError.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSDictionary+DTError.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSFileWrapper+DTCopying.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSFileWrapper+DTCopying.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSMutableArray+DTMoving.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSMutableArray+DTMoving.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSString+DTFormatNumbers.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSString+DTFormatNumbers.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSString+DTPaths.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSString+DTPaths.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSString+DTURLEncoding.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSString+DTURLEncoding.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSString+DTUtilities.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSString+DTUtilities.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSURL+DTComparing.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSURL+DTComparing.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSURL+DTUnshorten.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DTFoundation/Core/Source/NSURL+DTUnshorten.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFATestingSupport/IFATestingSupport/IFATestingSupport/IFACommonTests.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFATestingSupport/IFATestingSupport/IFATestingSupport/OCMStubRecorder+IFACategory.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFATestingSupport/IFATestingSupport/IFATestingSupport/OCMStubRecorder+IFACategory.m" isTestSource="false" />
@@ -449,9 +346,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCPartialMockObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DTFoundation/DTFoundation-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DTFoundation/DTFoundation-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DTFoundation/DTFoundation.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GustyKit/GustyKit-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GustyKit/GustyKit-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/GustyKit/GustyKit.xcconfig" isTestSource="false" />
@@ -839,6 +733,9 @@
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/resources/IFA_Icon_Help_selected@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../GustyKit/GustyKit_development/GustyKit/GustyKit/Help/resources/IFAHelpViewControllerWebView.css" isTestSource="false" />
     </content>
+    <content url="file:///usr/lib/libxml2.2.dylib">
+      <sourceFolder url="file:///usr/lib/libxml2.2.dylib" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
@@ -932,6 +829,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Carthage/Build/iOS/GustyKit.framework/Headers" />
           <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
           <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
         </CLASSES>
@@ -1024,6 +922,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Carthage/Build/iOS/GustyKit.framework/Headers" />
           <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
           <root url="file://$MODULE_DIR$/Pods/Headers/Public" />
         </SOURCES>

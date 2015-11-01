@@ -441,19 +441,19 @@ static int EscapeMapCompare(const void *ucharVoid, const void *mapVoid) {
 	return finalString;
 }
 
-- (NSString *)gtm_stringByEscapingForHTML {
+- (NSString *)ifa_stringByEscapingForHTML {
 	return [self gtm_stringByEscapingHTMLUsingTable:gUnicodeHTMLEscapeMap 
 											 ofSize:sizeof(gUnicodeHTMLEscapeMap) 
 									escapingUnicode:NO];
 } // gtm_stringByEscapingHTML
 
-- (NSString *)gtm_stringByEscapingForAsciiHTML {
+- (NSString *)ifa_stringByEscapingForAsciiHTML {
 	return [self gtm_stringByEscapingHTMLUsingTable:gAsciiHTMLEscapeMap 
 											 ofSize:sizeof(gAsciiHTMLEscapeMap) 
 									escapingUnicode:YES];
 } // gtm_stringByEscapingAsciiHTML
 
-- (NSString *)gtm_stringByUnescapingFromHTML {
+- (NSString *)ifa_stringByUnescapingFromHTML {
 	NSRange range = NSMakeRange(0, [self length]);
 	NSRange subrange = [self rangeOfString:@"&" options:NSBackwardsSearch range:range];
 	

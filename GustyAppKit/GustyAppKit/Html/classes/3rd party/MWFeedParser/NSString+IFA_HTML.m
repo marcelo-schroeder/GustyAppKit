@@ -34,7 +34,7 @@
 
 #pragma mark - Instance Methods
 
-- (NSString *)stringByConvertingHTMLToPlainText {
+- (NSString *)ifa_stringByConvertingHTMLToPlainText {
     @autoreleasepool {
         
         // Character sets
@@ -121,7 +121,7 @@
         // Cleanup
         
         // Decode HTML entities and return
-        NSString *retString = [result stringByDecodingHTMLEntities];
+        NSString *retString = [result ifa_stringByDecodingHTMLEntities];
         
         // Return
         return retString;
@@ -129,23 +129,23 @@
     }
 }
 
-- (NSString *)stringByDecodingHTMLEntities {
+- (NSString *)ifa_stringByDecodingHTMLEntities {
     // Can return self so create new string if we're a mutable string
-    return [NSString stringWithString:[self gtm_stringByUnescapingFromHTML]];
+    return [NSString stringWithString:[self ifa_stringByUnescapingFromHTML]];
 }
 
 
-- (NSString *)stringByEncodingHTMLEntities {
+- (NSString *)ifa_stringByEncodingHTMLEntities {
     // Can return self so create new string if we're a mutable string
-    return [NSString stringWithString:[self gtm_stringByEscapingForAsciiHTML]];
+    return [NSString stringWithString:[self ifa_stringByEscapingForAsciiHTML]];
 }
 
-- (NSString *)stringByEncodingHTMLEntities:(BOOL)isUnicode {
+- (NSString *)ifa_stringByEncodingHTMLEntities:(BOOL)isUnicode {
     // Can return self so create new string if we're a mutable string
-    return [NSString stringWithString:(isUnicode ? [self gtm_stringByEscapingForHTML] : [self gtm_stringByEscapingForAsciiHTML])];
+    return [NSString stringWithString:(isUnicode ? [self ifa_stringByEscapingForHTML] : [self ifa_stringByEscapingForAsciiHTML])];
 }
 
-- (NSString *)stringWithNewLinesAsBRs {
+- (NSString *)ifa_stringWithNewLinesAsBRs {
 	@autoreleasepool {
         
         // Strange New lines:
@@ -198,7 +198,7 @@
 	}
 }
 
-- (NSString *)stringByRemovingNewLinesAndWhitespace {
+- (NSString *)ifa_stringByRemovingNewLinesAndWhitespace {
 	@autoreleasepool {
         
         // Strange New lines:
@@ -240,7 +240,7 @@
 	}
 }
 
-- (NSString *)stringByLinkifyingURLs {
+- (NSString *)ifa_stringByLinkifyingURLs {
     if (!NSClassFromString(@"NSRegularExpression")) return self;
     @autoreleasepool {
         NSString *pattern = @"(?<!=\")\\b((http|https):\\/\\/[\\w\\-_]+(\\.[\\w\\-_]+)+([\\w\\-\\.,@?^=%%&amp;:/~\\+#]*[\\w\\-\\@?^=%%&amp;/~\\+#])?)";
@@ -251,7 +251,7 @@
     }
 }
 
-- (NSString *)stringByStrippingTags {
+- (NSString *)ifa_stringByStrippingTags {
 	@autoreleasepool {
         
         // Find first & and short-cut if we can
@@ -309,7 +309,7 @@
         }
         
         // Remove multi-spaces and line breaks
-        finalString = [result stringByRemovingNewLinesAndWhitespace];
+        finalString = [result ifa_stringByRemovingNewLinesAndWhitespace];
         
         // Cleanup
         

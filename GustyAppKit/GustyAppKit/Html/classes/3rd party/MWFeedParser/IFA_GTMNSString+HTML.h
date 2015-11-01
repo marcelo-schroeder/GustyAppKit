@@ -35,7 +35,7 @@
 //  Returns:
 //    Autoreleased NSString
 //
-- (NSString *)gtm_stringByEscapingForHTML;
+- (NSString *)ifa_stringByEscapingForHTML;
 
 /// Get a string where internal characters that need escaping for HTML are escaped 
 //
@@ -51,7 +51,7 @@
 //  Returns:
 //    Autoreleased NSString
 //
-- (NSString *)gtm_stringByEscapingForAsciiHTML;
+- (NSString *)ifa_stringByEscapingForAsciiHTML;
 
 /// Get a string where internal characters that are escaped for HTML are unescaped 
 //
@@ -61,6 +61,6 @@
 //  Returns:
 //    Autoreleased NSString
 //
-- (NSString *)gtm_stringByUnescapingFromHTML;
+- (NSString *)ifa_stringByUnescapingFromHTML;
 
 @end

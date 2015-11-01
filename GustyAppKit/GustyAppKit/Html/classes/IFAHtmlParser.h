@@ -16,7 +16,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DTHTMLParser.h"
+#import "IFA_DTHTMLParser.h"
 
 @class IFAHtmlDocumentPosition;
 @class IFAHtmlElementParsingContext;
@@ -25,7 +25,7 @@
 
 typedef void (^IFAHtmlParserEndElementBlock)(IFAHtmlElementParsingContext *a_parsingContext);
 
-@interface IFAHtmlParser : NSObject <DTHTMLParserDelegate>
+@interface IFAHtmlParser : NSObject <IFA_DTHTMLParserDelegate>
 
 @property(nonatomic, strong, readonly) NSMutableString *mutableHtmlString;
 @property(nonatomic, strong, readonly) NSMutableArray *elementMetadataStack;

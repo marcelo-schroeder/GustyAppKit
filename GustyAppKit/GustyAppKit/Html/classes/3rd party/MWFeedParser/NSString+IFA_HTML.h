@@ -34,24 +34,24 @@
 @interface NSString (IFA_HTML)
 
 // Strips HTML tags & comments, removes extra whitespace and decodes HTML character entities.
-- (NSString *)stringByConvertingHTMLToPlainText;
+- (NSString *)ifa_stringByConvertingHTMLToPlainText;
 
 // Decode all HTML entities using GTM.
-- (NSString *)stringByDecodingHTMLEntities;
+- (NSString *)ifa_stringByDecodingHTMLEntities;
 
 // Encode all HTML entities using GTM.
-- (NSString *)stringByEncodingHTMLEntities;
+- (NSString *)ifa_stringByEncodingHTMLEntities;
 
 // Minimal unicode encoding will only cover characters from table
 // A.2.2 of http://www.w3.org/TR/xhtml1/dtds.html#a_dtd_Special_characters
 // which is what you want for a unicode encoded webpage.
-- (NSString *)stringByEncodingHTMLEntities:(BOOL)isUnicode;
+- (NSString *)ifa_stringByEncodingHTMLEntities:(BOOL)isUnicode;
 
 // Replace newlines with <br /> tags.
-- (NSString *)stringWithNewLinesAsBRs;
+- (NSString *)ifa_stringWithNewLinesAsBRs;
 
 // Remove newlines and white space from string.
-- (NSString *)stringByRemovingNewLinesAndWhitespace;
+- (NSString *)ifa_stringByRemovingNewLinesAndWhitespace;
 
 // Wrap plain URLs in <a href="..." class="linkified">...</a>
 //  - Ignores URLs inside tags (any URL beginning with =")
@@ -59,9 +59,9 @@
 //  - Only works in iOS 4+ as we use NSRegularExpression (returns self if not supported so be careful with NSMutableStrings)
 //  - Expression: (?<!=")\b((http|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?)
 //  - Adapted from http://regexlib.com/REDetails.aspx?regexp_id=96
-- (NSString *)stringByLinkifyingURLs;
+- (NSString *)ifa_stringByLinkifyingURLs;
 
-// DEPRECIATED - Please use NSString stringByConvertingHTMLToPlainText
-- (NSString *)stringByStrippingTags __attribute__((deprecated));
+// DEPRECIATED - Please use NSString ifa_stringByConvertingHTMLToPlainText
+- (NSString *)ifa_stringByStrippingTags __attribute__((deprecated));
 
 @end

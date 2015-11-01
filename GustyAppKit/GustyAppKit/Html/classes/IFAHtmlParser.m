@@ -86,7 +86,7 @@ static NSString *const k_tagAttributeStyle = @"style";
         for (id l_key in l_attributes.allKeys) {
             NSString *l_value = l_attributes[l_key];
             // Re-encode attribute value for HTML
-            l_attributes[l_key] = [l_value stringByEncodingHTMLEntities];
+            l_attributes[l_key] = [l_value ifa_stringByEncodingHTMLEntities];
         }
     }
 
@@ -106,7 +106,7 @@ static NSString *const k_tagAttributeStyle = @"style";
 
 #pragma mark - DTHTMLParserDelegate
 
-- (void)parser:(DTHTMLParser *)parser didStartElement:(NSString *)elementName attributes:(NSDictionary *)attributeDict {
+- (void)parser:(IFA_DTHTMLParser *)parser didStartElement:(NSString *)elementName attributes:(NSDictionary *)attributeDict {
 
 //    if (self.IFA_isInBody) {
 //        self.IFA_bodyElementLevel++;
@@ -133,7 +133,7 @@ static NSString *const k_tagAttributeStyle = @"style";
 
 }
 
-- (void)parser:(DTHTMLParser *)parser didEndElement:(NSString *)elementName {
+- (void)parser:(IFA_DTHTMLParser *)parser didEndElement:(NSString *)elementName {
 
 //    NSLog(@"didEndElement: %@", elementName);
 //    NSLog(@"  line: %u, column: %u", parser.lineNumber, parser.columnNumber);
@@ -169,7 +169,7 @@ static NSString *const k_tagAttributeStyle = @"style";
 
 }
 
-//- (void)parser:(DTHTMLParser *)parser foundCharacters:(NSString *)string {
+//- (void)parser:(IFA_DTHTMLParser *)parser foundCharacters:(NSString *)string {
 //    NSLog(@"    foundCharacters: %@", string);
 //    NSLog(@"    line: %u, column: %u", parser.lineNumber, parser.columnNumber);
 //}
@@ -192,8 +192,8 @@ static NSString *const k_tagAttributeStyle = @"style";
     self.mutableHtmlString = [self.IFA_unparsedHtmlString mutableCopy];
     self.IFA_endElementBlock = a_endElementBlock;
 
-    DTHTMLParser *l_htmlParser = [[DTHTMLParser alloc] initWithData:[self.IFA_unparsedHtmlString dataUsingEncoding:NSUTF8StringEncoding]
-                                                           encoding:NSUTF8StringEncoding];
+    IFA_DTHTMLParser *l_htmlParser = [[IFA_DTHTMLParser alloc] initWithData:[self.IFA_unparsedHtmlString dataUsingEncoding:NSUTF8StringEncoding]
+                                                                   encoding:NSUTF8StringEncoding];
     l_htmlParser.delegate = self;
     [l_htmlParser parse];
 

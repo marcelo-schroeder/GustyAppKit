@@ -124,7 +124,7 @@ All properties of `MWFeedInfo` and `MWFeedItem` return the raw data as provided 
     - (NSString *)stringByConvertingHTMLToPlainText;
 
     // Decode all HTML entities using GTM.
-    - (NSString *)stringByDecodingHTMLEntities;
+    - (NSString *)ifa_stringByDecodingHTMLEntities;
 
     // Encode all HTML entities using GTM.
     - (NSString *)stringByEncodingHTMLEntities;
@@ -132,13 +132,13 @@ All properties of `MWFeedInfo` and `MWFeedItem` return the raw data as provided 
     // Minimal unicode encoding will only cover characters from table
     // A.2.2 of http://www.w3.org/TR/xhtml1/dtds.html#a_dtd_Special_characters
     // which is what you want for a unicode encoded webpage.
-    - (NSString *)stringByEncodingHTMLEntities:(BOOL)isUnicode;
+    - (NSString *)ifa_stringByEncodingHTMLEntities:(BOOL)isUnicode;
 
     // Replace newlines with <br /> tags.
-    - (NSString *)stringWithNewLinesAsBRs;
+    - (NSString *)ifa_stringWithNewLinesAsBRs;
 
     // Remove newlines and white space from string.
-    - (NSString *)stringByRemovingNewLinesAndWhitespace;
+    - (NSString *)ifa_stringByRemovingNewLinesAndWhitespace;
 
     // Wrap plain URLs in <a href="..." class="linkified">...</a>
     //  - Ignores URLs inside tags (any URL beginning with =")
@@ -146,12 +146,12 @@ All properties of `MWFeedInfo` and `MWFeedItem` return the raw data as provided 
     //  - Only works in iOS 4+ as we use NSRegularExpression (returns self if not supported so be careful with NSMutableStrings)
     //  - Expression: (?<!=")\b((http|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?)
     //  - Adapted from http://regexlib.com/REDetails.aspx?regexp_id=96
-    - (NSString *)stringByLinkifyingURLs;
+    - (NSString *)ifa_stringByLinkifyingURLs;
 
 An example of this would be:
 
     // Display item summary which contains HTML as plain text
-	NSString *plainSummary = [item.summary stringByConvertingHTMLToPlainText];
+	NSString *plainSummary = [item.summary ifa_stringByConvertingHTMLToPlainText];
 
 
 ## Debugging problems
