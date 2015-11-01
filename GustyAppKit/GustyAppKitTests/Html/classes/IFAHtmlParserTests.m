@@ -18,8 +18,8 @@
 //
 
 #import "IFACommonTests.h"
-#import "GustyAppKit.h"
 #import "GustyAppKitHtml.h"
+@import GustyAppKit;
 
 typedef void (^IFAHtmlParserTestsElementBlock)(NSUInteger a_index, NSString *a_name, NSString *a_stringRepresentation, NSDictionary *a_attributes, NSDictionary *a_activeInlineStyleAttributes);
 

@@ -1,9 +1,4 @@
 PODS:
-  - GustyKit (1.0.2):
-    - GustyKit/CoreUI (= 1.0.2)
-  - GustyKit/CoreUI (1.0.2):
-    - GustyKit/Foundation
-  - GustyKit/Foundation (1.0.2)
   - IFATestingSupport (1.0.1):
     - OCHamcrest (~> 4)
     - OCMock (~> 3)
@@ -11,17 +6,11 @@ PODS:
   - OCMock (3.1.2)
 
 DEPENDENCIES:
-  - GustyKit (from `/Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development`)
   - IFATestingSupport
   - OCHamcrest
   - OCMock
 
-EXTERNAL SOURCES:
-  GustyKit:
-    :path: /Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development
-
 SPEC CHECKSUMS:
-  GustyKit: 4fe78b6e41a1a810264ea4167c71affb29fbb00d
   IFATestingSupport: 6c403fe2b2842315ba76193b8023d61050175e6a
   OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
