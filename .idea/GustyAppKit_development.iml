@@ -80,6 +80,12 @@
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp/resources/3rd party/SVWebViewController/SVWebViewController.bundle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/CoreApp/resources/IFAAboutCustomView.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/GustyAppKit-Prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/MWFeedParser/IFA_GTMNSString+HTML.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/MWFeedParser/IFA_GTMNSString+HTML.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/MWFeedParser/LICENSE.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/MWFeedParser/NSString+IFA_HTML.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/MWFeedParser/NSString+IFA_HTML.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/3rd party/MWFeedParser/README.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/GustyAppKitHtml.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/IFAHtmlParser.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GustyAppKit/GustyAppKit/Html/classes/IFAHtmlParser.m" isTestSource="false" />
@@ -232,19 +238,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFATestingSupport/IFATestingSupport/IFATestingSupport/OCMStubRecorder+IFACategory.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFATestingSupport/IFATestingSupport/IFATestingSupport/XCTestCase+IFACategory.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFATestingSupport/IFATestingSupport/IFATestingSupport/XCTestCase+IFACategory.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/GTMNSString+HTML.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/GTMNSString+HTML.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/MWFeedInfo.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/MWFeedInfo.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/MWFeedItem.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/MWFeedItem.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/MWFeedParser.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/MWFeedParser.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/MWFeedParser_Private.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/NSDate+InternetDateTime.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/NSDate+InternetDateTime.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/NSString+HTML.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MWFeedParser/Classes/NSString+HTML.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/HCAssertThat.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/HCAssertThat.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCHamcrest/Source/Core/HCBaseDescription.h" isTestSource="false" />
@@ -465,9 +458,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IFATestingSupport/IFATestingSupport-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IFATestingSupport/IFATestingSupport-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/IFATestingSupport/IFATestingSupport.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MWFeedParser/MWFeedParser.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCHamcrest/OCHamcrest-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCHamcrest/OCHamcrest-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCHamcrest/OCHamcrest.xcconfig" isTestSource="false" />

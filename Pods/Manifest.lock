@@ -47,15 +47,6 @@ PODS:
   - IFATestingSupport (1.0.1):
     - OCHamcrest (~> 4)
     - OCMock (~> 3)
-  - MWFeedParser (1.0.1):
-    - MWFeedParser/FeedParser (= 1.0.1)
-    - MWFeedParser/NSDate+InternetDateTime (= 1.0.1)
-    - MWFeedParser/NSString+HTML (= 1.0.1)
-  - MWFeedParser/FeedParser (1.0.1):
-    - MWFeedParser/NSDate+InternetDateTime
-    - MWFeedParser/NSString+HTML
-  - MWFeedParser/NSDate+InternetDateTime (1.0.1)
-  - MWFeedParser/NSString+HTML (1.0.1)
   - OCHamcrest (4.1.1)
   - OCMock (3.1.2)
 
@@ -63,7 +54,6 @@ DEPENDENCIES:
   - DTFoundation (= 1.7.2)
   - GustyKit (from `/Users/mschroeder/myfiles/projects/Xcode/GustyKit/GustyKit_development`)
   - IFATestingSupport
-  - MWFeedParser (= 1.0.1)
   - OCHamcrest
   - OCMock
 
@@ -75,7 +65,6 @@ SPEC CHECKSUMS:
   DTFoundation: fa01e6fa12f356c5d617d0a2311927ec4688b9f4
   GustyKit: 4fe78b6e41a1a810264ea4167c71affb29fbb00d
   IFATestingSupport: 6c403fe2b2842315ba76193b8023d61050175e6a
-  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
   OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
 

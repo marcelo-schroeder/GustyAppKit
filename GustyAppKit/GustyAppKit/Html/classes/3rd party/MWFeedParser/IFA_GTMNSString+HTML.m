@@ -18,7 +18,7 @@
 //
 
 //#import "GTMDefines.h"
-#import "GTMNSString+HTML.h"
+#import "IFA_GTMNSString+HTML.h"
 
 typedef struct {
 	__unsafe_unretained NSString *escapeSequence;

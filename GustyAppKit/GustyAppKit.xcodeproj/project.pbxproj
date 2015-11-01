@@ -53,6 +53,8 @@
 		F766D33E18ECA71000B3B590 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F766D33D18ECA71000B3B590 /* CoreLocation.framework */; };
 		F766D33F18ECA7D700B3B590 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D4DBED18EA11E100ABF401 /* MapKit.framework */; };
 		F766D34118ECADCE00B3B590 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F766D34018ECADCE00B3B590 /* GLKit.framework */; };
+		F7AC92981BE6A011005151D0 /* NSString+IFA_HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC92961BE6A011005151D0 /* NSString+IFA_HTML.m */; };
+		F7AC929C1BE6A03F005151D0 /* IFA_GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC929B1BE6A03F005151D0 /* IFA_GTMNSString+HTML.m */; };
 		F7C806171AE8C1FE0097280C /* IFAInternalWebBrowserActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C806141AE8C1FE0097280C /* IFAInternalWebBrowserActivity.m */; };
 		F7C806181AE8C1FE0097280C /* IFAInternalWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C806161AE8C1FE0097280C /* IFAInternalWebBrowserViewController.m */; };
 		F7C8061E1AE8C50B0097280C /* IFASplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C8061D1AE8C50B0097280C /* IFASplitViewController.m */; };
@@ -162,6 +164,12 @@
 		F7446BD119085FA9008345FA /* GustyAppKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.podspec; name = GustyAppKit.podspec; path = ../GustyAppKit.podspec; sourceTree = "<group>"; };
 		F766D33D18ECA71000B3B590 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F766D34018ECADCE00B3B590 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F7AC92941BE6A011005151D0 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		F7AC92951BE6A011005151D0 /* NSString+IFA_HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IFA_HTML.h"; sourceTree = "<group>"; };
+		F7AC92961BE6A011005151D0 /* NSString+IFA_HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IFA_HTML.m"; sourceTree = "<group>"; };
+		F7AC92971BE6A011005151D0 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		F7AC929A1BE6A03F005151D0 /* IFA_GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IFA_GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		F7AC929B1BE6A03F005151D0 /* IFA_GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IFA_GTMNSString+HTML.m"; sourceTree = "<group>"; };
 		F7C806111AE8C0EF0097280C /* GustyAppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GustyAppKit.h; sourceTree = "<group>"; };
 		F7C806121AE8C0EF0097280C /* GustyAppKitCoreApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GustyAppKitCoreApp.h; sourceTree = "<group>"; };
 		F7C806131AE8C1FE0097280C /* IFAInternalWebBrowserActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAInternalWebBrowserActivity.h; sourceTree = "<group>"; };
@@ -239,6 +247,19 @@
 			path = iconshock.com;
 			sourceTree = "<group>";
 		};
+		10738411B9F23A4CC97DA556 /* MWFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC929A1BE6A03F005151D0 /* IFA_GTMNSString+HTML.h */,
+				F7AC929B1BE6A03F005151D0 /* IFA_GTMNSString+HTML.m */,
+				F7AC92941BE6A011005151D0 /* LICENSE.txt */,
+				F7AC92951BE6A011005151D0 /* NSString+IFA_HTML.h */,
+				F7AC92961BE6A011005151D0 /* NSString+IFA_HTML.m */,
+				F7AC92971BE6A011005151D0 /* README.markdown */,
+			);
+			path = MWFeedParser;
+			sourceTree = "<group>";
+		};
 		1073850B7EDE493EEB8BF46C /* classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +300,14 @@
 			children = (
 				107386315DAD200329F81A46 /* SVWebViewController */,
 				107380E3D8D576926E59D14D /* iconshock.com */,
+			);
+			path = "3rd party";
+			sourceTree = "<group>";
+		};
+		107388EBCDD398269CE63B76 /* 3rd party */ = {
+			isa = PBXGroup;
+			children = (
+				10738411B9F23A4CC97DA556 /* MWFeedParser */,
 			);
 			path = "3rd party";
 			sourceTree = "<group>";
@@ -421,6 +450,7 @@
 				1073827C44EE86F9C8C88B9E /* IFAWebViewController.m */,
 				10738C9801E5F801C10E2878 /* IFAWebViewController.h */,
 				10738AEAEB515C41A96B3FA2 /* GustyAppKitHtml.h */,
+				107388EBCDD398269CE63B76 /* 3rd party */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -711,6 +741,7 @@
 				10738D640B795DFB92775A1E /* NSURL+IFACoreApp.m in Sources */,
 				F7C806531AE9E3690097280C /* IFAAboutViewController.m in Sources */,
 				F7C806541AE9E3690097280C /* IFAAboutInfoModel.m in Sources */,
+				F7AC92981BE6A011005151D0 /* NSString+IFA_HTML.m in Sources */,
 				F7C8064A1AE9DB5F0097280C /* IFAThirdPartyCodeCreditsViewController.m in Sources */,
 				F7C806421AE9998B0097280C /* IFA_ECSlidingViewController.m in Sources */,
 				10738186E7932FF17137318A /* UIViewController+IFACoreApp.m in Sources */,
@@ -718,6 +749,7 @@
 				107380EC7DB918081A4CFE27 /* IFAUIUtils+IFACoreApp.m in Sources */,
 				1073859347BD2DC1A16AD962 /* IFAAppDefaultAppearanceTheme.m in Sources */,
 				F7C8065A1AE9FAFA0097280C /* IFAAbstractWebBrowserActivity.m in Sources */,
+				F7AC929C1BE6A03F005151D0 /* IFA_GTMNSString+HTML.m in Sources */,
 				1073863758AF701EC68AE637 /* IFAMasterDetailViewController.m in Sources */,
 				1073800227596C83086382AE /* IFAAbstractPagingContainerViewController.m in Sources */,
 				107385AB01714EA48695AEB3 /* IFADynamicPagingContainerViewController.m in Sources */,
@@ -851,7 +883,6 @@
 		};
 		F7D4D85718EA00E600ABF401 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 352117ED3BF7029F2C540646 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/GustyAppKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -864,7 +895,6 @@
 		};
 		F7D4D85818EA00E600ABF401 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80ECA84BFE535AB4430F53A7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/GustyAppKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

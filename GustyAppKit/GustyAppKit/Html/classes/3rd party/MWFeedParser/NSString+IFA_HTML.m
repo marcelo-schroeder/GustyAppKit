@@ -27,10 +27,10 @@
 //  THE SOFTWARE.
 //
 
-#import "NSString+HTML.h"
-#import "GTMNSString+HTML.h"
+#import "NSString+IFA_HTML.h"
+#import "IFA_GTMNSString+HTML.h"
 
-@implementation NSString (HTML)
+@implementation NSString (IFA_HTML)
 
 #pragma mark - Instance Methods
 

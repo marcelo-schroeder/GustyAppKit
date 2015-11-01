@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
         ss.source_files  = 'GustyAppKit/GustyAppKit/Html/classes/**/*.{h,m}'
         ss.dependency 'GustyAppKit/CoreApp'
         ss.dependency 'DTFoundation', '1.7.2'
-        ss.dependency 'MWFeedParser', '1.0.1'
     end
 end

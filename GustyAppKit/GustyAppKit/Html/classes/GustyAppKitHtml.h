@@ -19,7 +19,7 @@
 //
 
 // 3rd party
-#import "NSString+HTML.h"
+#import "NSString+IFA_HTML.h"
 
 // GustyAppKit
 #import "GustyAppKitCoreApp.h"
