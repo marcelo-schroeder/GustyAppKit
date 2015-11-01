@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E060250CE4D56FF5CC17FB3CB58618D1"
+               BlueprintIdentifier = "E466A172718D20E10D5D407481B80E1C"
                BlueprintName = "GustyKit"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libGustyKit.a">

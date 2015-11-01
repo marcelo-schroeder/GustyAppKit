@@ -43,7 +43,6 @@ PODS:
     - GustyKit/CoreUI (= 1.0.2)
   - GustyKit/CoreUI (1.0.2):
     - GustyKit/Foundation
-    - ODRefreshControl (= 1.1.0)
   - GustyKit/Foundation (1.0.2)
   - IFATestingSupport (1.0.1):
     - OCHamcrest (~> 4)
@@ -59,7 +58,6 @@ PODS:
   - MWFeedParser/NSString+HTML (1.0.1)
   - OCHamcrest (4.1.1)
   - OCMock (3.1.2)
-  - ODRefreshControl (1.1.0)
 
 DEPENDENCIES:
   - DTFoundation (= 1.7.2)
@@ -75,11 +73,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DTFoundation: fa01e6fa12f356c5d617d0a2311927ec4688b9f4
-  GustyKit: 4efd95a8fa722a5418d647b0f2ad15f43a78e3a6
+  GustyKit: 4fe78b6e41a1a810264ea4167c71affb29fbb00d
   IFATestingSupport: 6c403fe2b2842315ba76193b8023d61050175e6a
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
   OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
-  ODRefreshControl: 4c4c413bf70d2ea0c02a28ac0a0b3b4bf4dbfdea
 
 COCOAPODS: 0.39.0
