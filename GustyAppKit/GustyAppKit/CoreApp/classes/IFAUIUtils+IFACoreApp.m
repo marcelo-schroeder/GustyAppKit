@@ -20,6 +20,8 @@
 
 @implementation IFAUIUtils (IFACoreApp)
 
+#pragma mark - Public
+
 + (void)setKeyWindowRootViewController:(UIViewController*)a_viewController{
 //    [self dismissSplitViewControllerPopover];
     [UIApplication sharedApplication].keyWindow.rootViewController = a_viewController;
@@ -204,18 +206,48 @@
 
 + (void)showServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable
                                   alertViewDelegate:(id <UIAlertViewDelegate>)a_alertViewDelegate {
-//    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-    NSString *l_title;
-    NSString *l_messageArgument;
-    if (a_networkReachable) {
-        l_title= NSLocalizedStringFromTable(@"Server error", @"GustyKitLocalizable", nil);
-        l_messageArgument = NSLocalizedStringFromTable(@" Please try again later.", @"GustyKitLocalizable", nil);
-    }else{
-        l_title= NSLocalizedStringFromTable(@"No Internet access", @"GustyKitLocalizable", nil);
-        l_messageArgument = NSLocalizedStringFromTable(@" Please try again when you are back online.", @"GustyKitLocalizable", nil);
+    NSString *title = [self serverErrorAlertTitleForNetworkReachable:a_networkReachable];
+    NSString *message = [self serverErrorAlertMessageForNetworkReachable:a_networkReachable];
+    [IFAUIUtils showAlertWithMessage:message
+                               title:title
+                            delegate:a_alertViewDelegate];
+}
+
++ (void)presentServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable
+                           withPresenterViewController:(UIViewController *)a_presenterViewController {
+    NSString *title = [self serverErrorAlertTitleForNetworkReachable:a_networkReachable];
+    NSString *message = [self serverErrorAlertMessageForNetworkReachable:a_networkReachable];
+    if (a_presenterViewController) {
+        [a_presenterViewController ifa_presentAlertControllerWithTitle:title
+                                                               message:message];
+    } else {
+        [IFAUIUtils presentAlertControllerWithTitle:title
+                                            message:message];
     }
-    NSString *l_message = [NSString stringWithFormat:NSLocalizedStringFromTable(@"It was not possible to complete the operation.%@", @"GustyKitLocalizable", nil), l_messageArgument];
-    [IFAUIUtils showAlertWithMessage:l_message title:l_title delegate:a_alertViewDelegate];
+}
+
++ (NSString *)serverErrorAlertTitleForNetworkReachable:(BOOL)a_networkReachable {
+    NSString *title;
+    if (a_networkReachable) {
+        NSString *unlocalisedString = [IFAUtils infoPList][@"IFAErrorAlertTitleServerError"] ?: @"Server error";
+        title = NSLocalizedStringFromTable(unlocalisedString, @"GustyKitLocalizable", nil);
+    }else{
+        NSString *unlocalisedString = [IFAUtils infoPList][@"IFAErrorAlertTitleNoConnectivity"] ?: @"No Internet access";
+        title = NSLocalizedStringFromTable(unlocalisedString, @"GustyKitLocalizable", nil);
+    }
+    return title;
+}
+
++ (NSString *)serverErrorAlertMessageForNetworkReachable:(BOOL)a_networkReachable {
+    NSString *message;
+    if (a_networkReachable) {
+        NSString *unlocalisedString = [IFAUtils infoPList][@"IFAErrorAlertMessageServerError"] ?: @"It was not possible to complete the operation. Please try again later.";
+        message = NSLocalizedStringFromTable(unlocalisedString, @"GustyKitLocalizable", nil);
+    }else{
+        NSString *unlocalisedString = [IFAUtils infoPList][@"IFAErrorAlertMessageNoConnectivity"] ?: @"It was not possible to complete the operation. Please try again when you are back online.";
+        message = NSLocalizedStringFromTable(unlocalisedString, @"GustyKitLocalizable", nil);
+    }
+    return message;
 }
 
 @end

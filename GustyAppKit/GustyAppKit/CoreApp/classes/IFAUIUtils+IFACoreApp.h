@@ -117,7 +117,28 @@
 
 + (UIView *)actionSheetShowInViewForViewController:(UIViewController *)a_viewController;
 
+// Uses the old UIAlertView
 + (void)showServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable
                                   alertViewDelegate:(id <UIAlertViewDelegate>)a_alertViewDelegate;
+
+// Uses the new UIAlertController
++ (void)presentServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable
+                           withPresenterViewController:(UIViewController *)a_presenterViewController;
+
+/**
+ * Title used in server error alerts.
+ * The following plist properties can be used to modify the default strings: IFAErrorAlertTitleServerError for a_networkReachable=YES, otherwise IFAErrorAlertTitleNoConnectivity is used.
+ * @param a_networkReachable YES if network is reachable, otherwise NO.
+ * @returns Title for the server error alert.
+ */
++ (NSString *)serverErrorAlertTitleForNetworkReachable:(BOOL)a_networkReachable;
+
+/**
+ * Message used in server error alerts.
+ * The following plist properties can be used to modify the default strings: IFAErrorAlertMessageServerError for a_networkReachable=YES, otherwise IFAErrorAlertMessageNoConnectivity is used.
+ * @param a_networkReachable YES if network is reachable, otherwise NO.
+ * @returns Message for the server error alert.
+ */
++ (NSString *)serverErrorAlertMessageForNetworkReachable:(BOOL)a_networkReachable;
 
 @end
